@@ -13,7 +13,7 @@ title_separator          : "-"
 name                     : &name "Lishu Zhang"
 description              : &description "I am a fourth-year PhD candidate in Economics at Tilburg University. My research delves into the responses of financial markets to climate change, with a particular focus on the international provision of brown financing."
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/main" # the subpath of your site, e.g. "/blog"
+#baseurl                  : "/main" # the subpath of your site, e.g. "/blog"
 repository               : "LishuZ/LishuZ.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.

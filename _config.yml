@@ -8,23 +8,23 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Personal Website"
+title                    : "Lishu Zhang / 张郦姝"
 title_separator          : "-"
 name                     : &name "Lishu Zhang"
-description              : &description "I am a fourth-year PhD candidate in Economics at Tilburg University. My research delves into the responses of financial markets to climate change, with a particular focus on the international provision of brown financing."
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "PhD candidate in Economics at Tilburg University"
+url                      : https://lishuz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/main" # the subpath of your site, e.g. "/blog"
-repository               : "LishuZ/LishuZ.github.io"
+repository               : "LishuZ.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "image/ProfilePic.png"
+  avatar           : "ProfilePic.png"
   name             : "Lishu Zhang"
   pronouns         : "she/her"  # example: "she/her"  
-  bio              : "PhD candidate in Economics"
+  bio              : "PhD candidate in Economics. Financial Economist with a climate focus."
   location         : "The Netherlands"
   employer         : "Tilburg University"
   uri              : # URL

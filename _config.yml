@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Personal Website: Lishu Zhang"
+# title                    : "Personal Website: Lishu Zhang"
 title_separator          : "-"
 name                     : &name "Lishu Zhang"
 description              : &description "I am a fourth-year PhD candidate in Economics at Tilburg University. My research delves into the responses of financial markets to climate change, with a particular focus on the international provision of brown financing."

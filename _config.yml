@@ -21,7 +21,7 @@ repository               : "LishuZ/LishuZ.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ProfilePic.PNG"
+  avatar           : "ProfilePic.png"
   name             : "Lishu Zhang"
   pronouns         : "she/her"  # example: "she/her"  
   bio              : "PhD in Economics"

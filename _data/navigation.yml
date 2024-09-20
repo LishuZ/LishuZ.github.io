@@ -17,11 +17,12 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
   - title: "CV"
     url: /cv/
     
   - title: "Other services"
     url: /others/
+    
+  - title: "Hobbies"
+    url: /year-archive/
+    

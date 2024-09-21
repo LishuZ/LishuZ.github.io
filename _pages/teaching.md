@@ -17,11 +17,11 @@ I have been an employed PhD candidate since 2021 and have engaged substantially 
 
 Economics of the European Union, teaching assistant
 
-<br/>
-**Research Master**
+
+
+**Graduate**
 
 Macroeconomics III, teaching assistant
-<br/>
 
 #### 2020 - 2022
 **Undergraduate**
@@ -30,7 +30,7 @@ Economics of the European Union, teaching assistant
 
 Economics of Banking and Finance, teaching assistant
 
-<br/>
+
 
 ### Stockholm School of Economics
 #### 2018 - 2019

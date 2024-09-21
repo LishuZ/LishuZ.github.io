@@ -20,6 +20,3 @@ I am fascinated by the interaction of capital markets and political responses to
 
 
 
-
-
-> _Rules for Happiness: Something to Do, Someone to Love, Something to Hope For._

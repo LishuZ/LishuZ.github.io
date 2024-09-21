@@ -10,16 +10,18 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 
 {% include base_path %}
 
+<br/>
+
 Education
 ======
-* Tilburg University, The Netherlands
+* _**Tilburg University**_, The Netherlands
   * 2021-2025 (expected). PhD candidate in Economics.
   * 2019-2021. Research Master’s in Economics, with distinction.
 <br/>
-* Stockholm School of Economics, Sweden
+* _**Stockholm School of Economics**_, Sweden
   * 2017-2019: MSc in Economics
 <br/>
-* Renmin University of China, China
+* _**Renmin University of China**_, China
   * 2013-2017: Bachelor of Economics _(Major: Finance)_
     * Double degree: Kedge Business School, France _(Track: Audit and Law)_
 <br/>   

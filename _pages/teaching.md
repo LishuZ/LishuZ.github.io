@@ -13,7 +13,7 @@ I have been an employed PhD candidate since 2021 and have engaged substantially 
 * teaching assistant for both undergraduate and graduate level courses since 2020, as listed below:
 
   #### 2022-2025
-  _(undergraduate)_Economics of the European Union, teaching assistant
+  _(undergraduate)_ Economics of the European Union, teaching assistant
   
   _(graduate)_ Macroeconomics III, teaching assistant
   

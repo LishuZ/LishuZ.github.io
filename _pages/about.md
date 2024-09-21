@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-### Welcome to my personal website. I am on the job market 2024 - 2025. Meet me at the 2024 FMA annual meeting in Dallas, Texas!
+**Welcome to my personal website. I am on the job market 2024 - 2025. Meet me at the 2024 FMA annual meeting in Dallas, Texas!**
 
 I am a fourth-year PhD candidate in Economics at Tilburg University. My research interests are Climate Finance, International Economics, and Empirical Banking. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes. 
 

@@ -15,15 +15,15 @@ Education
 * Tilburg University, The Netherlands
   * 2021-2025 (expected). PhD candidate in Economics.
   * 2019-2021. Research Master’s in Economics, with distinction.
-<br\>
+<br/>
 * Stockholm School of Economics, Sweden
   * 2017-2019: MSc in Economics
-<br\>
+<br/>
 * Renmin University of China, China
   * 2013-2017: Bachelor of Economics _(Major: Finance)_
     * Double degree: Kedge Business School, France _(Track: Audit and Law)_
-<br\>   
-<br\>
+<br/>   
+<br/>
 
 
 Service and leadership
@@ -33,6 +33,8 @@ Service and leadership
 
 * Graduate Students’ Society (GSS)
   *  2019-2020: Representative of Research Master’s
+
+<br/>
 
 Working experience
 ======

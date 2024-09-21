@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Lishu Zhang / 张郦姝"
 title_separator          : "-"
-name                     : &name "Lishu (/lì shū/ ~隶书)"
+name                     : &name "Lishu (/lì shū/, ~隶书)"
 description              : &description "PhD candidate in Economics at Tilburg University"
 url                      : https://lishuz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/main" # the subpath of your site, e.g. "/blog"

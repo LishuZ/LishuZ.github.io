@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-***I am on the 2024 - 2025 job market.***
+***I am on the 2024-2025 job market.***
 
 ***I will be at the 2024 FMA annual meeting in Dallas, Texas, from 16 to 18 October.***
 

@@ -22,7 +22,6 @@ I have been an employed PhD candidate since 2021 and have engaged substantially 
   
   _(undergraduate)_ Economics of Banking and Finance, teaching assistant
 
-
 ### Stockholm School of Economics
 
   #### 2018-2019

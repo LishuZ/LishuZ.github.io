@@ -12,28 +12,35 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 
 Education
 ======
+* Tilburg University, The Netherlands
+  * 2021-2025 (expected). PhD candidate in Economics.
+  * 2019-2021. Research Master’s in Economics, with distinction.
+<br\>
+* Stockholm School of Economics, Sweden
+  * 2017-2019: MSc in Economics
+<br\>
+* Renmin University of China, China
+  * 2013-2017: Bachelor of Economics _(Major: Finance)_
+    * Double degree: Kedge Business School, France _(Track: Audit and Law)_
+<br\>   
+<br\>
 
-
-
-  
-Research
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-
-Teaching
-======
 
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Tilburg PhD Platform (TiPP)
+  * 2021-2023: Engaging in policy consultation as a representative of PhD students
 
-Industrial experience
+* Graduate Students’ Society (GSS)
+  *  2019-2020: Representative of Research Master’s
+
+Working experience
 ======
-
-
+* Swedish House of Finance, Sweden
+  *   Project-based employment for the Nordic Compass program.
+    *   2020-2022: project manager
+    *   2018: research assistant
+* Euromonitor International, China
+  * 2016-2017: In-country Analyst for market consultancy.
+* Dongguan Securities Co. Ltd, China
+  * 2015 summer: Investment Banking Intern.

@@ -20,9 +20,6 @@ main:
         
   - title: "CV"
     url: /cv/
-    
-  - title: "Other services"
-    url: /others/
 
   - title: "My journey"
     url: /about/

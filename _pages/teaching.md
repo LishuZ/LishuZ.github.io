@@ -22,5 +22,5 @@ I have been an employed PhD candidate since 2021 and have engaged substantially 
 
 
 ### Stockholm School of Economics
-#### 2018-2019
-International Trade _(undergraduate)_, teaching assistant
+    #### 2018-2019
+    International Trade _(undergraduate)_, teaching assistant

@@ -22,4 +22,4 @@ I am fascinated by the interaction of capital markets and political responses to
 
 
 
-> Two things fill the mind with ever new and increasing admiration and awe, the more often and steadily we reflect upon them: the starry heavens above me and the moral law within me. (Immanuel Kant)
+> _Rules for Happiness: Something to Do, Someone to Love, Something to Hope For._

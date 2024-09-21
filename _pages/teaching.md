@@ -7,8 +7,7 @@ redirect_from:
   - /teaching.html
 ---
 
-### Tilburg University
-I have been an employed PhD candidate since 2021 and have engaged substantially in teaching activities. My work includes 
+I have been an employed PhD candidate since 2021 at Tilburg University and have engaged substantially in teaching activities. My work includes 
 * thesis supervision since 2021 (on average, 8 theses per year)
 * teaching assistant for both undergraduate and graduate level courses since 2020, as listed below:
 
@@ -22,7 +21,8 @@ I have been an employed PhD candidate since 2021 and have engaged substantially 
   
   _(undergraduate)_ Economics of Banking and Finance, teaching assistant
 
-### Stockholm School of Economics
+
+Previously, I also had teaching experience as a student assistant at the Stockholm School of Economics:
 
   #### 2018-2019
   _(undergraduate)_ International Trade, teaching assistant

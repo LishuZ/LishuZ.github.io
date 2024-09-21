@@ -14,7 +14,7 @@ Previously, I studied at the Stockholm School of Economics (Master's in Economic
 [CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/cv.pdf?rlkey=424j0xubetuhuwn012fmc4hv2&st=wbc0d7eu&dl=0)
 
 
-
+I am fascinated by the interaction of capital markets and political responses to the global public good problem of climate change. In my dissertation, I delve into the responses of financial markets to climate change, with a particular focus on the international provision of brown financing. In three chapters, I investigate three forms of capital flows that go beyond country borders: share equity investment, direct investment of M&A, and bank lending, and I reveal the extent of international transfer of climate risks.
 
 
 

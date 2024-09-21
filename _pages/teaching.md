@@ -7,8 +7,8 @@ redirect_from:
   - /teaching.html
 ---
 
-I have been an employed PhD candidate since 2021 at Tilburg University and have engaged substantially in teaching activities. My work includes 
-* thesis supervision since 2021 (on average, 8 theses per year)
+I have engaged substantially in teaching activities at Tilburg University. My work includes 
+* thesis supervision since 2021 (6-8 theses per year)
 * teaching assistant for both undergraduate and graduate level courses since 2020, as listed below:
 
   #### 2022-2025

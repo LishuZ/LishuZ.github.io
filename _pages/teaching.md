@@ -11,19 +11,19 @@ redirect_from:
 
 ### 2022 - 2025
 Undergraduate
-* Economics of the European Union, Teaching assistant
+* Economics of the European Union, teaching assistant
 * Thesis supervision (on average, 8 theses per year)
 
 Research Master
-* Macroeconomics III, Teaching assistant
+* Macroeconomics III, teaching assistant
 
 ### 2020 - 2022
 Undergraduate
-* Economics of the European Union, Teaching assistant
-* Economics of Banking and Finance, Teaching assistant
+* Economics of the European Union, teaching assistant
+* Economics of Banking and Finance, teaching assistant
 
 
 ## Stockholm School of Economics
 ### 2018 - 2019
 Undergraduate
-* International Trade, Teaching assistant
+* International Trade, teaching assistant

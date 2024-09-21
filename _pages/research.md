@@ -20,7 +20,7 @@ Using global share ownership data from 2002 to 2021, we find that investors’ a
 <br/>
 
 
-## Working in Progress
+## Work in Progress
 ### Location matters: cross-border M&As and pricing of ESG assets
 In this paper, I study the direction determination of international mergers between firms with differentials in their Environmental, Social and Governance (ESG) capacities. The cumulative abnormal returns in response to the M\&A announcements between two firms with ESG differentials are higher for the deal with a greener acquirer, suggesting that the market holds an asymmetric belief on the potential impact of M&A on future ESG performance. Consistent with the hypothesis that firms exploit this asymmetric belief and deliberately design the deal direction, I find both ESG disclosure practices and the actual emission levels have an impact on the direction choice of an M&A deal. However, the ex-post ESG evaluation of the merged firm always fails the ex-ante expectation. Acquiring a relatively green firm does not proportionately improve the post-merger ESG rating or emission performance of the acquirer, and acquiring a brown firm does not, in fact, shock the host firm's ESG evaluation as negatively as how much the market would demand compensation for.
 

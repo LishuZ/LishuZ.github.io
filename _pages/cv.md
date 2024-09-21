@@ -15,7 +15,7 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 Education
 ======
 * _**Tilburg University**_, The Netherlands
-  * 2021-2025 (expected). PhD candidate in Economics.
+  * 2021-2025 (expected). PhD in Economics.
   * 2019-2021. Research Master’s in Economics, with distinction.
 <br/>
 * _**Stockholm School of Economics**_, Sweden

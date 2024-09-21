@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Lishu Zhang / 张郦姝"
 title_separator          : "-"
-name                     : &name "Lishu (/lì shū/, ~隶书)"
+name                     : &name "Lishu Zhang"
 description              : &description "PhD candidate in Economics at Tilburg University"
 url                      : https://lishuz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/main" # the subpath of your site, e.g. "/blog"
@@ -22,9 +22,9 @@ repository               : "LishuZ.github.io"
 author:
   # Biographic information
   avatar           : "ProfilePic.png"
-  name             : "Lishu Zhang"
+  name             : "Lishu (/lì shū/, ~隶书)"
   pronouns         : "she/her"  # example: "she/her"  
-  bio              : "Financial Economist. / #ClimateFinance / #GlobalPerspective"
+  bio              : "Financial Economist.    #ClimateFinance        #GlobalPerspective"
   location         : "The Netherlands"
   employer         : "Tilburg University"
   uri              : # URL

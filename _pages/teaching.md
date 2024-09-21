@@ -21,5 +21,6 @@ I have been an employed PhD candidate since 2021 at Tilburg University and have 
   
   _(undergraduate)_ Economics of Banking and Finance, teaching assistant
 
+<br/>
 
 Previously, I also had some teaching experience as a student assistant at the Stockholm School of Economics.

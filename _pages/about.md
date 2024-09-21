@@ -11,7 +11,6 @@ redirect_from:
 I am a fourth-year PhD candidate in Economics at Tilburg University. My research interests are **Climate Finance**, International Economics, and Empirical Banking. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes.
 
 <br />   
-
 I am fascinated by the interaction of capital markets and the global public good problem of climate change. In my dissertation, I delve into the responses of financial markets to climate change, with a particular focus on the international provision of brown financing. In three chapters, I investigate three forms of capital flows that go beyond country borders: share equity investment, direct investment of M&A, and bank lending. I reveal the extent of the international transfer of climate risks behind these capital flows.
 <br />   
  

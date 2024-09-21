@@ -27,17 +27,6 @@ Education
 <br/>   
 <br/>
 
-
-Service and leadership
-======
-* Tilburg PhD Platform (TiPP)
-  * 2021-2023: Engaging in policy consultation as a representative of PhD students
-
-* Graduate Students’ Society (GSS)
-  *  2019-2020: Representative of Research Master’s
-
-<br/>
-
 Working experience
 ======
 * Swedish House of Finance, Sweden
@@ -48,3 +37,16 @@ Working experience
   * 2016-2017: In-country Analyst for market consultancy.
 * Dongguan Securities Co. Ltd, China
   * 2015 summer: Investment Banking Intern.
+ 
+<br/>
+
+Service and leadership
+======
+* Tilburg PhD Platform (TiPP)
+  * 2021-2023: Engaging in policy consultation as a representative of PhD students
+
+* Graduate Students’ Society (GSS)
+  *  2019-2020: Representative of Research Master’s
+
+
+

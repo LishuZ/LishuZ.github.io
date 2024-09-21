@@ -14,6 +14,10 @@ I was born in Jiangyin(江阴), a town alongside the Yangtze River in China. My 
 I have lived in three European countries in the past decade: France (Bordeaux), Sweden (Stockholm), and the Netherlands (Tilburg). I have always enjoyed experiencing cultural differences, the collision of ideas, and conversations with diverse beings.
 
 
+<br>
+<br>
+<br>
+
 
 > “We are all products of our environment; every person we meet, every new experience or adventure, every book we read, touches and changes us, making us the unique beings we are.” --- C.J. Heck
 

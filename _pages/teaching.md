@@ -10,29 +10,29 @@ redirect_from:
 ## Tilburg University
 
 ### 2022 - 2025
-Undergraduate
+**Undergraduate**
 
-- Economics of the European Union, teaching assistant
+Economics of the European Union, teaching assistant
 
-- Thesis supervision (on average, 8 theses per year)
+Thesis supervision (on average, 8 theses per year)
 
 <br/>
-Research Master
+**Research Master**
 
-- Macroeconomics III, teaching assistant
+Macroeconomics III, teaching assistant
 <br/>
 
 ### 2020 - 2022
-Undergraduate
+**Undergraduate**
 
-- Economics of the European Union, teaching assistant
+Economics of the European Union, teaching assistant
   
-- Economics of Banking and Finance, teaching assistant
+Economics of Banking and Finance, teaching assistant
   
 <br/>
 
 ## Stockholm School of Economics
 ### 2018 - 2019
-Undergraduate
+**Undergraduate**
 
-- International Trade, teaching assistant
+International Trade, teaching assistant

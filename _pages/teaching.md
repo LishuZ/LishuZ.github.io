@@ -12,15 +12,15 @@ I have been an employed PhD candidate since 2021 and have engaged substantially 
 * thesis supervision since 2021 (on average, 8 theses per year)
 * teaching assistant for both undergraduate and graduate level courses since 2020, as listed below:
 
-    #### 2022-2025
-    Economics of the European Union _(undergraduate)_, teaching assistant  
-    Macroeconomics III _(graduate)_, teaching assistant
-    
-    #### 2020-2022
-    Economics of the European Union _(undergraduate)_, teaching assistant
-    Economics of Banking and Finance _(undergraduate)_, teaching assistant
+  #### 2022-2025
+  Economics of the European Union _(undergraduate)_, teaching assistant  
+  Macroeconomics III _(graduate)_, teaching assistant
+  
+  #### 2020-2022
+  Economics of the European Union _(undergraduate)_, teaching assistant
+  Economics of Banking and Finance _(undergraduate)_, teaching assistant
 
 
 ### Stockholm School of Economics
-    #### 2018-2019
-    International Trade _(undergraduate)_, teaching assistant
+  #### 2018-2019
+  International Trade _(undergraduate)_, teaching assistant

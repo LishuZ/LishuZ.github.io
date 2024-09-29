@@ -13,7 +13,6 @@ I was born in Jiangyin(江阴), a town alongside the Yangtze River in China. My 
 
 I have lived in three European countries in the past decade: France (Bordeaux), Sweden (Stockholm), and the Netherlands (Tilburg). I have always enjoyed experiencing cultural differences, the collision of ideas, and conversations with diverse beings.
 
-I enjoy cooking, reading novels, and hunting vintage jewelry during my leisure time. My favorite genre of novels is climate fiction. I am also a pearl lover who keeps learning about pearls and expanding my personal collection.
 <br>
 <br>
 <br>

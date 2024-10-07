@@ -11,15 +11,14 @@ I have engaged substantially in teaching activities at Tilburg University. My wo
 * thesis supervision since 2021 (6-8 theses per year)
 * teaching assistant for both undergraduate and graduate level courses since 2020, as listed below:
 
-  #### 2022-2025
-  _(undergraduate)_ Economics of the European Union, teaching assistant
+ #### Economics of the European Union
+ _undergraduate level_, 2020-2025
   
-  _(graduate)_ Macroeconomics III, teaching assistant
+ #### Macroeconomics III
+ _graduate level_, 2022-2025
   
-  #### 2020-2022
-  _(undergraduate)_ Economics of the European Union, teaching assistant
-  
-  _(undergraduate)_ Economics of Banking and Finance, teaching assistant
+ #### Economics of Banking and Finance
+ _undergraduate level_, 2020-2022
 
 <br/>
 

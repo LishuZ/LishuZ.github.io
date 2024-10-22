@@ -8,11 +8,9 @@ redirect_from:
 ---
 ***I am on the 2024-2025 job market.***
 
-***I will be at the 2024 FMA annual meeting in Dallas, Texas, from 16 to 18 October.***
-
 I am a fourth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Macroeconomics and Finance. My current research involves Climate Finance, International Economics, and Empirical Banking. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes.
 
-I am intrigued by how capital markets can contribute to the global public good problem of climate change. In my dissertation, I delve into financial markets' responses to climate change, with a particular focus on the international provision of brown financing. In three chapters, I investigate three forms of capital flows that go beyond country borders: share equity investment, direct investment of M&A, and bank lending. I reveal the extent of the international transfer of climate risks behind these capital flows.
+I am intrigued by how capital markets can contribute to the global public good problem of climate change. In my dissertation, I delve into financial markets' responses to climate change, focusing on the international provision of brown financing. In three chapters, I investigate three forms of capital flows that go beyond country borders: share equity investment, direct investment of M&A, and bank lending. I reveal the extent of the international transfer of climate risks behind these capital flows.
 <br />   
 
  

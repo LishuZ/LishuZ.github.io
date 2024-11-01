@@ -1,12 +1,12 @@
 ---
 permalink: /
-title: "<h1 style='font-size: 1.8em; font-weight: bold;'>Lishu Zhang / 张郦姝.</h1>"
+title: "<h1 style='font-size: 1.6em; font-weight: bold;'>Lishu Zhang / 张郦姝.</h1>"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-<h1 style='font-size: 1.3em; font-weight: bold;'> PhD candidate in Economics, Tilburg University.</h1>
+<h1 style='font-size: 1.2em; font-weight: bold;'> PhD candidate in Economics, Tilburg University.</h1>
 <br />  
 
 **Welcome to my personal page.**

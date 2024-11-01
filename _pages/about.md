@@ -9,9 +9,10 @@ redirect_from:
 <br />  
 <br />  
 
-*** Welcome to my personal page. ***
+**Welcome to my personal page.**
 <br />  
-*** I am on the 2024-2025 job market.***
+
+***I am on the 2024-2025 job market.***
 
 I am a fourth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Macroeconomics and Finance. My current research involves Climate Finance, International Economics, and Empirical Banking. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes.
 

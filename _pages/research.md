@@ -7,7 +7,9 @@ redirect_from:
   - /research.html
 ---
 ## Job Market Paper
-### International trade in brown loans and the transfer of climate-related risks
+### International trade in brown loans and the transfer of climate-related risks. 
+[Draft](https://www.dropbox.com/scl/fi/8zenzwr3y685et15wc4m1/JMP_fulldraft.pdf?rlkey=bw6ag0spdlmpb8uv3evmpkkxl&st=o1jw2ik4&dl=0)
+
 This paper proposes a theory-based asset gravity equation for international bank lending to firms with varying carbon emission profiles. I define a new measure for the carbon-related change of the lending portfolio, i.e., the carbon sensitivity of lending. Utilizing syndicated loan data, I illustrate that countries at different levels of brown lending resistance, proxied by economic development, experience divergent shifts in their overall loan portfolios. The trend towards decarbonization in these loan portfolios primarily stems from adjustments in domestic credit allocation. I then reveal the lender and loan heterogeneity related to different climate risk management preferences and document the risk transfer to less regulated lenders and to foreign countries. I find that lender specialization is a significant determinant of lenders' cross-border transfers. Exploiting the publication of the European Central Bank’s climate guide, I demonstrate how regulatory arbitrage facilitates both types of risk reallocation.
 <br/>
 

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "<h1 style='font-size: 3em; font-weight: bold;'>Lishu Zhang, PhD candidate in Economics.</h1>""
+title: "<h1 style='font-size: 3em; font-weight: bold;'>Lishu Zhang, PhD candidate in Economics.</h1>"
 author_profile: true
 redirect_from: 
   - /about/

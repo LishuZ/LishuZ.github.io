@@ -1,12 +1,17 @@
 ---
 permalink: /
-title: "Personal Website: Lishu Zhang"
+title: "Lishu Zhang"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-***I am on the 2024-2025 job market.***
+<br />  
+<br />  
+
+*** Welcome to my personal page. ***
+<br />  
+*** I am on the 2024-2025 job market.***
 
 I am a fourth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Macroeconomics and Finance. My current research involves Climate Finance, International Economics, and Empirical Banking. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes.
 

@@ -1,12 +1,11 @@
 ---
 permalink: /
-title: "Lishu Zhang"
+title: "Lishu Zhang, PhD candidate in Economics, Tilburg University."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-<br />  
 <br />  
 
 **Welcome to my personal page.**

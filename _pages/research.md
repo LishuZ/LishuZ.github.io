@@ -8,7 +8,7 @@ redirect_from:
 ---
 ## Job Market Paper
 ### International trade in brown loans and the transfer of climate-related risks 
-[Draft](https://www.dropbox.com/scl/fi/skwixgwopcl9n08vzpttv/JMP_NovDraft.pdf?rlkey=haywvpi2llb0bhmusxyl5g79y&st=11q74f1f&dl=0)
+[Draft](https://www.dropbox.com/scl/fi/skwixgwopcl9n08vzpttv/JMP_NovDraft.pdf?rlkey=haywvpi2llb0bhmusxyl5g79y&st=k6ym2dcx&dl=0)
 
 I develop a theory-based measure of carbon sensitivity in lending to capture reductions in portfolio exposure to brown assets. Using syndicated loan data, I show that countries with greater resistance to brown lending, proxied by economic development, experience faster shifts in loan portfolios, with decarbonization driven primarily by domestic credit reallocation. I find consistent evidence of risk transfers to less regulated lenders and foreign countries. Lenders’ climate risk-taking and transfer behaviors vary sharply by syndicate role, loan type, and specialization. Leveraging the ECB’s climate guide, I show that accounting for regulatory leakage reveals effects contrary to common wisdom.
 <br/>

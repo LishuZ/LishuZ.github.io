@@ -1,8 +1,6 @@
 ---
 permalink: /
 title: "<h1 style='font-size: 1.6em; font-weight: bold;'>Lishu Zhang / 张郦姝.</h1>"
-
-<meta name="google-site-verification" content="k70qCzg5dzNsPhjXmMMAyPOqX9rgVOHX9j-DCyHaey0" />
 author_profile: true
 redirect_from: 
   - /about/

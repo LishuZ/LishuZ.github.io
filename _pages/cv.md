@@ -16,10 +16,10 @@ Education
 ======
 * _**Tilburg University**_, The Netherlands
   * 2021-2025 (expected). PhD in Economics.
-  * 2019-2021. Research Master’s in Economics, with distinction.
+  * 2019-2021. Research Master in Economics, with distinction.
 <br/>
 * _**Stockholm School of Economics**_, Sweden
-  * 2017-2019: MSc in Economics
+  * 2017-2019: Master of Science in Economics
 <br/>
 * _**Renmin University of China**_, China
   * 2013-2017: Bachelor of Economics _(Major: Finance)_

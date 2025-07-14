@@ -21,11 +21,12 @@ main:
   - title: "CV"
     url: /cv/
 
+  - title: "Other resources"
+    url: /resources/
+    
   - title: "My journey"
     url: /about/
 
-  - title: "Other Resources"
-    url: /resources/
   # - title: "Hobbies"
   #   url: /hobby/
     

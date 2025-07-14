@@ -17,13 +17,13 @@ main:
     
   # - title: "Portfolio"
   #   url: /portfolio/
-        
+
   - title: "CV"
     url: /cv/
 
   - title: "Other resources"
     url: /resources/
-    
+
   - title: "My journey"
     url: /about/
 

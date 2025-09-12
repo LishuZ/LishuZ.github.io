@@ -11,7 +11,7 @@ redirect_from:
 
 **Welcome to my personal website.**
 
-* I will join CREST (Finance group) from 1 Nov 2025 as a postdoc researcher.*
+*I will join CREST (Finance group) from 1 Nov 2025 as a postdoc researcher.*
 
 I am a sixth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Macroeconomics and Finance. My current research involves Climate Finance, International Economics, and Empirical Banking. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes.
 

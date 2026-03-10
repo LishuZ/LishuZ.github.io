@@ -13,7 +13,7 @@ redirect_from:
 
 *I will join CREST (Finance group) from 1 Nov 2025 as a postdoc researcher in Paris.*
 
-I am a sixth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Macroeconomics and Finance. My current research involves Climate Finance, International Economics, and Empirical Banking. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes.
+I am a fifth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Macroeconomics and Finance. My current research involves Climate Finance, International Economics, and Empirical Banking. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes.
 
 I am intrigued by how capital markets can contribute to the global public good problem of climate change. In my dissertation, I delve into financial markets' responses to climate change, focusing on the international provision of brown financing. In three chapters, I investigate three forms of capital flows that go beyond country borders: share equity investment, direct investment of M&A, and bank lending. I reveal the extent of the international transfer of climate risks behind these capital flows.
 <br />   

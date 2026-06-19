@@ -6,7 +6,11 @@ redirect_from:
   - /research/
   - /research.html
 ---
-## Job Market Paper
+## Job Market Paper 1
+### Critical Raw Material Dependency and Asset Pricing (Preliminary; to be updated)
+We construct the first firm-level measure of exposure to critical raw materials (CRMs), inputs marked by extreme supply concentration and limited substitutability. We develop a production-network framework that traces material-specific flows through global product-level supply chains, showing that the product of cost shares along each supply-chain path summarizes a firm’s CRM vulnerability. We use large language models to transform this theoretical object into empirical measures. Event studies around trade shocks validate the measure and show that markets price both the intensity and material composition of CRM exposure. We further document the asset-pricing implications of CRM exposure at the aggregate and firm levels.
+
+## Job Market Paper 2
 ### Resistance and Arbitrage: International Trade in Brown Loans
 #### Yihong Xia Best Paper Award at CICF 2025
 [Draft](https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0)
@@ -19,7 +23,7 @@ I develop a novel measure of carbon sensitivity in lending to assess reductions 
 ### International ownership of brown shares and economic development
 with Harald Benink, Harry Huizinga, and Louis Raes. [CEPR](https://cepr.org/publications/dp18856) [VoxEU](https://cepr.org/voxeu/columns/international-trade-brown-shares-and-economic-development)
 
-Using global share ownership data from 2002 to 2021, we provide evidence that a country’s ownership share of carbon-intensive firms declines with its GDP per capita. This effect is primarily driven by investment managers that invest on behalf of others and long-term investors, and it is stronger for larger firms and firms in brown industries. Higher ownership by poorer countries is associated with higher emissions and ESG-related incident frequency. Hence, the ownership transfer of brown firms from high-income to low-income countries can impede these firms’ greening and more generally worsen their ESG performance.
+Using global share-ownership data for 2002--2021, we study how carbon-intensive firms come to be owned across countries and how this affects their environmental outcomes. Richer countries tilt away from carbon-intensive firms more than poorer countries do. Because shares must be held, market clearing leaves more of these firms in poorer-country hands. This poorer-country ownership predicts higher subsequent emissions and ESG incidents. We show that rich-country fossil-fuel divestment pushes firms toward such ownership, followed by worse environmental outcomes. Climate-motivated exit, by reallocating these firms toward less environmentally inclined owners, can work against the goal it serves.
 <br/>
 
 

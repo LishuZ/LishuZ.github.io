@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 <h1 style='font-size: 1.2em; font-weight: bold;'> PhD candidate in Economics, Tilburg University 
+  
 Researcher in Finance, CREST (Paris) </h1>
 <br /> 
   

@@ -11,13 +11,10 @@ redirect_from:
 
 **Welcome to my personal website.**
 
-*I joined CREST (Finance group) from 1 Nov 2025 as a postdoc researcher in Paris.*
+I am a fifth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Trade, Environmental Economics, and Finance. My current research is in Climate Finance, where I draw on trade and macroeconomic theory to motivate and structure empirical tests. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes. I joined CREST (Finance group) from 1 Nov 2025 as a researcher in Paris.
 
-I am a fifth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Trade, Environmental Economics, and Finance. My current research is in Climate Finance, where I draw on trade and macroeconomic theory to motivate and structure empirical tests. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes.
-
-My research is motivated by a broader question: how can capital markets contribute to addressing climate change as a global public good problem? In my dissertation, I examine how financial markets have structurally responded to climate change, with a particular focus on the international provision of brown financing and the allocation of control over brown firms. Across three chapters, I study three forms of cross-border capital flows: equity investment, corporate control through M&A, and bank lending. Together, these chapters document how climate-related financial risks are transferred internationally through capital markets.
+My research agenda studies how global financial markets respond to climate change and how these responses redistribute climate-related risks across countries, firms, and investors. My dissertation examines this question through cross-border equity investment, M&A, and bank lending, focusing on the financing and control of brown assets. At CREST, I extend this agenda to critical raw material (CRM) risk, shifting attention from the risks of carbon-intensive assets to the material bottlenecks created by the green transition. This new line of work combines trade, climate finance, and AI-assisted measurement to study how supply-chain dependencies shape firm vulnerability and asset prices.
 <br />   
-
  
 **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/cv.pdf?rlkey=424j0xubetuhuwn012fmc4hv2&st=wbc0d7eu&dl=0)**
 

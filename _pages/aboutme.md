@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year PhD candidate in Economics at Tilburg University. Previously, I studied at the Stockholm School of Economics (Master's in Economics) and the Renmin University of China (Bachelor's in Economics). 
+I am a fifth-year PhD candidate in Economics at Tilburg University, and since November 2025 a researcher in Finance at CREST in Paris. Previously, I studied at the Stockholm School of Economics (Master's in Economics) and the Renmin University of China (Bachelor's in Economics). 
 
 I was born in Jiangyin(江阴), a town alongside the Yangtze River in China. My hometown is full of historical and cultural heritage and is among the first cities in China to embrace market economics with thriving private enterprises. The unique combination of traditional cultural roots and bold entrepreneurship spirit has deeply influenced me into who I am today.
 

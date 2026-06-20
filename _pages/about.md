@@ -12,6 +12,17 @@ header:
   cta_url: "/research/"
   cta_label: "Explore my research"
 excerpt: "PhD candidate in Economics, Tilburg University&ensp;·&ensp;Researcher in Finance, CREST (Paris)"
+feature_row:
+  - title: "Job Market Paper 1"
+    excerpt: "**Critical Raw Material Dependency and Asset Pricing** — a firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications."
+    url: "/research/"
+    btn_label: "Learn more"
+    btn_class: "btn--primary"
+  - title: "Job Market Paper 2"
+    excerpt: "**Resistance and Arbitrage: International Trade in Brown Loans** — a measure of carbon sensitivity in lending and the international transfer of climate risk. *Yihong Xia Best Paper Award, CICF 2025.*"
+    url: "https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0"
+    btn_label: "Read draft"
+    btn_class: "btn--primary"
 ---
 
 <style>
@@ -62,9 +73,48 @@ excerpt: "PhD candidate in Economics, Tilburg University&ensp;·&ensp;Researcher
   border-width: 2px;
 }
 
+/* ---- Two JMP cards below the panel ---- */
+.feature__wrapper {
+  border-bottom: none !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+  margin: 2.5em auto 0;
+}
+.feature__wrapper .feature__item {
+  float: none;
+  width: 46%;
+  max-width: 360px;
+  margin: 0;
+}
+.feature__item .archive__item-body {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.5em 1.4em;
+  box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
+  border-top: 5px solid #2f7d6b;
+  height: 100%;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.feature__item .archive__item-body:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
+}
+.feature__item .archive__item-title { margin-top: 0; font-weight: 700; font-size: 1.15em; }
+.btn--primary {
+  background-color: #2f7d6b !important;
+  border-color: #2f7d6b !important;
+}
+@media (max-width: 600px) {
+  .feature__wrapper .feature__item { width: 100%; max-width: none; }
+}
+
 /* ---- Intro text ---- */
 .page__content .intro { max-width: 46em; margin: 0 auto; }
 </style>
+
+{% include feature_row %}
 
 <div class="intro" markdown="1">
 

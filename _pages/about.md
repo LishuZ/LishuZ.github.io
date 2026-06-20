@@ -15,20 +15,29 @@ excerpt: "PhD candidate in Economics, Tilburg University&ensp;·&ensp;Researcher
 ---
 
 <style>
-/* ---- Minimal teal splash hero ---- */
+/* ---- Minimal teal splash hero, split into two halves ---- */
 .page__hero--overlay {
   background-color: #2f7d6b !important;
-  padding: 4em 0 3.5em;
+  padding: 3.5em 0;
+}
+.page__hero--overlay .page__hero-split {
+  display: flex;
+  align-items: center;
+  gap: 2.5em;
 }
 .page__hero--overlay .page__hero-avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  flex: 0 0 42%;
+  max-width: 320px;
+  width: 42%;
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 3px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.20);
-  margin-bottom: 0.9em;
+  border-radius: 14px;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+  margin: 0;
 }
+.page__hero--overlay .page__hero-text { flex: 1 1 auto; }
 .page__hero--overlay .page__title {
   font-size: 2.2em;
   font-weight: 700;
@@ -37,8 +46,16 @@ excerpt: "PhD candidate in Economics, Tilburg University&ensp;·&ensp;Researcher
 .page__hero--overlay .page__lead {
   font-size: 1.15em;
   font-weight: 400;
-  max-width: 42em;
   opacity: 0.95;
+}
+/* Stack vertically on small screens */
+@media (max-width: 600px) {
+  .page__hero--overlay .page__hero-split {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.2em;
+  }
+  .page__hero--overlay .page__hero-avatar { width: 60%; }
 }
 .page__hero--overlay .btn--light-outline {
   font-weight: 600;

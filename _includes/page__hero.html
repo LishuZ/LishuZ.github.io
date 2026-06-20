@@ -36,7 +36,9 @@
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
       {% if avatar_path %}
-        <img src="{{ avatar_path }}" alt="{{ page.title }}" class="page__hero-avatar">
+        <div class="page__hero-split">
+          <img src="{{ avatar_path }}" alt="{{ page.title }}" class="page__hero-avatar">
+          <div class="page__hero-text">
       {% endif %}
       <h1 class="page__title" itemprop="headline">
         {% if paginator %}
@@ -53,6 +55,10 @@
       {% endif %}
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+      {% endif %}
+      {% if avatar_path %}
+          </div>
+        </div>
       {% endif %}
     </div>
   {% else %}

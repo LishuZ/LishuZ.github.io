@@ -10,7 +10,9 @@ redirect_from:
   PhD candidate in Economics, Tilburg University<br>
   Researcher in Finance, CREST (Paris)
 </h1>
-  
+
+<div style="margin-top: 2.5em;"></div>
+
 **Welcome to my personal website.**
 
 I am a fifth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Trade, Environmental Economics, and Finance. My current research is in Climate Finance, where I draw on trade and macroeconomic theory to motivate and structure empirical tests. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes. I joined CREST (Finance group) from 1 Nov 2025 as a researcher in Paris.

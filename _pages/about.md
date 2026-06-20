@@ -11,7 +11,7 @@ header:
   avatar: "newpic.jpg"
   cta_url: "/research/"
   cta_label: "Explore my research"
-excerpt: "PhD candidate in Economics, Tilburg University&ensp;·&ensp;Researcher in Finance, CREST (Paris)"
+excerpt: "PhD candidate in Economics, Tilburg University<br>Researcher in Finance, CREST (Paris)"
 feature_row:
   - title: "Job Market Paper 1"
     excerpt: "**Critical Raw Material Dependency and Asset Pricing** — a firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications."

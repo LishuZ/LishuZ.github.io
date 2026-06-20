@@ -79,19 +79,19 @@ feature_row:
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5em;
-  margin: 2.5em auto 0;
+  gap: 1em;
+  margin: 1.25em auto 0;
 }
 .feature__wrapper .feature__item {
   float: none;
-  width: 46%;
-  max-width: 360px;
+  width: 48%;
+  max-width: 440px;
   margin: 0;
 }
 .feature__item .archive__item-body {
   background: #fff;
   border-radius: 14px;
-  padding: 1.5em 1.4em;
+  padding: 1em 1.4em;
   box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
   border-top: 5px solid #2f7d6b;
   height: 100%;
@@ -126,7 +126,7 @@ feature_row:
 }
 
 /* ---- Intro text ---- */
-.page__content .intro { max-width: 46em; margin: 0 auto; }
+.page__content .intro { max-width: 46em; margin: 2.5em auto 0; }
 </style>
 
 {% include feature_row %}

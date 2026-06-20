@@ -6,7 +6,24 @@ redirect_from:
   - /research/
   - /research.html
 ---
+
+<style>
+/* ---- Light color panels for research themes ---- */
+.page__content h2.theme {
+  color: #1a1a1a;
+  padding: 0.45em 0.7em;
+  border-radius: 10px;
+  border-left: 6px solid #16a085;
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+}
+.page__content h2.theme-crm { background: #e4f5ef; border-left-color: #16a085; }
+.page__content h2.theme-fin { background: #e8f1fb; border-left-color: #2f6fb0; }
+.page__content h2.theme-esg { background: #fbf0e2; border-left-color: #d98e36; }
+</style>
+
 ## Critical Raw Materials: Risk, Transition, and Pricing
+{: .theme .theme-crm}
 
 ### Critical Raw Material Dependency and Asset Pricing (Preliminary; to be updated)
 *Job Market Paper*
@@ -16,6 +33,7 @@ We construct the first firm-level measure of exposure to critical raw materials 
 
 
 ## International Financing of Brown Firms
+{: .theme .theme-fin}
 
 ### Resistance and Arbitrage: International Trade in Brown Loans
 *Job Market Paper*
@@ -33,6 +51,7 @@ Using global share-ownership data for 2002--2021, we study how carbon-intensive 
 
 
 ## ESG and Corporate Control
+{: .theme .theme-esg}
 
 ### When ESG information drives control: evidence from M&A deals
 We study whether and how ESG information affects the allocation of corporate control using mergers and acquisitions. Conditional on deal occurrence, firms with an ESG information advantage are more likely to acquire control, consistent with higher expected synergy. While existing M&A research primarily emphasizes governance gains, we show that environmental comparative advantage is a major determinant of the M&A direction. The impact of ESG information on control allocation is amplified in countries with stronger institutional quality and information environments. Additionally, ESG-informed firms are more likely to assume control when markets have rewarded ESG-informed firms that recently undertook M&As. Event-study results reveal asymmetric market perceptions of ESG information for acquirers and targets. The value added of ESG-informed control may also arise from reduced within-deal uncertainty, as stock financing is less likely and less intensive in such deals. Our result that ESG-informed firms are more likely to take control over traded assets implies that used asset trade can serve as a mechanism for reallocating control from less to more environmentally capable firms, facilitating the green transition.

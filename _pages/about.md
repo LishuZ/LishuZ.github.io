@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  overlay_color: "#2f7d6b"
+  overlay_color: "#16a085"
   avatar: "newpic.jpg"
   cta_url: "/research/"
   cta_label: "Explore my research"
@@ -28,7 +28,7 @@ feature_row:
 <style>
 /* ---- Minimal teal splash hero, split into two halves ---- */
 .page__hero--overlay {
-  background-color: #2f7d6b !important;
+  background-color: #16a085 !important;
   padding: 3.5em 0;
 }
 .page__hero--overlay .page__hero-split {
@@ -93,7 +93,7 @@ feature_row:
   border-radius: 14px;
   padding: 1em 1.4em;
   box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
-  border-top: 5px solid #2f7d6b;
+  border-top: 5px solid #16a085;
   height: 100%;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
@@ -103,8 +103,8 @@ feature_row:
 }
 .feature__item .archive__item-title { margin-top: 0; font-weight: 700; font-size: 1.15em; }
 .btn--primary {
-  background-color: #2f7d6b !important;
-  border-color: #2f7d6b !important;
+  background-color: #16a085 !important;
+  border-color: #16a085 !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
@@ -125,15 +125,21 @@ feature_row:
   .feature__wrapper .feature__item { width: 100%; max-width: none; }
 }
 
-/* ---- Intro text ---- */
+/* ---- Welcome line + intro text ---- */
+.page__content .welcome-line {
+  text-align: center;
+  font-size: 1.45em;
+  font-weight: 700;
+  margin: 1.5em auto 0;
+}
 .page__content .intro { max-width: 46em; margin: 2.5em auto 0; }
 </style>
+
+<p class="welcome-line">Welcome to my personal website!</p>
 
 {% include feature_row %}
 
 <div class="intro" markdown="1">
-
-**Welcome to my personal website.**
 
 I am a fifth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Trade, Environmental Economics, and Finance. My current research is in Climate Finance, where I draw on trade and macroeconomic theory to motivate and structure empirical tests. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes. I joined CREST (Finance group) from 1 Nov 2025 as a researcher in Paris.
 

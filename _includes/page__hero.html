@@ -18,6 +18,12 @@
   {% capture overlay_img_path %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
 {% endif %}
 
+{% if page.header.avatar contains "://" %}
+  {% capture avatar_path %}{{ page.header.avatar }}{% endcapture %}
+{% elsif page.header.avatar %}
+  {% capture avatar_path %}{{ page.header.avatar | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+{% endif %}
+
 {% if page.header.overlay_filter contains "rgba" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
 {% elsif page.header.overlay_filter %}
@@ -29,6 +35,9 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
+      {% if avatar_path %}
+        <img src="{{ avatar_path }}" alt="{{ page.title }}" class="page__hero-avatar">
+      {% endif %}
       <h1 class="page__title" itemprop="headline">
         {% if paginator %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}

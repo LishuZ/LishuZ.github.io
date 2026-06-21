@@ -4,7 +4,7 @@ title: "Lishu Zhang / 张郦姝"
 layout: splash
 author_profile: false
 header:
-  overlay_color: "#e8d5c7"
+  overlay_color: "#F2E7EB"
   avatar: "newpic.jpg"
   cta_url: "/research/"
   cta_label: "Explore my research"
@@ -24,16 +24,8 @@ feature_row:
 
 <style>
 /* ---- Minimal teal splash hero, split into two halves ---- */
-/*
-  ALTERNATIVE PALETTE — warm terracotta (revisit with a white-background photo):
-    overlay_color (front matter): "#9e3d28"
-    .page__hero--overlay background-color: #9e3d28
-    hero text: WHITE  -> delete the dark text overrides on .page__title / .page__lead
-    .btn--light-outline: revert to white (delete the color/border overrides)
-    card accent + .btn--primary: #9e3d28
-*/
 .page__hero--overlay {
-  background-color: #e8d5c7 !important;
+  background-color: #F2E7EB !important;
   padding: 2.25em 0;
 }
 .page__hero--overlay .page__hero-split {
@@ -65,13 +57,13 @@ feature_row:
   font-size: 2em;
   font-weight: 700;
   letter-spacing: -0.3px;
-  color: #4a2f27;
+  color: #6b4a16;
 }
 .page__hero--overlay .page__lead {
   font-size: 1.05em;
   font-weight: 400;
   opacity: 1;
-  color: #4a2f27;
+  color: #6b4a16;
 }
 /* Stack vertically on small screens */
 @media (max-width: 600px) {
@@ -87,12 +79,12 @@ feature_row:
 .page__hero--overlay .btn--light-outline {
   font-weight: 600;
   border-width: 2px;
-  color: #4a2f27;
-  border-color: #4a2f27;
+  color: #6b4a16;
+  border-color: #6b4a16;
 }
 .page__hero--overlay .btn--light-outline:hover {
-  background-color: #4a2f27;
-  border-color: #4a2f27;
+  background-color: #6b4a16;
+  border-color: #6b4a16;
   color: #fff;
 }
 
@@ -117,7 +109,8 @@ feature_row:
   border-radius: 14px;
   padding: 0.7em 1.4em 0.9em;
   box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
-  border-top: 5px solid #9e3d28;
+  border: 1px solid #D4ACB5;
+  border-top: 5px solid #EBB11C;
   height: 100%;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
@@ -129,12 +122,13 @@ feature_row:
 .feature__item .archive__item-excerpt { font-size: 0.95em; margin-bottom: 0.6em; }
 .feature__item .archive__item-body .btn { margin-bottom: 0.2em; }
 .btn--primary {
-  background-color: #9e3d28 !important;
-  border-color: #9e3d28 !important;
+  background-color: #EBB11C !important;
+  border-color: #EBB11C !important;
+  color: #6b4a16 !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-top-color: #b5b5b5;
+  border-top-color: #D4ACB5;
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {
@@ -142,8 +136,9 @@ feature_row:
   box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
 }
 .btn--disabled {
-  background-color: #9e9e9e !important;
-  border-color: #9e9e9e !important;
+  background-color: #E3EBE8 !important;
+  border-color: #D4ACB5 !important;
+  color: #7d8884 !important;
   pointer-events: none;
   cursor: default;
 }

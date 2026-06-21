@@ -2,6 +2,7 @@
 permalink: /research/
 title: "Research"
 author_profile: true
+hide_title: true
 redirect_from: 
   - /research/
   - /research.html

@@ -2,6 +2,7 @@
 permalink: /about/
 title: "More about me"
 author_profile: true
+hide_title: true
 redirect_from:
   - /about.html
 ---

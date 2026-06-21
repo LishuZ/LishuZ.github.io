@@ -2,6 +2,7 @@
 permalink: /teaching/
 title: "Teaching"
 author_profile: true
+hide_title: true
 redirect_from:
   - /teaching/
   - /teaching.html

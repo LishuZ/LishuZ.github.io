@@ -234,7 +234,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: #6E8A78;
+        background: #C9825C;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -243,10 +243,17 @@
                 transform: scaleX(0); /* hide*/
       }
 
-      &:hover:before {
+      &:hover:before,
+      &.current:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
+      }
+
+      &.current {
+        color: #2f2523;
+        background: rgba(201, 130, 92, 0.13);
+        border-radius: 4px;
       }
     }
   }

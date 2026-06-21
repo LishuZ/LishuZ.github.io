@@ -130,9 +130,8 @@ feature_row:
   border-radius: 14px;
   padding: 0.85em 1.3em 0.5em;
   box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
-  border: 1px solid #C2D2C7;
-  border-top: 5px solid #566E5E;
-  height: 100%;
+  border: 1px solid #E1BCA9;
+  border-top: 5px solid #C9825C;
   display: flex;
   flex-direction: column;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -141,34 +140,33 @@ feature_row:
   transform: translateY(-4px);
   box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
 }
-.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.6em; font-weight: 700; font-size: 1.35em; text-align: center; color: #65312B; }
-.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.5; margin-bottom: 0.7em; color: #5C4A45; }
-.feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.55em; color: #1A1A1A; }
+.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.38em; font-weight: 700; font-size: 1.35em; text-align: center; color: #65312B; }
+.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.45; margin-bottom: 0.35em; color: #5C4A45; }
+.feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.35em; color: #1A1A1A; }
 .feature__item .archive__item-body .btn {
   display: block;
   width: 100%;
   text-align: center;
   font-size: 1em;
-  padding: 0.5em 0.8em;
-  margin: 0.4em 0 0;
-  margin-top: auto;
+  padding: 0.42em 0.8em;
+  margin: 0.18em 0 0;
   border-width: 2px;
   border-radius: 8px;
 }
 .btn--primary {
   background-color: #fff !important;
-  border-color: #566E5E !important;
-  color: #3F5448 !important;
+  border-color: #C9825C !important;
+  color: #965A39 !important;
 }
 .btn--primary:hover {
-  background-color: #566E5E !important;
-  border-color: #566E5E !important;
+  background-color: #C9825C !important;
+  border-color: #C9825C !important;
   color: #fff !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-color: #D4DFD7;
-  border-top-color: #8FA597;
+  border-color: #E8CCBC;
+  border-top-color: #D79A79;
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {
@@ -177,7 +175,7 @@ feature_row:
 }
 .btn--disabled {
   background-color: #F7F4F5 !important;
-  border-color: #E7DCB6 !important;
+  border-color: #E8CCBC !important;
   color: #7A7074 !important;
   pointer-events: none;
   cursor: default;

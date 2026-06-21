@@ -2,6 +2,7 @@
 permalink: /resources/
 title: "Other resources"
 author_profile: true
+hide_title: true
 ---
 
 <style>

@@ -26,8 +26,8 @@ feature_row:
 /* ---- Homepage hero, split into two halves ---- */
 .page__hero--overlay {
   background:
-    radial-gradient(circle at 88% 18%, rgba(156, 199, 213, 0.22), transparent 30%),
-    linear-gradient(135deg, #65312B 0%, #65312B 70%, #70413B 86%, #9CC7D5 135%) !important;
+    radial-gradient(circle at 88% 18%, rgba(218, 212, 223, 0.22), transparent 30%),
+    linear-gradient(135deg, #65312B 0%, #65312B 70%, #70413B 86%, #DAD4DF 135%) !important;
   padding: 2.25em 1em;
 }
 .page__hero--overlay .page__hero-split {
@@ -126,8 +126,8 @@ feature_row:
   border-radius: 14px;
   padding: 0.75em 1.3em 0.45em;
   box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
-  border: 1px solid rgba(156, 199, 213, 0.40);
-  border-top: 5px solid rgba(156, 199, 213, 0.72);
+  border: 1px solid rgba(218, 212, 223, 0.40);
+  border-top: 5px solid rgba(218, 212, 223, 0.72);
   display: flex;
   flex-direction: column;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -150,19 +150,19 @@ feature_row:
   border-radius: 8px;
 }
 .btn--primary {
-  background-color: #EDF5F7 !important;
-  border-color: rgba(156, 199, 213, 0.72) !important;
-  color: #4F6D77 !important;
+  background-color: #F2F0F4 !important;
+  border-color: rgba(218, 212, 223, 0.72) !important;
+  color: #6C5765 !important;
 }
 .btn--primary:hover {
-  background-color: #9CC7D5 !important;
-  border-color: #9CC7D5 !important;
-  color: #fff !important;
+  background-color: #DAD4DF !important;
+  border-color: #DAD4DF !important;
+  color: #6C5765 !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-color: rgba(156, 199, 213, 0.24);
-  border-top-color: rgba(156, 199, 213, 0.44);
+  border-color: rgba(218, 212, 223, 0.24);
+  border-top-color: rgba(218, 212, 223, 0.44);
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {
@@ -171,7 +171,7 @@ feature_row:
 }
 .btn--disabled {
   background-color: #F7F4F5 !important;
-  border-color: rgba(156, 199, 213, 0.24) !important;
+  border-color: rgba(218, 212, 223, 0.24) !important;
   color: #7A7074 !important;
   pointer-events: none;
   cursor: default;

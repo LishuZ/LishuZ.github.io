@@ -19,7 +19,7 @@ feature_row:
     btn_label: "Coming soon"
     btn_class: "btn--disabled"
   - title: "Job Market Paper 2"
-    excerpt: "**Resistance and Arbitrage: International Trade in Brown Loans** — a measure of carbon sensitivity in lending and the international transfer of climate risk. *Yihong Xia Best Paper Award, CICF 2025.*"
+    excerpt: "**Resistance and Arbitrage: International Trade in Brown Loans** — a measure of carbon sensitivity in lending and the international transfer of climate risk.<br>*Yihong Xia Best Paper Award, CICF 2025.*"
     url: "https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0"
     btn_label: "Read draft"
     btn_class: "btn--primary"

@@ -11,6 +11,8 @@ redirect_from:
 /* ---- Light color panels for research themes ---- */
 .page__content h2.theme {
   color: #1a1a1a;
+  font-size: 1.15em;
+  font-weight: 700;
   padding: 0.45em 0.7em;
   border-radius: 10px;
   border-left: 6px solid #2c3e50;

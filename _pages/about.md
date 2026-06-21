@@ -25,8 +25,20 @@ feature_row:
 <style>
 /* ---- Homepage hero, split into two halves ---- */
 .page__hero--overlay {
-  background-color: #65312B !important;
-  padding: 2.25em 0;
+  background: linear-gradient(
+    90deg,
+    rgba(101, 49, 43, 0) 0%,
+    rgba(250, 245, 238, 0.72) 10%,
+    rgba(229, 202, 169, 0.58) 20%,
+    rgba(101, 49, 43, 0.92) 34%,
+    #65312B 45%,
+    #65312B 55%,
+    rgba(101, 49, 43, 0.92) 66%,
+    rgba(229, 202, 169, 0.58) 80%,
+    rgba(250, 245, 238, 0.72) 90%,
+    rgba(101, 49, 43, 0) 100%
+  ) !important;
+  padding: 2.25em 1em;
 }
 .page__hero--overlay .page__hero-split {
   display: flex;

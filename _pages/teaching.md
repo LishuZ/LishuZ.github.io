@@ -18,6 +18,7 @@ redirect_from:
   padding-bottom: 0.2em;
   margin: 1.9em 0 0.7em;
 }
+.teaching p { margin-bottom: 0.7em; }
 .teaching ul { margin: 0.3em 0 1em; list-style: none; padding-left: 0; }
 .teaching > ul > li { margin: 0.2em 0; line-height: 1.35; }
 .teaching .course { font-weight: 400; }

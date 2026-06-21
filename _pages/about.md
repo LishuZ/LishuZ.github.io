@@ -25,9 +25,7 @@ feature_row:
 <style>
 /* ---- Homepage hero, split into two halves ---- */
 .page__hero--overlay {
-  background:
-    radial-gradient(circle at 88% 18%, rgba(218, 212, 223, 0.22), transparent 30%),
-    linear-gradient(135deg, #65312B 0%, #65312B 70%, #70413B 86%, #DAD4DF 135%) !important;
+  background: #65312B !important;
   padding: 2.25em 1em;
 }
 .page__hero--overlay .page__hero-split {

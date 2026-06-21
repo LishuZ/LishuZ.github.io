@@ -91,8 +91,8 @@ feature_row:
 }
 .feature__wrapper .feature__item {
   float: none;
-  width: 49%;
-  max-width: 560px;
+  width: 48%;
+  max-width: 510px;
   margin: 0;
   font-size: 1rem;
 }

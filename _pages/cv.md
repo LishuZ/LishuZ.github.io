@@ -51,17 +51,6 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 * <span class="org">CREST</span>, <span class="place">Paris, France</span>
   * Nov 2025–present. Researcher, Finance group.
 
-## Working Experience
-
-* <span class="org">Swedish House of Finance</span>, <span class="place">Sweden</span>
-  * Project-based employment for the Nordic Compass program.
-    * 2020–2022. Project manager.
-    * 2018\. Research assistant.
-* <span class="org">Euromonitor International</span>, <span class="place">China</span>
-  * 2016–2017. In-country Analyst for market consultancy.
-* <span class="org">Dongguan Securities Co. Ltd</span>, <span class="place">China</span>
-  * 2015 summer. Investment Banking Intern.
-
 ## Service and Leadership
 
 * <span class="org">Tilburg PhD Platform (TiPP)</span>

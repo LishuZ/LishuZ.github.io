@@ -77,13 +77,23 @@ feature_row:
 }
 /* Stack vertically on small screens */
 @media (max-width: 600px) {
+  .page__hero--overlay {
+    background: #65312B !important;
+    padding: 1.65em 1em 1.9em;
+  }
   .page__hero--overlay .page__hero-split {
     flex-direction: column;
     text-align: center;
     gap: 1.2em;
   }
-  .page__hero--overlay .page__hero-avatar { width: 60%; }
+  .page__hero--overlay .page__hero-avatar {
+    width: 60%;
+    max-width: 220px;
+    margin: 0 auto;
+    left: 0;
+  }
   .page__hero--overlay .page__hero-split { padding-left: 0; }
+  .page__hero--overlay .page__hero-text { top: 0; }
   .page__hero--overlay .page__lead { white-space: normal; }
 }
 .page__hero--overlay .btn--light-outline {

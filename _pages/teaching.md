@@ -2,21 +2,44 @@
 permalink: /teaching/
 title: "Teaching"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /teaching/
   - /teaching.html
 ---
 
-I have engaged substantially in teaching activities at Tilburg University. My work includes 
-* thesis supervision since 2021 (6-8 theses per year)
-* teaching assistant for both undergraduate and graduate level courses since 2020, as listed below:
+<style>
+.teaching h2 {
+  font-size: 1.35em;
+  font-weight: 700;
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 0.2em;
+  margin: 1.9em 0 0.7em;
+}
+.teaching ul { margin: 0.3em 0 1em; }
+.teaching > ul > li { margin: 0.5em 0; line-height: 1.5; }
+.teaching .course { font-weight: 700; }
+.teaching .meta { color: #6b7682; font-size: 0.9em; }
+</style>
 
-   **Economics of the European Union**, _undergraduate level_, 2020-2025
+<div class="teaching" markdown="1">
 
-   **Macroeconomics III**, _graduate level_, 2022-2025
+I have engaged substantially in teaching activities at Tilburg University.
 
-   **Economics of Banking and Finance**, _undergraduate level_, 2020-2022
+## Thesis Supervision
 
-<br/>
+* Since 2021 — Bachelor’s and Master’s theses, 6–8 per year.
 
-Previously, I also had some teaching experience as a student assistant at the Stockholm School of Economics.
+## Teaching Assistant
+
+Undergraduate and graduate courses at Tilburg University since 2020:
+
+* <span class="course">Economics of the European Union</span> <span class="meta">· undergraduate · 2020–2025</span>
+* <span class="course">Macroeconomics III</span> <span class="meta">· graduate · 2022–2025</span>
+* <span class="course">Economics of Banking and Finance</span> <span class="meta">· undergraduate · 2020–2022</span>
+
+## Earlier Experience
+
+* Student assistant, Stockholm School of Economics.
+
+</div>

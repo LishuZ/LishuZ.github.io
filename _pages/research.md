@@ -30,6 +30,7 @@ redirect_from:
   margin-top: 1.1em;
   margin-bottom: 0.4em;
 }
+.page__content h2.theme ~ h2.theme { margin-top: 1.7em; }
 .page__content h2.theme-crm { background: #fff; border-left-color: #5E4034; }
 .page__content h2.theme-fin { background: #F8FAF7; border-left-color: #D8CDD3; }
 .page__content h2.theme-esg { background: #fff; border-left-color: #D8CDD3; }

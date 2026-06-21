@@ -38,7 +38,7 @@ We construct the first firm-level measure of exposure to critical raw materials 
 ## International Trade in Brown Assets
 {: .theme .theme-fin}
 
-### Resistance and Arbitrage: International Trade in Brown Loans &ensp;<a href="https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0" style="font-size:0.68em; font-weight:400;">[Draft]</a>
+### Resistance and Arbitrage: International Trade in Brown Loans &ensp;<a href="https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0" style="font-size:1rem; font-weight:400;">[Draft]</a>
 #### Yihong Xia Best Paper Award at CICF 2025
 {: .award}
 

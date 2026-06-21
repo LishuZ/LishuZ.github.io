@@ -7,7 +7,7 @@ hide_title: true
 
 <style>
 .resources h2 {
-  font-size: 1.15em;
+  font-size: 1.05em;
   font-weight: 700;
   color: #5E4034;
   border-bottom: 2px solid #D8CDD3;

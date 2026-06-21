@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
 .about { font-size: 0.92em; }
-.about p { line-height: 1.7; }
+.about p { line-height: 1.7; margin-bottom: 0.8em; }
 
 .about blockquote {
   border: 0;

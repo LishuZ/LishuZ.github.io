@@ -25,13 +25,9 @@ feature_row:
 <style>
 /* ---- Homepage hero, split into two halves ---- */
 .page__hero--overlay {
-  background: linear-gradient(
-    90deg,
-    rgba(101, 49, 43, 0.82) 0%,
-    #65312B 12%,
-    #65312B 88%,
-    rgba(101, 49, 43, 0.82) 100%
-  ) !important;
+  background:
+    radial-gradient(circle at 88% 18%, rgba(156, 199, 213, 0.22), transparent 30%),
+    linear-gradient(135deg, #65312B 0%, #65312B 70%, #70413B 86%, #9CC7D5 135%) !important;
   padding: 2.25em 1em;
 }
 .page__hero--overlay .page__hero-split {
@@ -128,10 +124,10 @@ feature_row:
 .feature__item .archive__item-body {
   background: #fff;
   border-radius: 14px;
-  padding: 0.85em 1.3em 0.5em;
+  padding: 0.75em 1.3em 0.45em;
   box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
-  border: 1px solid #E1BCA9;
-  border-top: 5px solid #C9825C;
+  border: 1px solid rgba(156, 199, 213, 0.40);
+  border-top: 5px solid rgba(156, 199, 213, 0.72);
   display: flex;
   flex-direction: column;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -141,32 +137,32 @@ feature_row:
   box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
 }
 .feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.38em; font-weight: 700; font-size: 1.35em; text-align: center; color: #65312B; }
-.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.45; margin-bottom: 0.35em; color: #5C4A45; }
+.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.45; margin-bottom: 0.12em; color: #5C4A45; }
 .feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.35em; color: #1A1A1A; }
 .feature__item .archive__item-body .btn {
   display: block;
   width: 100%;
   text-align: center;
   font-size: 1em;
-  padding: 0.42em 0.8em;
-  margin: 0.18em 0 0;
+  padding: 0.32em 0.8em;
+  margin: 0;
   border-width: 2px;
   border-radius: 8px;
 }
 .btn--primary {
   background-color: #fff !important;
-  border-color: #C9825C !important;
-  color: #965A39 !important;
+  border-color: rgba(156, 199, 213, 0.72) !important;
+  color: #5F91A2 !important;
 }
 .btn--primary:hover {
-  background-color: #C9825C !important;
-  border-color: #C9825C !important;
+  background-color: #9CC7D5 !important;
+  border-color: #9CC7D5 !important;
   color: #fff !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-color: #E8CCBC;
-  border-top-color: #D79A79;
+  border-color: rgba(156, 199, 213, 0.24);
+  border-top-color: rgba(156, 199, 213, 0.44);
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {
@@ -175,7 +171,7 @@ feature_row:
 }
 .btn--disabled {
   background-color: #F7F4F5 !important;
-  border-color: #E8CCBC !important;
+  border-color: rgba(156, 199, 213, 0.24) !important;
   color: #7A7074 !important;
   pointer-events: none;
   cursor: default;

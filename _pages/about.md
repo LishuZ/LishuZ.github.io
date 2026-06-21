@@ -49,6 +49,8 @@ feature_row:
   border: 4px solid rgba(255, 255, 255, 0.9);
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
   margin: 0 0 0 -1em;
+  position: relative;
+  left: -1em;
 }
 .page__hero--overlay .page__hero-text { flex: 0 1 auto; position: relative; top: 0.7em; }
 .page__hero--overlay .page__title {

@@ -114,8 +114,8 @@ feature_row:
   border-radius: 14px;
   padding: 0.95em 1.4em 1em;
   box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
-  border: 1px solid #D8CDD3;
-  border-top: 5px solid #6F5845;
+  border: 1px solid #E1D2A3;
+  border-top: 5px solid #B9964A;
   height: 100%;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
@@ -128,18 +128,18 @@ feature_row:
 .feature__item .archive__item-body .btn { margin-bottom: 0.2em; }
 .btn--primary {
   background-color: #fff !important;
-  border-color: #6F5845 !important;
-  color: #6F5845 !important;
+  border-color: #B9964A !important;
+  color: #8A6A22 !important;
 }
 .btn--primary:hover {
-  background-color: #6F5845 !important;
-  border-color: #6F5845 !important;
+  background-color: #B9964A !important;
+  border-color: #B9964A !important;
   color: #fff !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-color: #DED6DA;
-  border-top-color: #C9BCC4;
+  border-color: #E7DCB6;
+  border-top-color: #D3BF78;
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {
@@ -148,7 +148,7 @@ feature_row:
 }
 .btn--disabled {
   background-color: #F7F4F5 !important;
-  border-color: #DED6DA !important;
+  border-color: #E7DCB6 !important;
   color: #7A7074 !important;
   pointer-events: none;
   cursor: default;

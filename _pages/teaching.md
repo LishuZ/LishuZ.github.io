@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
 .teaching h2 {
-  font-size: 1.35em;
+  font-size: 1.15em;
   font-weight: 700;
   color: #2c3e50;
   border-bottom: 2px solid #2c3e50;

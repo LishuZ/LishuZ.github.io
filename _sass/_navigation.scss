@@ -234,7 +234,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: #9bcdd1;
+        background: #9bc7d1;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -252,7 +252,7 @@
 
       &.current {
         color: #2f2523;
-        background: rgba(155, 205, 209, 0.16);
+        background: rgba(155, 199, 209, 0.16);
         border-radius: 4px;
       }
     }

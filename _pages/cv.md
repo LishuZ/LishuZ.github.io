@@ -46,6 +46,11 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
   * 2013–2017. Bachelor of Economics _(Major: Finance)_.
     * Double degree: Kedge Business School, France _(Track: Audit and Law)_.
 
+## Academic Appointments
+
+* <span class="org">CREST</span>, <span class="place">Paris, France</span>
+  * Nov 2025–present. Researcher, Finance group.
+
 ## Working Experience
 
 * <span class="org">Swedish House of Finance</span>, <span class="place">Sweden</span>

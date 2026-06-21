@@ -32,7 +32,7 @@ We construct the first firm-level measure of exposure to critical raw materials 
 <br/>
 
 
-## International Financing of Brown Firms
+## International Trade in Brown Assets
 {: .theme .theme-fin}
 
 ### Resistance and Arbitrage: International Trade in Brown Loans

@@ -23,9 +23,10 @@ redirect_from:
 .page__content h2.theme-fin { background: #e8f1fb; border-left-color: #2f6fb0; }
 .page__content h2.theme-esg { background: #e7f4ea; border-left-color: #2f8a52; }
 .page__content p.award {
-  font-weight: 700;
-  color: #2c3e50;
-  font-size: 0.95em;
+  font-family: "Source Serif 4", Georgia, Times, serif;
+  font-weight: 600;
+  color: #333;
+  font-size: 1em;
   margin: -0.3em 0 0.8em;
 }
 </style>

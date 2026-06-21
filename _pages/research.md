@@ -13,11 +13,11 @@ redirect_from:
   color: #1a1a1a;
   padding: 0.45em 0.7em;
   border-radius: 10px;
-  border-left: 6px solid #16a085;
+  border-left: 6px solid #2c3e50;
   margin-top: 1.8em;
   margin-bottom: 0.8em;
 }
-.page__content h2.theme-crm { background: #e4f5ef; border-left-color: #16a085; }
+.page__content h2.theme-crm { background: #e9edf2; border-left-color: #2c3e50; }
 .page__content h2.theme-fin { background: #e8f1fb; border-left-color: #2f6fb0; }
 .page__content h2.theme-esg { background: #fbf0e2; border-left-color: #d98e36; }
 </style>

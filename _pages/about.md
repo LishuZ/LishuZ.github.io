@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  overlay_color: "#16a085"
+  overlay_color: "#2c3e50"
   avatar: "newpic.jpg"
   cta_url: "/research/"
   cta_label: "Explore my research"
@@ -28,7 +28,7 @@ feature_row:
 <style>
 /* ---- Minimal teal splash hero, split into two halves ---- */
 .page__hero--overlay {
-  background-color: #16a085 !important;
+  background-color: #2c3e50 !important;
   padding: 3.5em 0;
 }
 .page__hero--overlay .page__hero-split {
@@ -93,7 +93,7 @@ feature_row:
   border-radius: 14px;
   padding: 1em 1.4em;
   box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
-  border-top: 5px solid #16a085;
+  border-top: 5px solid #2c3e50;
   height: 100%;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
@@ -103,8 +103,8 @@ feature_row:
 }
 .feature__item .archive__item-title { margin-top: 0; font-weight: 700; font-size: 1.15em; }
 .btn--primary {
-  background-color: #16a085 !important;
-  border-color: #16a085 !important;
+  background-color: #2c3e50 !important;
+  border-color: #2c3e50 !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {

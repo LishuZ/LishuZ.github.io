@@ -9,9 +9,32 @@ redirect_from:
 <style>
 .about { font-size: 0.92em; }
 .about p { line-height: 1.7; }
+
+/* Journey path of cities */
+.journey {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.4em 0 1.8em;
+}
+.journey .stop {
+  background: #fbeee9;
+  color: #9e3d28;
+  border: 1px solid #e8c9bd;
+  border-radius: 999px;
+  padding: 0.3em 0.85em;
+  font-weight: 600;
+  font-size: 0.95em;
+  font-family: "Source Serif 4", Georgia, Times, serif;
+}
+.journey .stop small { font-weight: 400; opacity: 0.85; }
+.journey .stop.current { background: #9e3d28; color: #fff; border-color: #9e3d28; }
+.journey .arrow { color: #9e3d28; font-weight: 700; }
+
 .about blockquote {
-  border-left: 4px solid #2c3e50;
-  background: #f5f7f9;
+  border-left: 4px solid #9e3d28;
+  background: #fbeee9;
   margin: 1.8em 0 0.5em;
   padding: 0.8em 1.2em;
   color: #333;
@@ -22,11 +45,25 @@ redirect_from:
 
 <div class="about" markdown="1">
 
-I am a fifth-year PhD candidate in Economics at Tilburg University, and since November 2025 a researcher in Finance at CREST in Paris. Previously, I studied at the Stockholm School of Economics (Master's in Economics) and the Renmin University of China (Bachelor's in Economics).
+<div class="journey" markdown="0">
+  <span class="stop">Jiangyin <small>江阴</small></span>
+  <span class="arrow">→</span>
+  <span class="stop">Bordeaux</span>
+  <span class="arrow">→</span>
+  <span class="stop">Stockholm</span>
+  <span class="arrow">→</span>
+  <span class="stop">Tilburg</span>
+  <span class="arrow">→</span>
+  <span class="stop current">Paris</span>
+</div>
 
-I was born in Jiangyin (江阴), a town alongside the Yangtze River in China. My hometown is full of historical and cultural heritage and is among the first cities in China to embrace market economics with thriving private enterprises. The unique combination of traditional cultural roots and bold entrepreneurship spirit has deeply influenced me into who I am today.
+I am a fifth-year PhD candidate in Economics at Tilburg University and, since November 2025, a researcher in Finance at CREST in Paris. Before Tilburg, I studied at the Stockholm School of Economics (Master's in Economics) and Renmin University of China (Bachelor's in Economics).
 
-I have lived in three European countries in the past decade: France (Bordeaux, and now Paris), Sweden (Stockholm), and the Netherlands (Tilburg). I have always enjoyed experiencing cultural differences, the collision of ideas, and conversations with diverse beings.
+I was born in Jiangyin (江阴), a city on the banks of the Yangtze River. Rich in history and culture, it was also among the first places in China to embrace a market economy, with private enterprise flourishing early. That blend of deep cultural roots and bold entrepreneurial spirit has shaped who I am.
+
+Over the past decade I have made a home in three European countries — France (Bordeaux, and now Paris), Sweden (Stockholm), and the Netherlands (Tilburg). I have always been drawn to the experience of different cultures, the collision of ideas, and conversations with people from every walk of life.
+
+Outside research, I am endlessly curious and easily delighted — by new places, new languages, and a good conversation most of all.
 
 > “We are all products of our environment; every person we meet, every new experience or adventure, every book we read, touches and changes us, making us the unique beings we are.”
 > <cite>— C.J. Heck</cite>

@@ -22,7 +22,13 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 }
 .cv ul { margin: 0.3em 0 1em; }
 .cv > ul > li { margin: 0.55em 0; line-height: 1.5; }
-.cv > ul > li > ul { margin: 0.15em 0 0.4em; }
+.cv ul ul {
+  list-style: none;
+  padding-left: 1.1em;
+  font-size: 0.88em;
+  margin: 0.1em 0 0.4em;
+}
+.cv ul ul li { margin: 0.08em 0; line-height: 1.3; }
 .cv .org { font-weight: 700; }
 .cv .place { color: #6b7682; }
 </style>

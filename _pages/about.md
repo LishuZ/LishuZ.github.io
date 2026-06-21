@@ -153,8 +153,8 @@ feature_row:
   color: #4F6D77 !important;
 }
 .btn--primary:hover {
-  background-color: #9CC7D5 !important;
-  border-color: #9CC7D5 !important;
+  background-color: #82AEBC !important;
+  border-color: #82AEBC !important;
   color: #fff !important;
 }
 /* Muted "Coming soon" card (JMP1) */

@@ -51,11 +51,4 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 * <span class="org">CREST</span>, <span class="place">Paris, France</span>
   * Nov 2025–present. Researcher, Finance group.
 
-## Service and Leadership
-
-* <span class="org">Tilburg PhD Platform (TiPP)</span>
-  * 2021–2023. Policy consultation as a representative of PhD students.
-* <span class="org">Graduate Students’ Society (GSS)</span>
-  * 2019–2020. Representative of Research Master’s.
-
 </div>

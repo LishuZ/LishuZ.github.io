@@ -8,7 +8,7 @@ author_profile: true
 .resources h2 {
   font-size: 1.15em;
   font-weight: 700;
-  color: #6b4a16;
+  color: #4f3b24;
   border-bottom: 2px solid #D4ACB5;
   padding-bottom: 0.2em;
   margin: 1.6em 0 0.7em;

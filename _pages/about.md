@@ -57,13 +57,13 @@ feature_row:
   font-size: 2em;
   font-weight: 700;
   letter-spacing: -0.3px;
-  color: #6b4a16;
+  color: #4f3b24;
 }
 .page__hero--overlay .page__lead {
   font-size: 1.05em;
   font-weight: 400;
   opacity: 1;
-  color: #6b4a16;
+  color: #4f3b24;
 }
 /* Stack vertically on small screens */
 @media (max-width: 600px) {
@@ -79,12 +79,12 @@ feature_row:
 .page__hero--overlay .btn--light-outline {
   font-weight: 600;
   border-width: 2px;
-  color: #6b4a16;
-  border-color: #6b4a16;
+  color: #4f3b24;
+  border-color: #4f3b24;
 }
 .page__hero--overlay .btn--light-outline:hover {
-  background-color: #6b4a16;
-  border-color: #6b4a16;
+  background-color: #4f3b24;
+  border-color: #4f3b24;
   color: #fff;
 }
 
@@ -110,7 +110,7 @@ feature_row:
   padding: 0.7em 1.4em 0.9em;
   box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
   border: 1px solid #D4ACB5;
-  border-top: 5px solid #EBB11C;
+  border-top: 5px solid #C99518;
   height: 100%;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
@@ -122,9 +122,9 @@ feature_row:
 .feature__item .archive__item-excerpt { font-size: 0.95em; margin-bottom: 0.6em; }
 .feature__item .archive__item-body .btn { margin-bottom: 0.2em; }
 .btn--primary {
-  background-color: #EBB11C !important;
-  border-color: #EBB11C !important;
-  color: #6b4a16 !important;
+  background-color: #C99518 !important;
+  border-color: #C99518 !important;
+  color: #4f3b24 !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
@@ -138,7 +138,7 @@ feature_row:
 .btn--disabled {
   background-color: #E3EBE8 !important;
   border-color: #D4ACB5 !important;
-  color: #7d8884 !important;
+  color: #68736f !important;
   pointer-events: none;
   cursor: default;
 }

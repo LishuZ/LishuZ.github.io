@@ -12,7 +12,7 @@ redirect_from:
 .teaching h2 {
   font-size: 1.15em;
   font-weight: 700;
-  color: #6b4a16;
+  color: #4f3b24;
   border-bottom: 2px solid #D4ACB5;
   padding-bottom: 0.2em;
   margin: 1.9em 0 0.7em;
@@ -20,7 +20,7 @@ redirect_from:
 .teaching ul { margin: 0.3em 0 1em; list-style: none; padding-left: 0; }
 .teaching > ul > li { margin: 0.2em 0; line-height: 1.35; }
 .teaching .course { font-weight: 700; }
-.teaching .meta { color: #7d8884; font-size: 0.9em; }
+.teaching .meta { color: #68736f; font-size: 0.9em; }
 </style>
 
 <div class="teaching" markdown="1">

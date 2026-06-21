@@ -150,9 +150,9 @@ feature_row:
   border-radius: 8px;
 }
 .btn--primary {
-  background-color: #fff !important;
+  background-color: #EDF5F7 !important;
   border-color: rgba(156, 199, 213, 0.72) !important;
-  color: #5F91A2 !important;
+  color: #4F6D77 !important;
 }
 .btn--primary:hover {
   background-color: #9CC7D5 !important;

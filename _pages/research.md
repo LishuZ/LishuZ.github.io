@@ -19,7 +19,7 @@ redirect_from:
 }
 .page__content h2.theme-crm { background: #e9edf2; border-left-color: #2c3e50; }
 .page__content h2.theme-fin { background: #e8f1fb; border-left-color: #2f6fb0; }
-.page__content h2.theme-esg { background: #fbf0e2; border-left-color: #d98e36; }
+.page__content h2.theme-esg { background: #e7f4ea; border-left-color: #2f8a52; }
 </style>
 
 ## Critical Raw Materials: Risk, Transition, and Pricing

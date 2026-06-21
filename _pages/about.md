@@ -3,9 +3,6 @@ permalink: /
 title: "Lishu Zhang / 张郦姝"
 layout: splash
 author_profile: false
-redirect_from:
-  - /about/
-  - /about.html
 header:
   overlay_color: "#2c3e50"
   avatar: "newpic.jpg"

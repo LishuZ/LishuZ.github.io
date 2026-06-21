@@ -128,7 +128,7 @@ feature_row:
 .feature__item .archive__item-body {
   background: #fff;
   border-radius: 14px;
-  padding: 0.85em 1.3em 0.9em;
+  padding: 0.85em 1.3em 0.5em;
   box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
   border: 1px solid #C2D2C7;
   border-top: 5px solid #566E5E;
@@ -142,7 +142,7 @@ feature_row:
   box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
 }
 .feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.6em; font-weight: 700; font-size: 1.35em; text-align: center; color: #65312B; }
-.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.62; margin-bottom: 1.1em; color: #5C4A45; }
+.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.5; margin-bottom: 0.7em; color: #5C4A45; }
 .feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.55em; color: #1A1A1A; }
 .feature__item .archive__item-body .btn {
   display: block;

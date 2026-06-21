@@ -26,8 +26,6 @@ redirect_from:
 {: .theme .theme-crm}
 
 ### Critical Raw Material Dependency and Asset Pricing (Preliminary; to be updated)
-*Job Market Paper*
-
 We construct the first firm-level measure of exposure to critical raw materials (CRMs), inputs marked by extreme supply concentration and limited substitutability. We develop a production-network framework that traces material-specific flows through global product-level supply chains, showing that the product of cost shares along each supply-chain path summarizes a firm’s CRM vulnerability. We use large language models to transform this theoretical object into empirical measures. Event studies around trade shocks validate the measure and show that markets price both the intensity and material composition of CRM exposure. We further document the asset-pricing implications of CRM exposure at the aggregate and firm levels.
 <br/>
 
@@ -36,7 +34,6 @@ We construct the first firm-level measure of exposure to critical raw materials 
 {: .theme .theme-fin}
 
 ### Resistance and Arbitrage: International Trade in Brown Loans
-*Job Market Paper*
 #### Yihong Xia Best Paper Award at CICF 2025
 [Draft](https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0)
 

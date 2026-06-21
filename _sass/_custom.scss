@@ -5,9 +5,9 @@
    left untouched.
    ========================================================================== */
 
-$accent-sienna: #65312B;
+$accent-sienna: #573D31;
 $accent-gold:   #E7C24A;
-$accent-wisteria: #DAD4DF;
+$accent-blue:   #9CC7D5;
 
 /* Page title — confident, a touch tighter */
 .page__title {
@@ -27,7 +27,7 @@ $accent-wisteria: #DAD4DF;
   }
 }
 
-/* Section headings — sienna, sentence-case, short wisteria tick instead of
+/* Section headings — sienna, sentence-case, short blue tick instead of
    the theme's full-width grey rule */
 .page__content h2:not([class]),
 .archive h2:not([class]) {
@@ -45,7 +45,7 @@ $accent-wisteria: #DAD4DF;
   display: block;
   width: 36px;
   height: 3px;
-  background: $accent-wisteria;
+  background: $accent-blue;
   border-radius: 2px;
   margin-top: 0.45em;
 }

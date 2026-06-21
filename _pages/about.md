@@ -4,7 +4,7 @@ title: "Lishu Zhang / 张郦姝"
 layout: splash
 author_profile: false
 header:
-  overlay_color: "#c7db94"
+  overlay_color: "#e8d5c7"
   avatar: "newpic.jpg"
   cta_url: "/research/"
   cta_label: "Explore my research"
@@ -28,12 +28,12 @@ feature_row:
   ALTERNATIVE PALETTE — warm terracotta (revisit with a white-background photo):
     overlay_color (front matter): "#9e3d28"
     .page__hero--overlay background-color: #9e3d28
-    hero text: WHITE  -> delete the `color: #33502a;` lines on .page__title / .page__lead
+    hero text: WHITE  -> delete the dark text overrides on .page__title / .page__lead
     .btn--light-outline: revert to white (delete the color/border overrides)
     card accent + .btn--primary: #9e3d28
 */
 .page__hero--overlay {
-  background-color: #c7db94 !important;
+  background-color: #e8d5c7 !important;
   padding: 2.25em 0;
 }
 .page__hero--overlay .page__hero-split {
@@ -65,13 +65,13 @@ feature_row:
   font-size: 2em;
   font-weight: 700;
   letter-spacing: -0.3px;
-  color: #33502a;
+  color: #4a2f27;
 }
 .page__hero--overlay .page__lead {
   font-size: 1.05em;
   font-weight: 400;
   opacity: 1;
-  color: #33502a;
+  color: #4a2f27;
 }
 /* Stack vertically on small screens */
 @media (max-width: 600px) {
@@ -87,12 +87,12 @@ feature_row:
 .page__hero--overlay .btn--light-outline {
   font-weight: 600;
   border-width: 2px;
-  color: #33502a;
-  border-color: #33502a;
+  color: #4a2f27;
+  border-color: #4a2f27;
 }
 .page__hero--overlay .btn--light-outline:hover {
-  background-color: #33502a;
-  border-color: #33502a;
+  background-color: #4a2f27;
+  border-color: #4a2f27;
   color: #fff;
 }
 

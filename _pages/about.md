@@ -4,7 +4,7 @@ title: "Lishu Zhang / 张郦姝"
 layout: splash
 author_profile: false
 header:
-  overlay_color: "#584554"
+  overlay_color: "#65312B"
   avatar: "newpic.jpg"
   cta_url: "/research/"
   cta_label: "Explore my research"
@@ -27,12 +27,12 @@ feature_row:
 .page__hero--overlay {
   background: linear-gradient(
     90deg,
-    rgba(88, 69, 84, 0) 0%,
-    rgba(88, 69, 84, 0.72) 4%,
-    #584554 8%,
-    #584554 92%,
-    rgba(88, 69, 84, 0.72) 96%,
-    rgba(88, 69, 84, 0) 100%
+    rgba(101, 49, 43, 0) 0%,
+    rgba(101, 49, 43, 0.72) 4%,
+    #65312B 8%,
+    #65312B 92%,
+    rgba(101, 49, 43, 0.72) 96%,
+    rgba(101, 49, 43, 0) 100%
   ) !important;
   padding: 2.25em 1em;
 }
@@ -78,7 +78,7 @@ feature_row:
 /* Stack vertically on small screens */
 @media (max-width: 600px) {
   .page__hero--overlay {
-    background: #584554 !important;
+    background: #65312B !important;
     padding: 1.65em 1em 1.9em;
   }
   .page__hero--overlay .page__hero-split {
@@ -108,7 +108,7 @@ feature_row:
 .page__hero--overlay .btn--light-outline:hover {
   background-color: #fff;
   border-color: #fff !important;
-  color: #584554 !important;
+  color: #65312B !important;
 }
 
 /* ---- Two JMP cards below the panel ---- */

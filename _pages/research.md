@@ -27,7 +27,9 @@ redirect_from:
 ## Critical Raw Materials: Risk, Transition, and Pricing
 {: .theme .theme-crm}
 
-### Critical Raw Material Dependency and Asset Pricing (Preliminary; to be updated)
+### Critical Raw Material Dependency and Asset Pricing
+*In preparation.*
+
 We construct the first firm-level measure of exposure to critical raw materials (CRMs), inputs marked by extreme supply concentration and limited substitutability. We develop a production-network framework that traces material-specific flows through global product-level supply chains, showing that the product of cost shares along each supply-chain path summarizes a firm’s CRM vulnerability. We use large language models to transform this theoretical object into empirical measures. Event studies around trade shocks validate the measure and show that markets price both the intensity and material composition of CRM exposure. We further document the asset-pricing implications of CRM exposure at the aggregate and firm levels.
 <br/>
 

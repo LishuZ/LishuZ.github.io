@@ -4,7 +4,7 @@ title: "Lishu Zhang / 张郦姝"
 layout: splash
 author_profile: false
 header:
-  overlay_color: "#6b4031"
+  overlay_color: "#664232"
   avatar: "newpic.jpg"
   cta_url: "/research/"
   cta_label: "Explore my research"
@@ -25,7 +25,7 @@ feature_row:
 <style>
 /* ---- Homepage hero, split into two halves ---- */
 .page__hero--overlay {
-  background: #6b4031 !important;
+  background: #664232 !important;
   padding: 2.25em 1em;
 }
 .page__hero--overlay .page__hero-split {
@@ -70,7 +70,7 @@ feature_row:
 /* Stack vertically on small screens */
 @media (max-width: 600px) {
   .page__hero--overlay {
-    background: #6b4031 !important;
+    background: #664232 !important;
     padding: 1.65em 1em 1.9em;
   }
   .page__hero--overlay .page__hero-split {

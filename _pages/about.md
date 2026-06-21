@@ -130,8 +130,8 @@ feature_row:
   border-radius: 14px;
   padding: 0.85em 1.3em 0.9em;
   box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
-  border: 1px solid #D8C68C;
-  border-top: 5px solid #1E4B3A;
+  border: 1px solid #C2D2C7;
+  border-top: 5px solid #566E5E;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -142,8 +142,8 @@ feature_row:
   box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
 }
 .feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.6em; font-weight: 700; font-size: 1.35em; text-align: center; color: #65312B; }
-.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.62; margin-bottom: 0.45em; color: #5C4A45; }
-.feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.55em; color: #6B3A30; }
+.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.62; margin-bottom: 1.1em; color: #5C4A45; }
+.feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.55em; color: #1A1A1A; }
 .feature__item .archive__item-body .btn {
   display: block;
   width: 100%;
@@ -157,18 +157,18 @@ feature_row:
 }
 .btn--primary {
   background-color: #fff !important;
-  border-color: #1E4B3A !important;
-  color: #1B4435 !important;
+  border-color: #566E5E !important;
+  color: #3F5448 !important;
 }
 .btn--primary:hover {
-  background-color: #1E4B3A !important;
-  border-color: #1E4B3A !important;
-  color: #F2D79B !important;
+  background-color: #566E5E !important;
+  border-color: #566E5E !important;
+  color: #fff !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-color: #E4D6A8;
-  border-top-color: #6E8C7C;
+  border-color: #D4DFD7;
+  border-top-color: #8FA597;
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {

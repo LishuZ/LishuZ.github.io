@@ -10,22 +10,22 @@ redirect_from:
 <style>
 /* ---- Light color panels for research themes ---- */
 .page__content h2.theme {
-  color: #4f3b24;
+  color: #2F2523;
   font-size: 1.15em;
   font-weight: 700;
   padding: 0.45em 0.7em;
   border-radius: 10px;
-  border-left: 6px solid #C99518;
+  border-left: 6px solid #6F5845;
   margin-top: 1.8em;
   margin-bottom: 0.4em;
 }
-.page__content h2.theme-crm { background: #F2E7EB; border-left-color: #C99518; }
-.page__content h2.theme-fin { background: #E3EBE8; border-left-color: #D4ACB5; }
-.page__content h2.theme-esg { background: #F2E7EB; border-left-color: #D4ACB5; }
+.page__content h2.theme-crm { background: #fff; border-left-color: #6F5845; }
+.page__content h2.theme-fin { background: #F8FAF7; border-left-color: #D8CDD3; }
+.page__content h2.theme-esg { background: #fff; border-left-color: #D8CDD3; }
 .page__content p.award {
   font-family: "Source Serif 4", Georgia, Times, serif;
   font-weight: 600;
-  color: #4f3b24;
+  color: #2F2523;
   font-size: 0.9em;
   margin: -0.3em 0 0.8em;
 }

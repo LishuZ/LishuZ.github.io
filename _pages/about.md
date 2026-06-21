@@ -4,7 +4,7 @@ title: "Lishu Zhang / 张郦姝"
 layout: splash
 author_profile: false
 header:
-  overlay_color: "#F2E7EB"
+  overlay_color: "#65312B"
   avatar: "newpic.jpg"
   cta_url: "/research/"
   cta_label: "Explore my research"
@@ -23,9 +23,9 @@ feature_row:
 ---
 
 <style>
-/* ---- Minimal teal splash hero, split into two halves ---- */
+/* ---- Homepage hero, split into two halves ---- */
 .page__hero--overlay {
-  background-color: #F2E7EB !important;
+  background-color: #65312B !important;
   padding: 2.25em 0;
 }
 .page__hero--overlay .page__hero-split {
@@ -57,15 +57,15 @@ feature_row:
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 0;
-  color: #4f3b24 !important;
-  text-shadow: none !important;
+  color: #fff !important;
+  text-shadow: 0 2px 10px rgba(47, 37, 35, 0.22) !important;
 }
 .page__hero--overlay .page__lead {
   font-size: 1.05em;
   font-weight: 400;
   opacity: 1;
-  color: #4f3b24 !important;
-  text-shadow: none !important;
+  color: #fff !important;
+  text-shadow: 0 1px 8px rgba(47, 37, 35, 0.18) !important;
 }
 /* Stack vertically on small screens */
 @media (max-width: 600px) {
@@ -81,14 +81,16 @@ feature_row:
 .page__hero--overlay .btn--light-outline {
   font-weight: 600;
   border-width: 2px;
-  color: #4f3b24 !important;
-  border-color: #4f3b24 !important;
-  text-shadow: none !important;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff !important;
+  border-color: #fff !important;
+  box-shadow: 0 6px 18px rgba(47, 37, 35, 0.13);
+  text-shadow: 0 1px 6px rgba(47, 37, 35, 0.14) !important;
 }
 .page__hero--overlay .btn--light-outline:hover {
-  background-color: #4f3b24;
-  border-color: #4f3b24 !important;
-  color: #fff !important;
+  background-color: #fff;
+  border-color: #fff !important;
+  color: #65312B !important;
 }
 
 /* ---- Two JMP cards below the panel ---- */
@@ -97,7 +99,7 @@ feature_row:
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1em;
+  gap: 1.22em;
   margin: 1.25em auto 0;
 }
 .feature__wrapper .feature__item {
@@ -110,10 +112,10 @@ feature_row:
 .feature__item .archive__item-body {
   background: #fff;
   border-radius: 14px;
-  padding: 0.7em 1.4em 0.9em;
-  box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
-  border: 1px solid #D4ACB5;
-  border-top: 5px solid #C99518;
+  padding: 0.95em 1.4em 1em;
+  box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
+  border: 1px solid #D8CDD3;
+  border-top: 5px solid #6F5845;
   height: 100%;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
@@ -125,13 +127,19 @@ feature_row:
 .feature__item .archive__item-excerpt { font-size: 0.95em; margin-bottom: 0.6em; }
 .feature__item .archive__item-body .btn { margin-bottom: 0.2em; }
 .btn--primary {
-  background-color: #C99518 !important;
-  border-color: #C99518 !important;
-  color: #4f3b24 !important;
+  background-color: #fff !important;
+  border-color: #6F5845 !important;
+  color: #6F5845 !important;
+}
+.btn--primary:hover {
+  background-color: #6F5845 !important;
+  border-color: #6F5845 !important;
+  color: #fff !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-top-color: #D4ACB5;
+  border-color: #DED6DA;
+  border-top-color: #C9BCC4;
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {
@@ -139,9 +147,9 @@ feature_row:
   box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
 }
 .btn--disabled {
-  background-color: #E3EBE8 !important;
-  border-color: #D4ACB5 !important;
-  color: #68736f !important;
+  background-color: #F7F4F5 !important;
+  border-color: #DED6DA !important;
+  color: #7A7074 !important;
   pointer-events: none;
   cursor: default;
 }

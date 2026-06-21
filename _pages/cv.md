@@ -15,8 +15,8 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 .cv h2 {
   font-size: 1.15em;
   font-weight: 700;
-  color: #4f3b24;
-  border-bottom: 2px solid #D4ACB5;
+  color: #2F2523;
+  border-bottom: 2px solid #D8CDD3;
   padding-bottom: 0.2em;
   margin: 1.9em 0 0.7em;
 }
@@ -30,7 +30,7 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 }
 .cv ul ul li { margin: 0.08em 0; line-height: 1.3; }
 .cv .org { font-weight: 700; }
-.cv .place { color: #68736f; }
+.cv .place { color: #7A7074; }
 </style>
 
 <div class="cv" markdown="1">

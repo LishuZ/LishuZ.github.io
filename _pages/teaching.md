@@ -13,7 +13,7 @@ redirect_from:
 .teaching h2 {
   font-size: 1.15em;
   font-weight: 700;
-  color: #2F2523;
+  color: #6e4b3d;
   border-bottom: 2px solid #D8CDD3;
   padding-bottom: 0.2em;
   margin: 1.9em 0 0.7em;

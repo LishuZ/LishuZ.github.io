@@ -21,16 +21,16 @@ redirect_from:
 .page__content p.abstract { margin-top: 0.6em; max-width: 42em; }
 /* ---- Light color panels for research themes ---- */
 .page__content h2.theme {
-  color: #2F2523;
+  color: #6e4b3d;
   font-size: 1.15em;
   font-weight: 700;
   padding: 0.45em 0.7em;
   border-radius: 10px;
-  border-left: 6px solid #6F5845;
+  border-left: 6px solid #6e4b3d;
   margin-top: 1.8em;
   margin-bottom: 0.4em;
 }
-.page__content h2.theme-crm { background: #fff; border-left-color: #6F5845; }
+.page__content h2.theme-crm { background: #fff; border-left-color: #6e4b3d; }
 .page__content h2.theme-fin { background: #F8FAF7; border-left-color: #D8CDD3; }
 .page__content h2.theme-esg { background: #fff; border-left-color: #D8CDD3; }
 .page__content p.award {

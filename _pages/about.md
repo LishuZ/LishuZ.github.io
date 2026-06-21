@@ -185,7 +185,7 @@ feature_row:
   text-align: center;
   font-size: 1.45em;
   font-weight: 700;
-  margin: 1.5em auto 0;
+  margin: 0.4em auto 0;
 }
 .page__content .intro { max-width: 46em; margin: 2.5em auto 0; }
 </style>

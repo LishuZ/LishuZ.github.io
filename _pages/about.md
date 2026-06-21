@@ -24,6 +24,14 @@ feature_row:
 
 <style>
 /* ---- Minimal teal splash hero, split into two halves ---- */
+/*
+  ALTERNATIVE PALETTE — warm terracotta (revisit with a white-background photo):
+    overlay_color (front matter): "#9e3d28"
+    .page__hero--overlay background-color: #9e3d28
+    hero text: WHITE  -> delete the `color: #33502a;` lines on .page__title / .page__lead
+    .btn--light-outline: revert to white (delete the color/border overrides)
+    card accent + .btn--primary: #9e3d28
+*/
 .page__hero--overlay {
   background-color: #c7db94 !important;
   padding: 2.25em 0;

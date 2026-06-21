@@ -16,6 +16,7 @@ hide_title: true
 }
 .resources p { line-height: 1.6; }
 .resources .res-title { font-weight: 700; font-size: 1.05em; }
+.resources .res-title a { color: #1A1A1A; }
 .resources p:has(.res-title) { margin-bottom: 0.2em; }
 </style>
 

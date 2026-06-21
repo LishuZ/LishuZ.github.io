@@ -28,18 +28,18 @@ redirect_from:
 
 I have engaged substantially in teaching activities at Tilburg University.
 
-## Thesis Supervision and Grading
-
-* Bachelor’s theses — supervision, 6–8 per year (since 2021).
-* Master’s theses — grading and evaluation.
-
-## Teaching Assistant
+## Tutoring
 
 Undergraduate and graduate courses at Tilburg University since 2020:
 
 * <span class="course">Economics of the European Union</span> <span class="meta">· undergraduate · 2020–2025</span>
 * <span class="course">Macroeconomics III</span> <span class="meta">· graduate · 2022–2025</span>
 * <span class="course">Economics of Banking and Finance</span> <span class="meta">· undergraduate · 2020–2022</span>
+
+## Thesis Supervision and Grading
+
+* Bachelor’s theses — supervision, 6–8 per year (since 2021).
+* Master’s theses — grading and evaluation.
 
 ## Earlier Experience
 

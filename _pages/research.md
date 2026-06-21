@@ -9,6 +9,10 @@ redirect_from:
 ---
 
 <style>
+/* ---- Tighter, slightly smaller research text ---- */
+.page__content { font-size: 0.95em; }
+.page__content p:not([class]),
+.page__content li { line-height: 1.5; }
 /* ---- Light color panels for research themes ---- */
 .page__content h2.theme {
   color: #2F2523;

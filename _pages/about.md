@@ -183,9 +183,9 @@ feature_row:
   text-align: center;
   font-size: 1.45em;
   font-weight: 700;
-  margin: 0.4em auto 0;
+  margin: 0 auto;
 }
-.page__content .intro { max-width: 46em; margin: 2.5em auto 0; }
+.page__content .intro { max-width: 42em; margin: 1.4em auto 0; }
 </style>
 
 <p class="welcome-line">Welcome to my personal website!</p>

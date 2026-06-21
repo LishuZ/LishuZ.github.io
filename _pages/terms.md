@@ -16,6 +16,7 @@ hide_title: true
 }
 .resources p { line-height: 1.6; }
 .resources .res-title { font-weight: 700; font-size: 1.05em; }
+.resources p:has(.res-title) { margin-bottom: 0.2em; }
 </style>
 
 <div class="resources" markdown="1">

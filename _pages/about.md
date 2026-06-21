@@ -11,12 +11,12 @@ header:
 excerpt: "PhD candidate in Economics, Tilburg University<br>Researcher in Finance, CREST (Paris)"
 feature_row:
   - title: "Job Market Paper 1"
-    excerpt: "**Critical Raw Material Dependency and Asset Pricing**<br>A firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications."
+    excerpt: "**Critical Raw Material Dependency and Asset Pricing** A firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications."
     url: "#"
     btn_label: "Coming soon"
     btn_class: "btn--disabled"
   - title: "Job Market Paper 2"
-    excerpt: "**Resistance and Arbitrage: International Trade in Brown Loans**<br>A measure of carbon sensitivity in lending and the international transfer of climate risk.<br>*Yihong Xia Best Paper Award, CICF 2025.*"
+    excerpt: "**Resistance and Arbitrage: International Trade in Brown Loans** A measure of carbon sensitivity in lending and the international transfer of climate risk.<br>*Yihong Xia Best Paper Award, CICF 2025.*"
     url: "https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0"
     btn_label: "Read draft"
     btn_class: "btn--primary"
@@ -128,10 +128,10 @@ feature_row:
 .feature__item .archive__item-body {
   background: #fff;
   border-radius: 14px;
-  padding: 0.5em 1.25em 0.55em;
+  padding: 0.85em 1.3em 0.9em;
   box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
-  border: 1px solid #C3D4DB;
-  border-top: 5px solid #3D6478;
+  border: 1px solid #D8C68C;
+  border-top: 5px solid #1E4B3A;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -141,9 +141,9 @@ feature_row:
   transform: translateY(-4px);
   box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
 }
-.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.6em; font-weight: 700; font-size: 1.35em; text-align: center; }
-.feature__item .archive__item-excerpt { font-size: 0.93em; margin-bottom: 0.45em; }
-.feature__item .archive__item-excerpt strong { font-size: 1.16em; line-height: 1.3; }
+.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.6em; font-weight: 700; font-size: 1.35em; text-align: center; color: #65312B; }
+.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.62; margin-bottom: 0.45em; color: #5C4A45; }
+.feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.55em; color: #6B3A30; }
 .feature__item .archive__item-body .btn {
   display: block;
   width: 100%;
@@ -157,18 +157,18 @@ feature_row:
 }
 .btn--primary {
   background-color: #fff !important;
-  border-color: #3D6478 !important;
-  color: #2E5061 !important;
+  border-color: #1E4B3A !important;
+  color: #1B4435 !important;
 }
 .btn--primary:hover {
-  background-color: #3D6478 !important;
-  border-color: #3D6478 !important;
-  color: #fff !important;
+  background-color: #1E4B3A !important;
+  border-color: #1E4B3A !important;
+  color: #F2D79B !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-color: #D2DEE3;
-  border-top-color: #7E9FAD;
+  border-color: #E4D6A8;
+  border-top-color: #6E8C7C;
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {

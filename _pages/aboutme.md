@@ -13,12 +13,13 @@ redirect_from:
 .about blockquote {
   border-left: 4px solid #6F5845;
   background: #fff;
-  margin: 1.8em 0 0.5em;
+  margin: 1.8em auto 0.5em;
+  max-width: 34em;
   padding: 0.8em 1.2em;
   color: #2F2523;
   font-style: italic;
 }
-.about blockquote cite { display: block; margin-top: 0.4em; font-size: 0.9em; color: #7A7074; font-style: normal; }
+.about blockquote cite { display: block; margin-top: 0.4em; text-align: right; font-size: 0.9em; color: #7A7074; font-style: normal; }
 </style>
 
 <div class="about" markdown="1">

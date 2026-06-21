@@ -17,7 +17,7 @@ redirect_from:
   border-radius: 10px;
   border-left: 6px solid #2c3e50;
   margin-top: 1.8em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.4em;
 }
 .page__content h2.theme-crm { background: #e9edf2; border-left-color: #2c3e50; }
 .page__content h2.theme-fin { background: #e8f1fb; border-left-color: #2f6fb0; }

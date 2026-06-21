@@ -100,7 +100,7 @@ feature_row:
 .page__hero--overlay .btn--light-outline:hover {
   background-color: #fff;
   border-color: #fff !important;
-  color: #6e4b3d !important;
+  color: #5E4034 !important;
 }
 
 /* ---- Two JMP cards below the panel ---- */
@@ -134,7 +134,7 @@ feature_row:
   transform: translateY(-4px);
   box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
 }
-.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.38em; font-weight: 700; font-size: 1.35em; text-align: center; color: #6e4b3d; }
+.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.38em; font-weight: 700; font-size: 1.35em; text-align: center; color: #5E4034; }
 .feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.45; margin-bottom: 0.12em; color: #5C4A45; }
 .feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.35em; color: #1A1A1A; }
 .feature__item .archive__item-body .btn {

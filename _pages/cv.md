@@ -16,7 +16,7 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
 .cv h2 {
   font-size: 1.15em;
   font-weight: 700;
-  color: #6e4b3d;
+  color: #5E4034;
   border-bottom: 2px solid #D8CDD3;
   padding-bottom: 0.2em;
   margin: 1.9em 0 0.7em;

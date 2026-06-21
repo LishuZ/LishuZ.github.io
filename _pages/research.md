@@ -15,22 +15,22 @@ redirect_from:
 .page__content p.abstract,
 .page__content li { line-height: 1.5; }
 /* Uniform spacing: meta line hugs the title, equal gap before every abstract */
-.page__content h3:not([class]) { margin-bottom: 0.25em; }
+.page__content h3:not([class]) { color: #1A1A1A; margin-bottom: 0.25em; }
 .page__content h3:not([class]) a { font-size: 0.82em; font-weight: 400; white-space: nowrap; }
 .page__content p.paper-meta { margin: 0 0 0.15em; font-size: 0.9em; font-weight: 400; color: #5C4A45; }
 .page__content p.abstract { margin-top: 0.6em; max-width: 42em; }
 /* ---- Light color panels for research themes ---- */
 .page__content h2.theme {
-  color: #6e4b3d;
+  color: #5E4034;
   font-size: 1.15em;
   font-weight: 700;
   padding: 0.45em 0.7em;
   border-radius: 10px;
-  border-left: 6px solid #6e4b3d;
-  margin-top: 1.8em;
+  border-left: 6px solid #5E4034;
+  margin-top: 1.1em;
   margin-bottom: 0.4em;
 }
-.page__content h2.theme-crm { background: #fff; border-left-color: #6e4b3d; }
+.page__content h2.theme-crm { background: #fff; border-left-color: #5E4034; }
 .page__content h2.theme-fin { background: #F8FAF7; border-left-color: #D8CDD3; }
 .page__content h2.theme-esg { background: #fff; border-left-color: #D8CDD3; }
 .page__content p.award {
@@ -46,7 +46,7 @@ redirect_from:
 {: .theme .theme-crm}
 
 ### Critical Raw Material Dependency and Asset Pricing
-Job market paper. In preparation.
+In preparation.
 {: .paper-meta}
 
 We construct the first firm-level measure of exposure to critical raw materials (CRMs), inputs marked by extreme supply concentration and limited substitutability. We develop a production-network framework that traces material-specific flows through global product-level supply chains, showing that the product of cost shares along each supply-chain path summarizes a firm’s CRM vulnerability. We use large language models to transform this theoretical object into empirical measures. Event studies around trade shocks validate the measure and show that markets price both the intensity and material composition of CRM exposure. We further document the asset-pricing implications of CRM exposure at the aggregate and firm levels.
@@ -58,9 +58,6 @@ We construct the first firm-level measure of exposure to critical raw materials 
 {: .theme .theme-fin}
 
 ### Resistance and Arbitrage: International Trade in Brown Loans &ensp;<a href="https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0">[Draft]</a>
-Job market paper.
-{: .paper-meta}
-
 <p class="award">Yihong Xia Best Paper Award, CICF 2025</p>
 
 I develop a novel measure of carbon sensitivity in lending to assess reductions in portfolio exposure to brown assets. Using syndicated loan data, I show that countries with greater resistance to brown lending, proxied by economic development, experience faster shifts in the sectoral composition of loan portfolios. The decarbonization is driven primarily by domestic credit reallocation. I find consistent evidence of risk transfers to less regulated lenders and foreign countries, indicating arbitrage and incomplete regulations. Furthermore, lenders’ climate risk-taking and transfer behaviors vary sharply by syndicate role, loan type, and specialization. The existence of international trade in brown loans has important implications for supervisory evaluation. Using the European Central Bank’s climate guide, I show that accounting for regulatory leakage reveals effects contrary to common wisdom.

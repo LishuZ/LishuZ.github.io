@@ -21,7 +21,7 @@ View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/c
   padding-bottom: 0.2em;
   margin: 1.9em 0 0.7em;
 }
-.cv ul { margin: 0.3em 0 1em; }
+.cv ul { margin: 0.3em 0 1em; list-style: none; padding-left: 0; }
 .cv > ul > li { margin: 0.55em 0; line-height: 1.5; }
 .cv ul ul {
   list-style: none;

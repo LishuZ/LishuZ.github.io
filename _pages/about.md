@@ -11,12 +11,12 @@ header:
 excerpt: "PhD candidate in Economics, Tilburg University<br>Researcher in Finance, CREST (Paris)"
 feature_row:
   - title: "Job Market Paper 1"
-    excerpt: "**Critical Raw Material Dependency and Asset Pricing** — a firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications."
+    excerpt: "**Critical Raw Material Dependency and Asset Pricing**<br>A firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications."
     url: "#"
     btn_label: "Coming soon"
     btn_class: "btn--disabled"
   - title: "Job Market Paper 2"
-    excerpt: "**Resistance and Arbitrage: International Trade in Brown Loans** — a measure of carbon sensitivity in lending and the international transfer of climate risk.<br>*Yihong Xia Best Paper Award, CICF 2025.*"
+    excerpt: "**Resistance and Arbitrage: International Trade in Brown Loans**<br>A measure of carbon sensitivity in lending and the international transfer of climate risk.<br>*Yihong Xia Best Paper Award, CICF 2025.*"
     url: "https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0"
     btn_label: "Read draft"
     btn_class: "btn--primary"
@@ -27,12 +27,10 @@ feature_row:
 .page__hero--overlay {
   background: linear-gradient(
     90deg,
-    rgba(101, 49, 43, 0) 0%,
-    rgba(101, 49, 43, 0.72) 4%,
-    #65312B 8%,
-    #65312B 92%,
-    rgba(101, 49, 43, 0.72) 96%,
-    rgba(101, 49, 43, 0) 100%
+    rgba(101, 49, 43, 0.82) 0%,
+    #65312B 12%,
+    #65312B 88%,
+    rgba(101, 49, 43, 0.82) 100%
   ) !important;
   padding: 2.25em 1em;
 }
@@ -130,38 +128,46 @@ feature_row:
 .feature__item .archive__item-body {
   background: #fff;
   border-radius: 14px;
-  padding: 0.7em 1.25em 0.78em;
+  padding: 0.5em 1.25em 0.55em;
   box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
-  border: 1px solid #E1D2A3;
-  border-top: 5px solid #B9964A;
+  border: 1px solid #F4D34D;
+  border-top: 5px solid #F5C518;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 .feature__item .archive__item-body:hover {
   transform: translateY(-4px);
   box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
 }
-.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.22em; font-weight: 700; font-size: 1.1em; }
+.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.22em; font-weight: 700; font-size: 1.1em; text-align: center; }
 .feature__item .archive__item-excerpt { font-size: 0.93em; margin-bottom: 0.45em; }
 .feature__item .archive__item-body .btn {
+  display: block;
+  width: 100%;
+  text-align: center;
   font-size: 1em;
-  padding: 0.45em 0.8em;
-  margin-bottom: 0.05em;
+  padding: 0.5em 0.8em;
+  margin: 0.55em 0 0.05em;
+  margin-top: auto;
+  border-width: 2px;
+  border-radius: 8px;
 }
 .btn--primary {
   background-color: #fff !important;
-  border-color: #B9964A !important;
-  color: #8A6A22 !important;
+  border-color: #F5C518 !important;
+  color: #9A7A0E !important;
 }
 .btn--primary:hover {
-  background-color: #B9964A !important;
-  border-color: #B9964A !important;
-  color: #fff !important;
+  background-color: #F5C518 !important;
+  border-color: #F5C518 !important;
+  color: #65312B !important;
 }
 /* Muted "Coming soon" card (JMP1) */
 .feature__item:nth-child(1) .archive__item-body {
-  border-color: #E7DCB6;
-  border-top-color: #D3BF78;
+  border-color: #F7E08A;
+  border-top-color: #F2D24A;
   opacity: 0.65;
 }
 .feature__item:nth-child(1) .archive__item-body:hover {

@@ -36,10 +36,11 @@ feature_row:
   align-items: center;
   justify-content: center;
   gap: 2em;
-  max-width: 680px;
+  max-width: 880px;
   margin: 0 auto;
   padding-left: 3em;
 }
+.page__hero--overlay .page__lead { white-space: nowrap; }
 .page__hero--overlay .page__hero-avatar {
   flex: 0 0 30%;
   max-width: 220px;
@@ -71,6 +72,8 @@ feature_row:
     gap: 1.2em;
   }
   .page__hero--overlay .page__hero-avatar { width: 60%; }
+  .page__hero--overlay .page__hero-split { padding-left: 0; }
+  .page__hero--overlay .page__lead { white-space: normal; }
 }
 .page__hero--overlay .btn--light-outline {
   font-weight: 600;

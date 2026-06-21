@@ -26,7 +26,7 @@ redirect_from:
   font-family: "Source Serif 4", Georgia, Times, serif;
   font-weight: 600;
   color: #333;
-  font-size: 1em;
+  font-size: 0.9em;
   margin: -0.3em 0 0.8em;
 }
 </style>

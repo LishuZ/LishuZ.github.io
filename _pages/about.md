@@ -29,17 +29,17 @@ feature_row:
 /* ---- Minimal teal splash hero, split into two halves ---- */
 .page__hero--overlay {
   background-color: #2c3e50 !important;
-  padding: 3.5em 0;
+  padding: 2.25em 0;
 }
 .page__hero--overlay .page__hero-split {
   display: flex;
   align-items: center;
-  gap: 2.5em;
+  gap: 2em;
 }
 .page__hero--overlay .page__hero-avatar {
-  flex: 0 0 42%;
-  max-width: 320px;
-  width: 42%;
+  flex: 0 0 30%;
+  max-width: 220px;
+  width: 30%;
   height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;

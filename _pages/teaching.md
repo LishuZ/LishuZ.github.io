@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 <style>
+.teaching { font-size: 0.92em; }
 .teaching h2 {
   font-size: 1.15em;
   font-weight: 700;

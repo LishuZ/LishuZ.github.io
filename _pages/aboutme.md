@@ -7,6 +7,7 @@ redirect_from:
 ---
 
 <style>
+.about { font-size: 0.92em; }
 .about p { line-height: 1.7; }
 .about blockquote {
   border-left: 4px solid #2c3e50;

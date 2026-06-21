@@ -56,14 +56,16 @@ feature_row:
 .page__hero--overlay .page__title {
   font-size: 2em;
   font-weight: 700;
-  letter-spacing: -0.3px;
-  color: #4f3b24;
+  letter-spacing: 0;
+  color: #4f3b24 !important;
+  text-shadow: none !important;
 }
 .page__hero--overlay .page__lead {
   font-size: 1.05em;
   font-weight: 400;
   opacity: 1;
-  color: #4f3b24;
+  color: #4f3b24 !important;
+  text-shadow: none !important;
 }
 /* Stack vertically on small screens */
 @media (max-width: 600px) {
@@ -79,13 +81,14 @@ feature_row:
 .page__hero--overlay .btn--light-outline {
   font-weight: 600;
   border-width: 2px;
-  color: #4f3b24;
-  border-color: #4f3b24;
+  color: #4f3b24 !important;
+  border-color: #4f3b24 !important;
+  text-shadow: none !important;
 }
 .page__hero--overlay .btn--light-outline:hover {
   background-color: #4f3b24;
-  border-color: #4f3b24;
-  color: #fff;
+  border-color: #4f3b24 !important;
+  color: #fff !important;
 }
 
 /* ---- Two JMP cards below the panel ---- */

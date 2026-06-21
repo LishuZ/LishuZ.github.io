@@ -34,7 +34,11 @@ feature_row:
 .page__hero--overlay .page__hero-split {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2em;
+  max-width: 680px;
+  margin: 0 auto;
+  padding-left: 3em;
 }
 .page__hero--overlay .page__hero-avatar {
   flex: 0 0 30%;
@@ -48,7 +52,7 @@ feature_row:
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
   margin: 0;
 }
-.page__hero--overlay .page__hero-text { flex: 1 1 auto; }
+.page__hero--overlay .page__hero-text { flex: 0 1 auto; }
 .page__hero--overlay .page__title {
   font-size: 2.2em;
   font-weight: 700;

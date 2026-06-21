@@ -86,6 +86,7 @@ feature_row:
   }
   .page__hero--overlay .page__hero-split { padding-left: 0; }
   .page__hero--overlay .page__hero-text { top: 0; }
+  .page__hero--overlay .page__title { font-size: 1.5em; }
   .page__hero--overlay .page__lead { white-space: normal; }
 }
 .page__hero--overlay .btn--light-outline {

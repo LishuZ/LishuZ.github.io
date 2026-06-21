@@ -51,16 +51,16 @@ feature_row:
   border-radius: 14px;
   border: 4px solid rgba(255, 255, 255, 0.9);
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
-  margin: 0;
+  margin: 0 0 0 -1em;
 }
 .page__hero--overlay .page__hero-text { flex: 0 1 auto; }
 .page__hero--overlay .page__title {
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: 700;
   letter-spacing: -0.3px;
 }
 .page__hero--overlay .page__lead {
-  font-size: 1.15em;
+  font-size: 1.05em;
   font-weight: 400;
   opacity: 0.95;
 }

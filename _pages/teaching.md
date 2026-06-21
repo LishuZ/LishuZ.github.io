@@ -26,9 +26,10 @@ redirect_from:
 
 I have engaged substantially in teaching activities at Tilburg University.
 
-## Thesis Supervision
+## Thesis Supervision and Grading
 
-* Since 2021 — Bachelor’s and Master’s theses, 6–8 per year.
+* Bachelor’s theses — supervision, 6–8 per year (since 2021).
+* Master’s theses — grading and evaluation.
 
 ## Teaching Assistant
 

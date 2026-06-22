@@ -34,7 +34,7 @@ I am a fifth-year PhD candidate in Economics at Tilburg University and, since No
 
 I was born in Jiangyin (江阴), a city on the banks of the Yangtze River. Rich in history and culture, it was also among the first places in China to embrace a market economy, with private enterprise flourishing early. That blend of deep cultural roots and bold entrepreneurial spirit has shaped who I am.
 
-Over the past decade I have made a home in three European countries — France (Bordeaux, and now Paris), Sweden (Stockholm), and the Netherlands (Tilburg). I have always been drawn to the experience of different cultures, the collision of ideas, and conversations with people from every walk of life.
+I have always been drawn to different cultures, the collision of ideas, and conversations with people from every walk of life. Over the past decade, I have made a home in three European countries: France (Bordeaux, and now Paris), Sweden (Stockholm), and the Netherlands (Tilburg). These experiences have taught me to adapt quickly, stay steady in unfamiliar environments, and remain open to different ways of thinking. They also shape how I work: I am comfortable with uncertainty, attentive to different perspectives, and persistent in finding a way forward.
 
 Outside research, I am endlessly curious and easily delighted — by new places, new languages, and a good conversation most of all.
 

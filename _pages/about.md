@@ -106,7 +106,6 @@ author_profile: false
 <div class="paper">
   <span class="status">Coming soon</span>
   <div class="ptitle">Critical Raw Material Dependency and Asset Pricing</div>
-  <div class="pmeta">Job market paper</div>
   <p class="abs">A firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications.</p>
 </div>
 

@@ -58,3 +58,62 @@ $accent-blue:   #A8C7CE;
   color: $accent-sienna;
   margin: 1.5em 0 0.35em;
 }
+
+/* ==========================================================================
+   Variant B — "simple & elegant, warm"
+   Serif (Source Serif 4) display + sienna/blue accents on a warm cream ground.
+   Site-wide: background, masthead, page title, links.
+   ========================================================================== */
+
+$cream: #FAF7F2;
+
+/* Calmer, warmer page ground (replaces the pinker default gradient) */
+body {
+  background:
+    radial-gradient(ellipse at 14% 16%, rgba(231, 194, 74, 0.05), transparent 38%),
+    radial-gradient(ellipse at 84% 86%, rgba(168, 199, 206, 0.06), transparent 40%),
+    linear-gradient(180deg, #FBF8F3 0%, $cream 60%, #F7F1E9 100%) !important;
+}
+
+/* --- Page title (used as the big name on the homepage, and on inner pages) --- */
+.page__title {
+  font-family: $header-font-family; // Source Serif 4
+  color: $accent-sienna;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+/* --- Masthead: quiet warm bar, serif brand, gold tick on current page --- */
+.masthead {
+  background: rgba(251, 248, 243, 0.92) !important;
+  -webkit-backdrop-filter: saturate(1.1) blur(6px);
+          backdrop-filter: saturate(1.1) blur(6px);
+  border-bottom: 1px solid rgba(94, 64, 52, 0.14) !important;
+}
+.masthead__inner-wrap a {
+  color: $accent-sienna !important;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  &:hover { color: $accent-blue !important; border-bottom-color: $accent-blue !important; }
+}
+.masthead__menu-item--lg a {
+  font-family: $header-font-family; // serif brand name
+  font-weight: 600 !important;
+  font-size: 1.18em;
+  letter-spacing: -0.01em;
+}
+.greedy-nav a.current,
+.masthead__menu-item a.current {
+  color: #2f2523 !important;
+  border-bottom: 2px solid $accent-gold;
+  padding-bottom: 2px;
+}
+
+/* --- Links inside content: dusty blue, restrained --- */
+$blue-link: #6E97A0; // darkened dusty blue for readable links
+.page__content a:not(.btn):not([class*="archive"]) {
+  color: $blue-link;
+}
+.page__content a:not(.btn):not([class*="archive"]):hover {
+  color: $accent-sienna;
+}

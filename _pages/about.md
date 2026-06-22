@@ -3,200 +3,119 @@ permalink: /
 title: "Lishu Zhang / 张郦姝"
 layout: splash
 author_profile: false
-header:
-  overlay_color: "#664232"
-  avatar: "newpic.jpg"
-  cta_url: "/research/"
-  cta_label: "Explore my research"
-excerpt: "PhD candidate in Economics, Tilburg University<br>Researcher in Finance, CREST (Paris)"
-feature_row:
-  - title: "JMP I"
-    excerpt: "**Critical Raw Material Dependency and Asset Pricing** A firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications."
-    url: "#"
-    btn_label: "Coming soon"
-    btn_class: "btn--disabled"
-  - title: "JMP II"
-    excerpt: "**Resistance and Arbitrage: International Trade in Brown Loans** A measure of carbon sensitivity in lending and the international transfer of climate risk.<br>*Yihong Xia Best Paper Award, CICF 2025.*"
-    url: "https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0"
-    btn_label: "Read draft"
-    btn_class: "btn--primary"
 ---
 
 <style>
-/* ---- Homepage hero, split into two halves ---- */
-.page__hero--overlay {
-  background: #664232 !important;
-  padding: 2.25em 1em;
-}
-.page__hero--overlay .page__hero-split {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2em;
-  max-width: 880px;
-  margin: 0 auto;
-  padding-left: 3em;
-}
-.page__hero--overlay .page__lead { white-space: nowrap; }
-.page__hero--overlay .page__hero-avatar {
-  flex: 0 0 30%;
-  max-width: 220px;
-  width: 30%;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 14px;
-  border: 4px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
-  margin: 0 0 0 -1em;
-  position: relative;
-  left: -1.8em;
-}
-.page__hero--overlay .page__hero-text { flex: 0 1 auto; position: relative; top: 0.7em; }
-.page__hero--overlay .page__title {
-  font-size: 2em;
-  font-weight: 700;
-  letter-spacing: 0;
-  color: #fff !important;
-  text-shadow: 0 2px 10px rgba(47, 37, 35, 0.22) !important;
-}
-.page__hero--overlay .page__lead {
-  font-size: 1.05em;
-  font-weight: 400;
-  opacity: 1;
-  color: #fff !important;
-  text-shadow: 0 1px 8px rgba(47, 37, 35, 0.18) !important;
-}
-/* Stack vertically on small screens */
-@media (max-width: 600px) {
-  .page__hero--overlay {
-    background: #664232 !important;
-    padding: 1.65em 1em 1.9em;
-  }
-  .page__hero--overlay .page__hero-split {
-    flex-direction: column;
-    text-align: center;
-    gap: 1.2em;
-  }
-  .page__hero--overlay .page__hero-avatar {
-    width: 60%;
-    max-width: 220px;
-    margin: 0 auto;
-    left: 0;
-  }
-  .page__hero--overlay .page__hero-split { padding-left: 0; }
-  .page__hero--overlay .page__hero-text { top: 0; }
-  .page__hero--overlay .page__title { font-size: 1.5em; }
-  .page__hero--overlay .page__lead { white-space: normal; }
-}
-.page__hero--overlay .btn--light-outline {
+/* ==========================================================================
+   Homepage — Variant B (simple & elegant, warm)
+   ========================================================================== */
+$sienna: #5E4034;
+
+.home { max-width: 720px; margin: 0 auto; padding: 0 0 1em; }
+
+/* Name + role */
+.home .lead-name {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 2.3rem;
   font-weight: 600;
-  border-width: 2px;
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff !important;
-  border-color: #fff !important;
-  box-shadow: 0 6px 18px rgba(47, 37, 35, 0.13);
-  text-shadow: 0 1px 6px rgba(47, 37, 35, 0.14) !important;
+  letter-spacing: -0.012em;
+  line-height: 1.1;
+  color: #5E4034;
+  margin: 0 0 0.15em;
 }
-.page__hero--overlay .btn--light-outline:hover {
-  background-color: #fff;
-  border-color: #fff !important;
-  color: #5E4034 !important;
+.home .lead-name .cn { font-weight: 500; color: #8a7a6e; font-size: 0.66em; margin-left: 0.3em; }
+.home .lead-role { font-size: 1.02rem; color: #74695f; margin: 0 0 1.7em; }
+
+/* Intro: photo beside bio */
+.home .intro-row { display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 1.1em; }
+.home .intro-photo {
+  width: 156px; height: 192px; flex: 0 0 156px;
+  object-fit: cover; border-radius: 6px;
+  border: 1px solid #e6ddd2; box-shadow: 0 3px 14px rgba(94, 64, 52, 0.12);
+}
+.home .intro-text p { margin: 0 0 0.7em; }
+.home .contact { font-size: 0.92rem; color: #74695f; }
+.home .contact a { border-bottom: 0; }
+.home .intro-extra { margin: 0.2em 0 0; }
+
+/* Section heading (serif sienna + short blue tick) */
+.home .home-h2 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.35rem; font-weight: 600; color: #5E4034;
+  letter-spacing: -0.005em; margin: 2.4rem 0 0;
+}
+.home .home-h2::after {
+  content: ""; display: block; width: 44px; height: 3px;
+  background: #A8C7CE; border-radius: 2px; margin: 0.6em 0 1.1em;
 }
 
-/* ---- Two JMP cards below the panel ---- */
-.feature__wrapper {
-  border-bottom: none !important;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.22em;
-  margin: 1.25em auto 0;
+/* Paper entries */
+.home .paper { margin: 0 0 1.5em; }
+.home .paper .ptitle { font-weight: 600; font-size: 1.06rem; line-height: 1.42; letter-spacing: -0.005em; }
+.home .paper .ptitle a { color: #241f1b !important; border-bottom: 1.5px solid #A8C7CE; }
+.home .paper .ptitle a:hover { color: #241f1b !important; border-bottom-color: #6E97A0; }
+.home .paper .pmeta { font-size: 0.9rem; color: #74695f; margin: 0.2em 0 0.45em; }
+.home .paper .award { color: #5E4034; font-style: italic; }
+.home .paper .abs { font-size: 0.96rem; color: #3a352f; margin: 0; }
+.home .status {
+  display: inline-block; font-size: 0.7rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.07em;
+  color: #5d6e73; background: #eaf1f3; border: 1px solid #cfe0e4;
+  border-radius: 20px; padding: 3px 11px; margin-bottom: 0.5em;
 }
-.feature__wrapper .feature__item {
-  float: none;
-  width: 47%;
-  max-width: 470px;
-  margin: 0;
-  font-size: 1rem;
+
+/* Errands note */
+.home .errands-note {
+  margin-top: 3.2rem; padding-top: 1.4rem; border-top: 1px solid #e6ddd2;
+  font-size: 0.97rem; color: #74695f; font-style: italic;
 }
-.feature__item .archive__item-body {
-  background: #fff;
-  border-radius: 14px;
-  padding: 0.75em 1.3em 0.45em;
-  box-shadow: 0 12px 30px rgba(47, 37, 35, 0.10);
-  border: 1px solid rgba(168, 199, 206, 0.40);
-  border-top: 5px solid rgba(168, 199, 206, 0.72);
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-.feature__item .archive__item-body:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 34px rgba(20, 20, 60, 0.16);
-}
-.feature__item .archive__item-title { margin-top: 0.05em; margin-bottom: 0.38em; font-weight: 700; font-size: 1.35em; text-align: center; color: #5E4034; }
-.feature__item .archive__item-excerpt { font-size: 0.93em; line-height: 1.45; margin-bottom: 0.12em; color: #1A1A1A; }
-.feature__item .archive__item-excerpt strong { display: block; font-size: 1.18em; line-height: 1.3; margin-bottom: 0.35em; color: #1A1A1A; }
-.feature__item .archive__item-body .btn {
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: 1em;
-  padding: 0.32em 0.8em;
-  margin: 0;
-  border-width: 2px;
-  border-radius: 8px;
-}
-.btn--primary {
-  background-color: #EEF3F6 !important;
-  border-color: rgba(168, 199, 206, 0.72) !important;
-  color: #3C5566 !important;
-}
-.btn--primary:hover {
-  background-color: rgba(168, 199, 206, 0.35) !important;
-  border-color: rgba(168, 199, 206, 0.72) !important;
-  color: #3C5566 !important;
-}
-/* Muted "Coming soon" card (JMP1) */
-.feature__item:nth-child(1) .archive__item-body {
-  border-color: rgba(168, 199, 206, 0.24);
-  border-top-color: rgba(168, 199, 206, 0.44);
-  opacity: 0.65;
-}
-.feature__item:nth-child(1) .archive__item-body:hover {
-  transform: none;
-  box-shadow: 0 8px 24px rgba(20, 20, 60, 0.10);
-}
-.btn--disabled {
-  background-color: #F7F4F5 !important;
-  border-color: rgba(168, 199, 206, 0.24) !important;
-  color: #7A7074 !important;
-  pointer-events: none;
-  cursor: default;
-}
+.home .errands-note a { color: #5E4034 !important; font-weight: 600; font-style: normal; border-bottom: 1.5px solid #E7C24A; }
+
 @media (max-width: 600px) {
-  .feature__wrapper .feature__item { width: 100%; max-width: none; }
+  .home .lead-name { font-size: 1.9rem; }
+  .home .intro-row { flex-direction: column; gap: 1.2rem; }
+  .home .intro-photo { width: 140px; height: 172px; flex: 0 0 auto; }
 }
-
-/* ---- Welcome line + intro text ---- */
-.page__content .welcome-line {
-  text-align: center;
-  font-size: 1.45em;
-  font-weight: 700;
-  margin: 0 auto;
-}
-.page__content .intro { max-width: 42em; margin: 1.4em auto 0; }
 </style>
 
-<p class="welcome-line">Welcome to my personal website!</p>
+<div class="home" markdown="0">
 
-{% include feature_row %}
+<h1 class="lead-name">Lishu Zhang <span class="cn">张郦姝</span></h1>
+<p class="lead-role">Financial Economist · PhD candidate, Tilburg University · Researcher, CREST (Paris)</p>
 
-<div class="intro" markdown="1">
+<div class="intro-row">
+  <img class="intro-photo" src="/images/newpic.jpg" alt="Lishu Zhang">
+  <div class="intro-text">
+    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris. My research interests lie within Trade, Environmental Economics, and Finance.</p>
+    <p class="contact">l.zhang_3@tilburguniversity.edu&nbsp;·&nbsp;<a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="/cv/">CV</a></p>
+  </div>
+</div>
 
-I am a fifth-year PhD candidate in Economics at Tilburg University. My research interests lie broadly within Trade, Environmental Economics, and Finance. My current research is in Climate Finance, where I draw on trade and macroeconomic theory to motivate and structure empirical tests. I am supervised by Prof. Harry Huizinga, Prof. Harald Benink, and Dr. Louis Raes. I joined CREST (Finance group) from 1 Nov 2025 as a researcher in Paris.
+<p class="intro-extra">My research agenda studies how global financial markets respond to climate change and how these responses redistribute climate-related risks across countries, firms, and investors. My dissertation examines this through cross-border equity investment, M&amp;A, and bank lending. At CREST I extend the agenda to critical raw material (CRM) risk, studying how supply-chain dependencies shape firm vulnerability and asset prices.</p>
 
-My research agenda studies how global financial markets respond to climate change and how these responses redistribute climate-related risks across countries, firms, and investors. My dissertation examines this question through cross-border equity investment, M&A, and bank lending, focusing on the financing and control of brown assets. At CREST, I extend this agenda to critical raw material (CRM) risk, shifting attention from the risks of carbon-intensive assets to the material bottlenecks created by the green transition. This new line of work combines trade, climate finance, and AI-assisted measurement to study how supply-chain dependencies shape firm vulnerability and asset prices.
+<h2 class="home-h2">Job Market Papers</h2>
+
+<div class="paper">
+  <span class="status">Coming soon</span>
+  <div class="ptitle">Critical Raw Material Dependency and Asset Pricing</div>
+  <div class="pmeta">Job market paper</div>
+  <p class="abs">A firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications.</p>
+</div>
+
+<div class="paper">
+  <div class="ptitle"><a href="https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0">Resistance and Arbitrage: International Trade in Brown Loans</a></div>
+  <div class="pmeta"><span class="award">Yihong Xia Best Paper Award, CICF 2025</span></div>
+  <p class="abs">A measure of carbon sensitivity in lending and the international transfer of climate risk through cross-border bank lending.</p>
+</div>
+
+<h2 class="home-h2">Selected Work</h2>
+
+<div class="paper">
+  <div class="ptitle"><a href="https://cepr.org/publications/dp18856">International ownership of brown shares and economic development</a></div>
+  <div class="pmeta">with Harald Benink, Harry Huizinga, and Louis Raes</div>
+  <p class="abs">How carbon-intensive firms come to be owned across countries, and how rich-country divestment reallocates them toward owners associated with worse environmental outcomes.</p>
+</div>
+
+<p class="errands-note">Away from research, I keep a small corner of this site — <a href="/about/">Errands</a> — with photos and notes from the road (and my cats). 🐈</p>
 
 </div>

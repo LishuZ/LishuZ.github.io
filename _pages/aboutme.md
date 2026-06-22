@@ -86,7 +86,7 @@ Outside research, I am endlessly curious and easily delighted — by sunshine af
 </div>
 <aside class="about-side" aria-label="Two cats looking out through a window">
   <img class="journey-cats-photo" src="/images/journey-cats-window.jpg" alt="Two cats looking out through a window">
-  <p class="journey-cats-caption">My fav RAs --- Lychee &amp; Yoda, in Paris</p>
+  <p class="journey-cats-caption">My fav RAs, Lychee &amp; Yoda, in Paris</p>
 </aside>
 </div>
 </div>

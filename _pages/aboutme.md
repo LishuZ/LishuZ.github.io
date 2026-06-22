@@ -37,7 +37,7 @@ redirect_from:
 .about blockquote cite { display: block; margin-top: 0.5em; text-align: right; font-size: 0.82em; color: #9A8F82; font-style: normal; }
 .about-side {
   margin-top: 0.3em;
-  transform: translateX(1.6em);
+  transform: translateX(2.5em);
 }
 .journey-cats-photo {
   display: block;
@@ -49,7 +49,7 @@ redirect_from:
 .journey-cats-caption {
   margin: 0.55em 0 0;
   color: #7A7074;
-  font-size: 0.68em;
+  font-size: 0.5em;
   font-style: italic;
   text-align: center;
 }
@@ -86,7 +86,7 @@ Outside research, I am endlessly curious and easily delighted — by sunshine af
 </div>
 <aside class="about-side" aria-label="Two cats looking out through a window">
   <img class="journey-cats-photo" src="/images/journey-cats-window.jpg" alt="Two cats looking out through a window">
-  <p class="journey-cats-caption">My fav RAs -- Lychee &amp; Yoda, in Paris.</p>
+  <p class="journey-cats-caption">My fav RAs --- Lychee &amp; Yoda, in Paris</p>
 </aside>
 </div>
 </div>

@@ -74,10 +74,11 @@ author_profile: false
 .home .paper .award { color: #5E4034; font-style: italic; }
 .home .paper .abs { font-size: 0.95rem; color: #3a352f; margin: 0; }
 .home .status {
-  display: inline-block; font-size: 0.7rem; font-weight: 700;
+  display: inline-block; font-size: 0.62rem; font-weight: 700;
   text-transform: uppercase; letter-spacing: 0.07em;
   color: #5d6e73; background: #eaf1f3; border: 1px solid #cfe0e4;
-  border-radius: 20px; padding: 3px 11px; margin-bottom: 0.5em;
+  border-radius: 20px; padding: 2px 9px; margin-left: 0.5em;
+  vertical-align: middle; position: relative; top: -1px;
 }
 
 @media (max-width: 600px) {
@@ -108,8 +109,7 @@ author_profile: false
 <h2 class="home-h2">Job Market Papers</h2>
 
 <div class="paper">
-  <span class="status">Coming soon</span>
-  <div class="ptitle">Critical Raw Material Dependency and Asset Pricing</div>
+  <div class="ptitle">Critical Raw Material Dependency and Asset Pricing <span class="status">Coming soon</span></div>
   <p class="abs">A firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications.</p>
 </div>
 

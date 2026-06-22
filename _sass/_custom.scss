@@ -76,31 +76,49 @@ $accent-blue:   #A8C7CE;
   letter-spacing: -0.012em;
 }
 
-/* --- Masthead: quiet warm bar, serif brand, gold tick on current page --- */
+/* --- Masthead: dark warm bar, white text, gold underline on current page --- */
+$bar-dark: #2F2523;
+
 .masthead {
-  background: rgba(251, 248, 243, 0.92) !important;
-  -webkit-backdrop-filter: saturate(1.1) blur(6px);
-          backdrop-filter: saturate(1.1) blur(6px);
-  border-bottom: 1px solid rgba(94, 64, 52, 0.14) !important;
+  background: $bar-dark !important;
+  border-bottom: 1px solid rgba(231, 194, 74, 0.30) !important;
 }
-.masthead__inner-wrap a {
-  color: $accent-sienna !important;
+.greedy-nav { background: $bar-dark !important; }
+
+.masthead__inner-wrap a,
+.greedy-nav a {
+  color: #F3ECE6 !important;
   font-weight: 500;
   letter-spacing: 0.005em;
-  &:hover { color: $accent-blue !important; border-bottom-color: $accent-blue !important; }
 }
+.masthead__inner-wrap a:hover,
+.greedy-nav a:hover { color: $accent-gold !important; }
+
 .masthead__menu-item--lg a {
   font-family: $header-font-family; // serif brand name
   font-weight: 600 !important;
   font-size: 1.18em;
   letter-spacing: -0.01em;
+  color: #ffffff !important;
 }
-.greedy-nav a.current,
-.masthead__menu-item a.current {
-  color: #2f2523 !important;
-  border-bottom: 2px solid $accent-gold;
-  padding-bottom: 2px;
+
+/* animated underline → gold; drop the pale pill on the current item */
+.greedy-nav .visible-links a:before { background: $accent-gold !important; height: 3px; }
+.greedy-nav .visible-links a.current,
+.greedy-nav .visible-links a.current:hover {
+  color: #ffffff !important;
+  background: transparent !important;
 }
+
+/* hamburger icon stays light on small screens */
+.greedy-nav .navicon,
+.greedy-nav .navicon:before,
+.greedy-nav .navicon:after { background: #F3ECE6 !important; }
+
+/* responsive overflow dropdown: light panel keeps dark, readable links */
+.greedy-nav .hidden-links { background: #fff !important; }
+.greedy-nav .hidden-links a { color: $bar-dark !important; }
+.greedy-nav .hidden-links a:hover { color: $bar-dark !important; background: #F3EEE9 !important; }
 
 /* --- Links inside content: dusty blue, restrained --- */
 $blue-link: #6E97A0; // darkened dusty blue for readable links

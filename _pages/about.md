@@ -7,56 +7,48 @@ author_profile: false
 
 <style>
 /* ==========================================================================
-   Homepage — Variant B (simple & elegant, warm)
+   Homepage — Variant B (centered, simple & elegant, warm)
    ========================================================================== */
-$sienna: #5E4034;
+.home { max-width: 660px; margin: 0 auto; padding: 0 0 1em; }
 
-.home { max-width: 720px; margin: 0 auto; padding: 0 0 1em; }
-
-/* Name + role */
+/* --- Centered identity header --- */
+.home .home-head { text-align: center; margin-bottom: 2.4em; }
 .home .lead-name {
   font-family: "Source Serif 4", Georgia, serif;
-  font-size: 2.3rem;
-  font-weight: 600;
-  letter-spacing: -0.012em;
-  line-height: 1.1;
-  color: #5E4034;
-  margin: 0 0 0.15em;
+  font-size: 2.15rem; font-weight: 600; letter-spacing: -0.012em;
+  line-height: 1.12; color: #5E4034; margin: 0 0 0.12em;
 }
-.home .lead-name .cn { font-weight: 500; color: #8a7a6e; font-size: 0.66em; margin-left: 0.3em; }
-.home .lead-role { font-size: 1.02rem; color: #74695f; margin: 0 0 1.7em; }
-
-/* Intro: photo beside bio */
-.home .intro-row { display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 1.1em; }
+.home .lead-name .cn { font-weight: 500; color: #8a7a6e; font-size: 0.66em; margin-left: 0.25em; }
+.home .lead-role { font-size: 1rem; color: #74695f; margin: 0; }
 .home .intro-photo {
-  width: 156px; height: 192px; flex: 0 0 156px;
-  object-fit: cover; border-radius: 6px;
-  border: 1px solid #e6ddd2; box-shadow: 0 3px 14px rgba(94, 64, 52, 0.12);
+  display: block; width: 152px; height: 186px; object-fit: cover;
+  border-radius: 8px; border: 1px solid #e6ddd2;
+  box-shadow: 0 4px 16px rgba(94, 64, 52, 0.14);
+  margin: 1.5em auto 1.25em;
 }
-.home .intro-text p { margin: 0 0 0.7em; }
-.home .contact { font-size: 0.92rem; color: #74695f; }
-.home .contact a { border-bottom: 0; }
-.home .intro-extra { margin: 0.2em 0 0; }
+.home .contact { font-size: 0.9rem; color: #74695f; margin: 0 0 1.4em; }
+.home .contact a { color: #6E97A0; border-bottom: 0; }
+.home .bio { max-width: 38em; margin: 0 auto 0.9em; color: #3a352f; }
 
-/* Section heading (serif sienna + short blue tick) */
+/* --- Section heading: centered serif sienna + centered blue tick --- */
 .home .home-h2 {
   font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1.35rem; font-weight: 600; color: #5E4034;
-  letter-spacing: -0.005em; margin: 2.4rem 0 0;
+  font-size: 1.3rem; font-weight: 600; color: #5E4034;
+  letter-spacing: -0.005em; text-align: center; margin: 2.6rem 0 0;
 }
 .home .home-h2::after {
   content: ""; display: block; width: 44px; height: 3px;
-  background: #A8C7CE; border-radius: 2px; margin: 0.6em 0 1.1em;
+  background: #A8C7CE; border-radius: 2px; margin: 0.6em auto 1.3em;
 }
 
-/* Paper entries */
+/* --- Paper entries: left-aligned for readability, inside the centered column --- */
 .home .paper { margin: 0 0 1.5em; }
-.home .paper .ptitle { font-weight: 600; font-size: 1.06rem; line-height: 1.42; letter-spacing: -0.005em; }
+.home .paper .ptitle { font-weight: 600; font-size: 1.04rem; line-height: 1.42; letter-spacing: -0.005em; }
 .home .paper .ptitle a { color: #241f1b !important; border-bottom: 1.5px solid #A8C7CE; }
 .home .paper .ptitle a:hover { color: #241f1b !important; border-bottom-color: #6E97A0; }
 .home .paper .pmeta { font-size: 0.9rem; color: #74695f; margin: 0.2em 0 0.45em; }
 .home .paper .award { color: #5E4034; font-style: italic; }
-.home .paper .abs { font-size: 0.96rem; color: #3a352f; margin: 0; }
+.home .paper .abs { font-size: 0.95rem; color: #3a352f; margin: 0; }
 .home .status {
   display: inline-block; font-size: 0.7rem; font-weight: 700;
   text-transform: uppercase; letter-spacing: 0.07em;
@@ -64,34 +56,29 @@ $sienna: #5E4034;
   border-radius: 20px; padding: 3px 11px; margin-bottom: 0.5em;
 }
 
-/* Errands note */
+/* --- Errands note (centered) --- */
 .home .errands-note {
-  margin-top: 3.2rem; padding-top: 1.4rem; border-top: 1px solid #e6ddd2;
-  font-size: 0.97rem; color: #74695f; font-style: italic;
+  text-align: center; margin-top: 3.2rem; padding-top: 1.5rem;
+  border-top: 1px solid #e6ddd2; font-size: 0.96rem; color: #74695f; font-style: italic;
 }
 .home .errands-note a { color: #5E4034 !important; font-weight: 600; font-style: normal; border-bottom: 1.5px solid #E7C24A; }
 
 @media (max-width: 600px) {
-  .home .lead-name { font-size: 1.9rem; }
-  .home .intro-row { flex-direction: column; gap: 1.2rem; }
-  .home .intro-photo { width: 140px; height: 172px; flex: 0 0 auto; }
+  .home .lead-name { font-size: 1.8rem; }
+  .home .intro-photo { width: 138px; height: 168px; }
 }
 </style>
 
 <div class="home" markdown="0">
 
-<h1 class="lead-name">Lishu Zhang <span class="cn">张郦姝</span></h1>
-<p class="lead-role">Financial Economist · PhD candidate, Tilburg University · Researcher, CREST (Paris)</p>
-
-<div class="intro-row">
+<div class="home-head">
+  <h1 class="lead-name">Lishu Zhang <span class="cn">张郦姝</span></h1>
+  <p class="lead-role">Financial Economist · PhD candidate, Tilburg University · Researcher, CREST (Paris)</p>
   <img class="intro-photo" src="/images/newpic.jpg" alt="Lishu Zhang">
-  <div class="intro-text">
-    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris. My research interests lie within Trade, Environmental Economics, and Finance.</p>
-    <p class="contact">l.zhang_3@tilburguniversity.edu&nbsp;·&nbsp;<a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="/cv/">CV</a></p>
-  </div>
+  <p class="contact">l.zhang_3@tilburguniversity.edu<br><a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="/cv/">CV</a></p>
+  <p class="bio">I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris. My research interests lie within Trade, Environmental Economics, and Finance.</p>
+  <p class="bio">My agenda studies how global financial markets respond to climate change and how these responses redistribute climate-related risks across countries, firms, and investors — through cross-border equity investment, M&amp;A, bank lending, and, at CREST, critical raw material (CRM) risk.</p>
 </div>
-
-<p class="intro-extra">My research agenda studies how global financial markets respond to climate change and how these responses redistribute climate-related risks across countries, firms, and investors. My dissertation examines this through cross-border equity investment, M&amp;A, and bank lending. At CREST I extend the agenda to critical raw material (CRM) risk, studying how supply-chain dependencies shape firm vulnerability and asset prices.</p>
 
 <h2 class="home-h2">Job Market Papers</h2>
 

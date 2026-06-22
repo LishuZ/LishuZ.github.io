@@ -9,35 +9,40 @@ redirect_from:
 ---
 
 <style>
-/* ---- Tighter, slightly smaller research text ---- */
-.page__content { font-size: 0.95em; }
+/* ---- Research page — Variant B (simple & elegant, warm) ---- */
+.page__content { font-size: 0.97em; max-width: 720px; }
 .page__content p:not([class]),
 .page__content p.abstract,
-.page__content li { line-height: 1.5; }
-/* Uniform spacing: meta line hugs the title, equal gap before every abstract */
-.page__content h3:not([class]) { color: #1A1A1A; margin: 1em 0 0.25em; }
-.page__content h3:not([class]) a { font-size: 0.82em; font-weight: 400; white-space: nowrap; }
-.page__content p.paper-meta { margin: 0 0 0.15em; font-size: 0.9em; font-weight: 400; color: #5C4A45; }
-.page__content p.abstract { margin: 0.6em 0 0; max-width: 42em; }
-/* ---- Light color panels for research themes ---- */
+.page__content li { line-height: 1.6; }
+
+/* Theme headings: serif sienna with a short blue tick (no panel) */
 .page__content h2.theme {
+  font-family: "Source Serif 4", Georgia, serif;
   color: #5E4034;
-  font-size: 1.15em;
-  font-weight: 700;
-  padding: 0.45em 0.7em;
-  border-radius: 10px;
-  border-left: 6px solid #5E4034;
-  margin-top: 1.1em;
-  margin-bottom: 0.4em;
+  font-size: 1.35em;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 2.4em 0 0;
 }
-.page__content h2.theme ~ h2.theme { margin-top: 2em; }
-.page__content h2.theme-crm { background: #fff; border-left-color: #5E4034; }
-.page__content h2.theme-fin { background: #F8FAF7; border-left-color: #D8CDD3; }
-.page__content h2.theme-esg { background: #fff; border-left-color: #D8CDD3; }
+.page__content h2.theme::after {
+  content: ""; display: block; width: 44px; height: 3px;
+  background: #A8C7CE; border-radius: 2px; margin: 0.55em 0 0.9em;
+}
+.page__content h2.theme:first-of-type { margin-top: 0.6em; }
+
+/* Paper titles */
+.page__content h3:not([class]) { color: #241f1b; font-size: 1.12em; font-weight: 600; margin: 1.25em 0 0.2em; }
+.page__content h3:not([class]) a { font-size: 0.8em; font-weight: 500; white-space: nowrap; color: #6E97A0; }
+.page__content p.paper-meta { margin: 0 0 0.2em; font-size: 0.9em; font-weight: 400; color: #74695f; }
+.page__content p.abstract { margin: 0.55em 0 0; max-width: 42em; color: #3a352f; }
 .page__content p.award {
   font-family: "Source Serif 4", Georgia, Times, serif;
   font-weight: 600;
-  color: #2F2523;
+  font-style: italic;
+  color: #5E4034;
   font-size: 0.9em;
   margin: 0;
 }

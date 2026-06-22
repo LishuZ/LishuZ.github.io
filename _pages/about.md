@@ -7,12 +7,14 @@ author_profile: false
 
 <style>
 /* ==========================================================================
-   Homepage — Variant B (centered, simple & elegant, warm)
+   Homepage — Variant B (warm, elegant)
+   Centered name; photo on the left with bio + contact vertically centered
+   beside it; left-aligned research list.
    ========================================================================== */
 .home { max-width: 660px; margin: 0 auto; padding: 0 0 1em; }
 
-/* --- Centered identity header --- */
-.home .home-head { text-align: center; margin-bottom: 2.4em; }
+/* --- Name + role (centered) --- */
+.home .home-head { text-align: center; margin-bottom: 1.6em; }
 .home .lead-name {
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 2.15rem; font-weight: 600; letter-spacing: -0.012em;
@@ -20,15 +22,22 @@ author_profile: false
 }
 .home .lead-name .cn { font-weight: 500; color: #8a7a6e; font-size: 0.66em; margin-left: 0.25em; }
 .home .lead-role { font-size: 1rem; color: #74695f; margin: 0; }
+
+/* --- Photo left, bio + email vertically centered on the right --- */
+.home .intro-row { display: flex; gap: 1.9rem; align-items: center; margin-bottom: 1.4em; }
 .home .intro-photo {
-  display: block; width: 152px; height: 186px; object-fit: cover;
+  flex: 0 0 152px; width: 152px; height: 186px; object-fit: cover;
   border-radius: 8px; border: 1px solid #e6ddd2;
   box-shadow: 0 4px 16px rgba(94, 64, 52, 0.14);
-  margin: 1.5em auto 1.25em;
 }
-.home .contact { font-size: 0.9rem; color: #74695f; margin: 0 0 1.4em; }
+.home .intro-text { flex: 1 1 auto; }
+.home .intro-text p { margin: 0 0 0.7em; }
+.home .intro-text p:last-child { margin-bottom: 0; }
+.home .contact { font-size: 0.9rem; color: #74695f; line-height: 1.55; }
 .home .contact a { color: #6E97A0; border-bottom: 0; }
-.home .bio { max-width: 38em; margin: 0 auto 0.9em; color: #3a352f; }
+
+/* --- Research-agenda lead --- */
+.home .intro-extra { margin: 0 0 0.4em; color: #3a352f; }
 
 /* --- Section heading: centered serif sienna + centered blue tick --- */
 .home .home-h2 {
@@ -41,7 +50,7 @@ author_profile: false
   background: #A8C7CE; border-radius: 2px; margin: 0.6em auto 1.3em;
 }
 
-/* --- Paper entries: left-aligned for readability, inside the centered column --- */
+/* --- Paper entries (left-aligned) --- */
 .home .paper { margin: 0 0 1.5em; }
 .home .paper .ptitle { font-weight: 600; font-size: 1.04rem; line-height: 1.42; letter-spacing: -0.005em; }
 .home .paper .ptitle a { color: #241f1b !important; border-bottom: 1.5px solid #A8C7CE; }
@@ -65,7 +74,8 @@ author_profile: false
 
 @media (max-width: 600px) {
   .home .lead-name { font-size: 1.8rem; }
-  .home .intro-photo { width: 138px; height: 168px; }
+  .home .intro-row { flex-direction: column; text-align: center; gap: 1.1rem; }
+  .home .intro-photo { flex: 0 0 auto; }
 }
 </style>
 
@@ -74,11 +84,17 @@ author_profile: false
 <div class="home-head">
   <h1 class="lead-name">Lishu Zhang <span class="cn">张郦姝</span></h1>
   <p class="lead-role">Financial Economist · PhD candidate, Tilburg University · Researcher, CREST (Paris)</p>
-  <img class="intro-photo" src="/images/newpic.jpg" alt="Lishu Zhang">
-  <p class="contact">l.zhang_3@tilburguniversity.edu<br><a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="/cv/">CV</a></p>
-  <p class="bio">I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris. My research interests lie within Trade, Environmental Economics, and Finance.</p>
-  <p class="bio">My agenda studies how global financial markets respond to climate change and how these responses redistribute climate-related risks across countries, firms, and investors — through cross-border equity investment, M&amp;A, bank lending, and, at CREST, critical raw material (CRM) risk.</p>
 </div>
+
+<div class="intro-row">
+  <img class="intro-photo" src="/images/newpic.jpg" alt="Lishu Zhang">
+  <div class="intro-text">
+    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris. My research interests lie within Trade, Environmental Economics, and Finance.</p>
+    <p class="contact">l.zhang_3@tilburguniversity.edu<br><a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="/cv/">CV</a></p>
+  </div>
+</div>
+
+<p class="intro-extra">My agenda studies how global financial markets respond to climate change and how these responses redistribute climate-related risks across countries, firms, and investors — through cross-border equity investment, M&amp;A, bank lending, and, at CREST, critical raw material (CRM) risk.</p>
 
 <h2 class="home-h2">Job Market Papers</h2>
 

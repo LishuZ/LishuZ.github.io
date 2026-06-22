@@ -65,13 +65,6 @@ author_profile: false
   border-radius: 20px; padding: 3px 11px; margin-bottom: 0.5em;
 }
 
-/* --- Errands note (centered) --- */
-.home .errands-note {
-  text-align: center; margin-top: 3.2rem; padding-top: 1.5rem;
-  border-top: 1px solid #e6ddd2; font-size: 0.96rem; color: #74695f; font-style: italic;
-}
-.home .errands-note a { color: #5E4034 !important; font-weight: 600; font-style: normal; border-bottom: 1.5px solid #E7C24A; }
-
 @media (max-width: 600px) {
   .home .lead-name { font-size: 1.8rem; }
   .home .intro-row { flex-direction: column; align-items: center; gap: 1.1rem; }
@@ -111,7 +104,5 @@ author_profile: false
   <div class="pmeta"><span class="award">Yihong Xia Best Paper Award, CICF 2025</span></div>
   <p class="abs">A measure of carbon sensitivity in lending and the international transfer of climate risk through cross-border bank lending.</p>
 </div>
-
-<p class="errands-note">Away from research, I keep a small corner of this site — <a href="/about/">Errands</a> — with photos and notes from the road (and my cats). 🐈</p>
 
 </div>

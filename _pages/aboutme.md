@@ -36,6 +36,6 @@ I was born in Jiangyin (江阴), a city on the banks of the Yangtze River. Rich 
 
 I have always been drawn to different cultures, the collision of ideas, and conversations with people from every walk of life. Over the past decade, I have made a home in three European countries: France (Bordeaux, and now Paris), Sweden (Stockholm), and the Netherlands (Tilburg). These experiences have taught me to adapt quickly, stay steady in unfamiliar environments, and remain open to different ways of thinking. They also shape how I work: I am comfortable with uncertainty, attentive to different perspectives, and persistent in finding a way forward.
 
-Outside research, I am endlessly curious and easily delighted — by new places, new languages, and a good conversation most of all.
+Outside research, I am endlessly curious and easily delighted — by sunshine after rain, small discoveries around the corner, and the quiet poetry of ordinary lives.
 
 </div>

@@ -31,13 +31,13 @@ author_profile: false
   box-shadow: 0 4px 16px rgba(94, 64, 52, 0.14);
 }
 .home .intro-text { flex: 1 1 auto; text-align: left; }
-.home .intro-text p { margin: 0 0 0.7em; }
+.home .intro-text p { margin: 0 0 0.7em; font-size: 0.9rem; line-height: 1.62; }
 .home .intro-text p:last-child { margin-bottom: 0; }
-.home .contact { font-size: 0.9rem; color: #74695f; line-height: 1.55; }
+.home .intro-text p.contact { font-size: 0.85rem; color: #74695f; line-height: 1.55; }
 .home .contact a { color: #6E97A0; border-bottom: 0; }
 
 /* --- Research-agenda lead --- */
-.home .intro-extra { margin: 0 0 0.4em; color: #3a352f; }
+.home .intro-extra { margin: 0 0 0.4em; color: #3a352f; font-size: 0.9rem; line-height: 1.62; }
 
 /* --- Section heading: centered serif sienna + centered blue tick --- */
 .home .home-h2 {

@@ -22,10 +22,10 @@ hide_title: true
   text-decoration: none;
   padding-bottom: 4px;
   background-image:
-    linear-gradient(rgba(156, 199, 213, 0.9), rgba(156, 199, 213, 0.9)),
-    linear-gradient(rgba(231, 194, 74, 0.85), rgba(231, 194, 74, 0.85));
+    linear-gradient(rgba(223, 214, 180, 0.95), rgba(223, 214, 180, 0.95)),
+    linear-gradient(rgba(156, 199, 213, 0.9), rgba(156, 199, 213, 0.9));
   background-size: 100% 2px, 100% 2px;
-  background-position: 0 calc(100% - 3px), 0 100%;
+  background-position: 0 calc(100% - 2px), 0 100%;
   background-repeat: no-repeat;
   transition: color 0.15s ease, background-color 0.15s ease;
 }

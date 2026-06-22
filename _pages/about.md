@@ -59,10 +59,10 @@ author_profile: false
   text-decoration: none;
   padding-bottom: 4px;
   background-image:
-    linear-gradient(rgba(156, 199, 213, 0.9), rgba(156, 199, 213, 0.9)),
-    linear-gradient(rgba(231, 194, 74, 0.85), rgba(231, 194, 74, 0.85));
+    linear-gradient(rgba(223, 214, 180, 0.95), rgba(223, 214, 180, 0.95)),
+    linear-gradient(rgba(156, 199, 213, 0.9), rgba(156, 199, 213, 0.9));
   background-size: 100% 2px, 100% 2px;
-  background-position: 0 calc(100% - 3px), 0 100%;
+  background-position: 0 calc(100% - 2px), 0 100%;
   background-repeat: no-repeat;
   transition: color 0.15s ease, background-color 0.15s ease;
 }
@@ -99,7 +99,7 @@ author_profile: false
 <div class="intro-row">
   <img class="intro-photo" src="/images/newpic.jpg" alt="Lishu Zhang">
   <div class="intro-text">
-    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris, working with Peter Tankov and Olivier David Zerbib.</p>
+    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. I am also a researcher in the Finance group at CREST in Paris, working with Peter Tankov and Olivier David Zerbib.</p>
     <p class="contact"><a href="mailto:l.zhang_3@tilburguniversity.edu">l.zhang_3@tilburguniversity.edu</a>&nbsp;|&nbsp;<a href="mailto:lishu.zhang@ensae.fr">lishu.zhang@ensae.fr</a><br><a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="/files/cv.pdf">CV</a></p>
   </div>
 </div>

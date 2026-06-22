@@ -37,7 +37,7 @@ redirect_from:
 .about blockquote cite { display: block; margin-top: 0.5em; text-align: right; font-size: 0.82em; color: #9A8F82; font-style: normal; }
 .about-side {
   margin-top: 0.3em;
-  transform: translateX(0.8em);
+  transform: translateX(1.2em);
 }
 .journey-cats-photo {
   display: block;
@@ -49,7 +49,7 @@ redirect_from:
 .journey-cats-caption {
   margin: 0.55em 0 0;
   color: #7A7074;
-  font-size: 0.82em;
+  font-size: 0.74em;
   font-style: italic;
   text-align: center;
 }

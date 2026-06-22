@@ -65,15 +65,8 @@ $accent-blue:   #A8C7CE;
    Site-wide: background, masthead, page title, links.
    ========================================================================== */
 
-$cream: #FAF7F2;
-
-/* Calmer, warmer page ground (replaces the pinker default gradient) */
-body {
-  background:
-    radial-gradient(ellipse at 14% 16%, rgba(231, 194, 74, 0.05), transparent 38%),
-    radial-gradient(ellipse at 84% 86%, rgba(168, 199, 206, 0.06), transparent 40%),
-    linear-gradient(180deg, #FBF8F3 0%, $cream 60%, #F7F1E9 100%) !important;
-}
+/* Page background: keep Lishu's hand-mixed gradient from _reset.scss
+   (the soft pink + gold radial blend) — no override here. */
 
 /* --- Page title (used as the big name on the homepage, and on inner pages) --- */
 .page__title {

@@ -95,7 +95,7 @@ $bar-dark: #2F2523;
 
 .masthead__inner-wrap a,
 .greedy-nav a {
-  color: #F3ECE6 !important;
+  color: #FAF7F4 !important;
   font-weight: 500;
   letter-spacing: 0.005em;
 }
@@ -121,7 +121,7 @@ $bar-dark: #2F2523;
 /* hamburger icon stays light on small screens */
 .greedy-nav .navicon,
 .greedy-nav .navicon:before,
-.greedy-nav .navicon:after { background: #F3ECE6 !important; }
+.greedy-nav .navicon:after { background: #FAF7F4 !important; }
 
 /* responsive overflow dropdown: light panel keeps dark, readable links */
 .greedy-nav .hidden-links { background: #fff !important; }

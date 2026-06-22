@@ -56,15 +56,19 @@ author_profile: false
 .home .paper .ptitle { font-weight: 600; font-size: 1.04rem; line-height: 1.42; letter-spacing: -0.005em; }
 .home .paper .ptitle a {
   color: #1A1A1A !important;
-  border-bottom: 2px solid rgba(156, 199, 213, 0.45);
   text-decoration: none;
-  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+  padding-bottom: 4px;
+  background-image:
+    linear-gradient(rgba(156, 199, 213, 0.9), rgba(156, 199, 213, 0.9)),
+    linear-gradient(rgba(231, 194, 74, 0.85), rgba(231, 194, 74, 0.85));
+  background-size: 100% 2px, 100% 2px;
+  background-position: 0 calc(100% - 3px), 0 100%;
+  background-repeat: no-repeat;
+  transition: color 0.15s ease, background-color 0.15s ease;
 }
 .home .paper .ptitle a:hover {
   color: #3C5566 !important;
   background-color: rgba(156, 199, 213, 0.16);
-  border-bottom-color: rgba(156, 199, 213, 0.9);
-  text-decoration: none;
 }
 .home .paper .pmeta { font-size: 0.9rem; color: #74695f; margin: 0.2em 0 0.45em; }
 .home .paper .award { color: #5E4034; font-style: italic; }

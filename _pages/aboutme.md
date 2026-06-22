@@ -8,7 +8,13 @@ redirect_from:
 ---
 
 <style>
-.about { font-size: 0.92em; max-width: 50em; }
+.about { font-size: 0.92em; max-width: 58em; }
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 38em) minmax(12em, 15em);
+  gap: 2.3em;
+  align-items: start;
+}
 .about p {
   line-height: 1.7;
   margin-bottom: 0.8em;
@@ -29,9 +35,33 @@ redirect_from:
   text-wrap: pretty;
 }
 .about blockquote cite { display: block; margin-top: 0.5em; text-align: right; font-size: 0.82em; color: #9A8F82; font-style: normal; }
+.about-side {
+  margin-top: 0.3em;
+}
+.journey-cats-photo {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(156, 199, 213, 0.38);
+  border-radius: 18px;
+  box-shadow: 0 14px 34px rgba(47, 37, 35, 0.13);
+}
+@media (max-width: 900px) {
+  .about {
+    max-width: 38em;
+  }
+  .about-layout {
+    display: block;
+  }
+  .about-side {
+    max-width: 20em;
+    margin: 1.2em 0 1.6em;
+  }
+}
 </style>
 
-<div class="about" markdown="1">
+<div class="about">
+<div class="about-layout">
+<div class="about-copy" markdown="1">
 
 > “We are all products of our environment; every person we meet, every new experience or adventure, every book we read, touches and changes us, making us the unique beings we are.”
 > <cite>— C.J. Heck</cite>
@@ -44,4 +74,9 @@ I have always been drawn to different cultures, the collision of ideas, and conv
 
 Outside research, I am endlessly curious and easily delighted — by sunshine after rain, small discoveries around the corner, and the quiet poetry of ordinary lives.
 
+</div>
+<aside class="about-side" aria-label="Two cats looking out through a window">
+  <img class="journey-cats-photo" src="/images/journey-cats-window.jpg" alt="Two cats looking out through a window">
+</aside>
+</div>
 </div>

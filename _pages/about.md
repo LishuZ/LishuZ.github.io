@@ -90,7 +90,7 @@ author_profile: false
   <img class="intro-photo" src="/images/newpic.jpg" alt="Lishu Zhang">
   <div class="intro-text">
     <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris. My research interests lie within Trade, Environmental Economics, and Finance.</p>
-    <p class="contact">l.zhang_3@tilburguniversity.edu<br><a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/cv.pdf?rlkey=424j0xubetuhuwn012fmc4hv2&st=tz7lhm3o&dl=0">CV</a></p>
+    <p class="contact"><a href="mailto:l.zhang_3@tilburguniversity.edu">l.zhang_3@tilburguniversity.edu</a><br><a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/cv.pdf?rlkey=424j0xubetuhuwn012fmc4hv2&st=tz7lhm3o&dl=0">CV</a></p>
   </div>
 </div>
 

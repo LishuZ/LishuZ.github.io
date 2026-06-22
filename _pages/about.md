@@ -88,7 +88,7 @@ author_profile: false
   </div>
 </div>
 
-<p class="intro-extra">My agenda studies how global financial markets respond to climate change and how these responses redistribute climate-related risks across countries, firms, and investors — through cross-border equity investment, M&amp;A, bank lending, and, at CREST, critical raw material (CRM) risk.</p>
+<p class="intro-extra">My research studies how global financial markets respond to climate change, and how those responses redistribute climate-related risks across countries, firms, and investors. My dissertation examines this through cross-border equity investment, M&amp;A, and bank lending, focusing on the financing and control of brown assets. At CREST, I extend the agenda to critical raw material (CRM) risk, combining trade, climate finance, and AI-assisted measurement to study how supply-chain bottlenecks in the green transition shape firm vulnerability and asset prices.</p>
 
 <h2 class="home-h2">Job Market Papers</h2>
 

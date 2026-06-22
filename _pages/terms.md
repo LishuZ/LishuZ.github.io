@@ -6,6 +6,7 @@ hide_title: true
 ---
 
 <style>
+.resources { font-size: 0.9em; }
 .resources h2 {
   font-size: 1.05em;
   font-weight: 700;

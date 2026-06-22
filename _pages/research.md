@@ -10,7 +10,7 @@ redirect_from:
 
 <style>
 /* ---- Research page — Variant B (simple & elegant, warm) ---- */
-.page__content { font-size: 0.97em; max-width: 720px; }
+.page__content { font-size: 0.9em; max-width: 720px; }
 .page__content p:not([class]),
 .page__content p.abstract,
 .page__content li { line-height: 1.6; }

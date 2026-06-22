@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <style>
-.about { font-size: 0.92em; max-width: 58em; }
+.about { font-size: 0.9em; max-width: 58em; }
 .about-layout {
   display: grid;
   grid-template-columns: minmax(0, 38em) minmax(12em, 15em);

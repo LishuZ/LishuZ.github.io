@@ -25,7 +25,7 @@ hide_title: true
     linear-gradient(rgba(223, 214, 180, 0.95), rgba(223, 214, 180, 0.95)),
     linear-gradient(rgba(156, 199, 213, 0.9), rgba(156, 199, 213, 0.9));
   background-size: 100% 2px, 100% 2px;
-  background-position: 0 calc(100% - 2px), 0 100%;
+  background-position: 0 calc(100% - 4px), 0 calc(100% - 1px);
   background-repeat: no-repeat;
   transition: color 0.15s ease, background-color 0.15s ease;
 }

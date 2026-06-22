@@ -33,7 +33,7 @@ author_profile: false
 .home .intro-text { flex: 1 1 auto; text-align: left; }
 .home .intro-text p { margin: 0 0 0.7em; font-size: 0.9rem; line-height: 1.62; }
 .home .intro-text p:last-child { margin-bottom: 0; }
-.home .intro-text p.contact { font-size: 0.72rem; color: #74695f; line-height: 1.5; white-space: nowrap; }
+.home .intro-text p.contact { font-size: 0.85rem; color: #74695f; line-height: 1.55; white-space: nowrap; }
 .home .contact a { color: #6E97A0; border-bottom: 0; }
 @media (max-width: 600px) { .home .intro-text p.contact { white-space: normal; } }
 
@@ -94,12 +94,12 @@ author_profile: false
 <div class="intro-row">
   <img class="intro-photo" src="/images/newpic.jpg" alt="Lishu Zhang">
   <div class="intro-text">
-    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris. My research interests lie within Trade, Environmental Economics, and Finance. I draw on trade and macroeconomic theory to motivate and structure my micro-empirical tests.</p>
-    <p class="contact"><a href="mailto:l.zhang_3@tilburguniversity.edu">l.zhang_3@tilburguniversity.edu</a>&nbsp;|&nbsp;<a href="mailto:lishu.zhang@ensae.fr">lishu.zhang@ensae.fr</a>&nbsp;·&nbsp;<a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/cv.pdf?rlkey=424j0xubetuhuwn012fmc4hv2&st=tz7lhm3o&dl=0">CV</a></p>
+    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. Since November 2025 I am a researcher in the Finance group at CREST in Paris.</p>
+    <p class="contact"><a href="mailto:l.zhang_3@tilburguniversity.edu">l.zhang_3@tilburguniversity.edu</a>&nbsp;|&nbsp;<a href="mailto:lishu.zhang@ensae.fr">lishu.zhang@ensae.fr</a><br><a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="/files/cv.pdf">CV</a></p>
   </div>
 </div>
 
-<p class="intro-extra">My research studies how global financial markets respond to climate change, and how those responses redistribute climate-related risks across countries, firms, and investors. My dissertation examines this through cross-border equity investment, M&amp;A, and bank lending. At CREST, I extend the agenda to critical raw material (CRM) risk, combining trade, climate finance, and AI-assisted measurement.</p>
+<p class="intro-extra">My research interests lie within Trade, Environmental Economics, and Finance. I draw on trade and macroeconomic theory to motivate and structure my micro-empirical tests. I study how global financial markets respond to climate change, and how those responses redistribute climate-related risks across countries, firms, and investors. My dissertation examines this through cross-border equity investment, M&amp;A, and bank lending. At CREST, I extend the agenda to critical raw material (CRM) risk, combining trade, climate finance, and AI-assisted measurement.</p>
 
 <h2 class="home-h2">Job Market Papers</h2>
 

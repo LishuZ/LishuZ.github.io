@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-View / Download my **[CV](https://www.dropbox.com/scl/fi/qijnx8gppf8potsj0bdlx/cv.pdf?rlkey=424j0xubetuhuwn012fmc4hv2&st=tz7lhm3o&dl=0)** here.
+View / Download my **[CV](/files/cv.pdf)** here.
 
 <style>
 .cv h2 {

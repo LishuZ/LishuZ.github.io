@@ -12,7 +12,7 @@ redirect_from:
 .about p {
   line-height: 1.7;
   margin-bottom: 0.8em;
-  max-width: 48em !important;
+  max-width: 38em !important;
   text-wrap: pretty;
 }
 

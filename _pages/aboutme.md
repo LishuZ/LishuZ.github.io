@@ -37,6 +37,7 @@ redirect_from:
 .about blockquote cite { display: block; margin-top: 0.5em; text-align: right; font-size: 0.82em; color: #9A8F82; font-style: normal; }
 .about-side {
   margin-top: 0.3em;
+  transform: translateX(0.8em);
 }
 .journey-cats-photo {
   display: block;
@@ -44,6 +45,13 @@ redirect_from:
   border: 1px solid rgba(156, 199, 213, 0.38);
   border-radius: 18px;
   box-shadow: 0 14px 34px rgba(47, 37, 35, 0.13);
+}
+.journey-cats-caption {
+  margin: 0.55em 0 0;
+  color: #7A7074;
+  font-size: 0.82em;
+  font-style: italic;
+  text-align: center;
 }
 @media (max-width: 900px) {
   .about {
@@ -55,6 +63,7 @@ redirect_from:
   .about-side {
     max-width: 20em;
     margin: 1.2em 0 1.6em;
+    transform: none;
   }
 }
 </style>
@@ -77,6 +86,7 @@ Outside research, I am endlessly curious and easily delighted — by sunshine af
 </div>
 <aside class="about-side" aria-label="Two cats looking out through a window">
   <img class="journey-cats-photo" src="/images/journey-cats-window.jpg" alt="Two cats looking out through a window">
+  <p class="journey-cats-caption">Lychee &amp; Yoda in Paris</p>
 </aside>
 </div>
 </div>

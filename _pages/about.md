@@ -54,8 +54,18 @@ author_profile: false
 /* --- Paper entries (left-aligned) --- */
 .home .paper { margin: 0 0 1.5em; }
 .home .paper .ptitle { font-weight: 600; font-size: 1.04rem; line-height: 1.42; letter-spacing: -0.005em; }
-.home .paper .ptitle a { color: #241f1b !important; border-bottom: 1.5px solid #A8C7CE; }
-.home .paper .ptitle a:hover { color: #241f1b !important; border-bottom-color: #6E97A0; }
+.home .paper .ptitle a {
+  color: #1A1A1A !important;
+  border-bottom: 2px solid rgba(156, 199, 213, 0.45);
+  text-decoration: none;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+.home .paper .ptitle a:hover {
+  color: #3C5566 !important;
+  background-color: rgba(156, 199, 213, 0.16);
+  border-bottom-color: rgba(156, 199, 213, 0.9);
+  text-decoration: none;
+}
 .home .paper .pmeta { font-size: 0.9rem; color: #74695f; margin: 0.2em 0 0.45em; }
 .home .paper .award { color: #5E4034; font-style: italic; }
 .home .paper .abs { font-size: 0.95rem; color: #3a352f; margin: 0; }

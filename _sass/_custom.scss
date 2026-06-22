@@ -68,6 +68,14 @@ $accent-blue:   #A8C7CE;
 /* Page background: keep Lishu's hand-mixed gradient from _reset.scss
    (the soft pink + gold radial blend) — no override here. */
 
+/* --- Author sidebar avatar: rounded rectangle (match the homepage photo) --- */
+.author__avatar img {
+  border-radius: 8px !important;
+  padding: 0 !important;
+  border: 1px solid #e6ddd2 !important;
+  box-shadow: 0 4px 16px rgba(94, 64, 52, 0.14);
+}
+
 /* --- Page title (used as the big name on the homepage, and on inner pages) --- */
 .page__title {
   font-family: $header-font-family; // Source Serif 4

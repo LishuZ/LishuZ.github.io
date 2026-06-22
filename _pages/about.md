@@ -111,14 +111,6 @@ author_profile: false
   <p class="abs">A measure of carbon sensitivity in lending and the international transfer of climate risk through cross-border bank lending.</p>
 </div>
 
-<h2 class="home-h2">Selected Work</h2>
-
-<div class="paper">
-  <div class="ptitle"><a href="https://cepr.org/publications/dp18856">International ownership of brown shares and economic development</a></div>
-  <div class="pmeta">with Harald Benink, Harry Huizinga, and Louis Raes</div>
-  <p class="abs">How carbon-intensive firms come to be owned across countries, and how rich-country divestment reallocates them toward owners associated with worse environmental outcomes.</p>
-</div>
-
 <p class="errands-note">Away from research, I keep a small corner of this site — <a href="/about/">Errands</a> — with photos and notes from the road (and my cats). 🐈</p>
 
 </div>

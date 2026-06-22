@@ -8,19 +8,25 @@ redirect_from:
 ---
 
 <style>
-.about { font-size: 0.92em; }
-.about p { line-height: 1.7; margin-bottom: 0.8em; }
+.about { font-size: 0.92em; max-width: 50em; }
+.about p {
+  line-height: 1.7;
+  margin-bottom: 0.8em;
+  max-width: 48em !important;
+  text-wrap: pretty;
+}
 
 .about blockquote {
   border: 0;
   background: none;
-  margin: 0.4em 0 2.2em;
+  margin: 0.4em auto 2.2em 0;
   padding: 0;
-  max-width: 40em;
+  max-width: 34em;
   color: #5C4A45;
   font-style: italic;
   font-size: 1.12em;
   line-height: 1.65;
+  text-wrap: pretty;
 }
 .about blockquote cite { display: block; margin-top: 0.5em; text-align: right; font-size: 0.82em; color: #9A8F82; font-style: normal; }
 </style>

@@ -16,7 +16,18 @@ hide_title: true
 }
 .resources p { line-height: 1.6; }
 .resources .res-title { font-weight: 700; font-size: 1.05em; }
-.resources .res-title a { color: #1A1A1A; }
+.resources .res-title a {
+  color: #1A1A1A;
+  border-bottom: 2px solid rgba(156, 199, 213, 0.45);
+  text-decoration: none;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+.resources .res-title a:hover {
+  color: #3C5566;
+  background-color: rgba(156, 199, 213, 0.16);
+  border-bottom-color: rgba(156, 199, 213, 0.9);
+  text-decoration: none;
+}
 .resources p:has(.res-title) { margin-bottom: 0.2em; }
 </style>
 

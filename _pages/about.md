@@ -154,7 +154,7 @@ feature_row:
   color: #3C5566 !important;
 }
 .btn--primary:hover {
-  background-color: rgba(168, 199, 206, 0.3) !important;
+  background-color: rgba(168, 199, 206, 0.35) !important;
   border-color: rgba(168, 199, 206, 0.72) !important;
   color: #3C5566 !important;
 }

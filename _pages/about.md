@@ -30,7 +30,7 @@ author_profile: false
   border-radius: 8px; border: 1px solid #e6ddd2;
   box-shadow: 0 4px 16px rgba(94, 64, 52, 0.14);
 }
-.home .intro-text { flex: 1 1 auto; }
+.home .intro-text { flex: 1 1 auto; text-align: left; }
 .home .intro-text p { margin: 0 0 0.7em; }
 .home .intro-text p:last-child { margin-bottom: 0; }
 .home .contact { font-size: 0.9rem; color: #74695f; line-height: 1.55; }
@@ -74,8 +74,9 @@ author_profile: false
 
 @media (max-width: 600px) {
   .home .lead-name { font-size: 1.8rem; }
-  .home .intro-row { flex-direction: column; text-align: center; gap: 1.1rem; }
+  .home .intro-row { flex-direction: column; align-items: center; gap: 1.1rem; }
   .home .intro-photo { flex: 0 0 auto; }
+  .home .intro-text { text-align: left; }
 }
 </style>
 

@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "More about me"
+title: "Errands"
 author_profile: true
 hide_title: true
 redirect_from:

@@ -38,6 +38,7 @@ author_profile: false
 @media (max-width: 600px) { .home .intro-text p.contact { white-space: normal; } }
 
 /* --- Research-agenda lead --- */
+.home .job-market { margin: 0 0 0.45em; color: #5E4034; font-size: 0.92rem; line-height: 1.5; }
 .home .intro-extra { margin: 0 0 0.4em; color: #3a352f; font-size: 0.9rem; line-height: 1.62; }
 
 /* --- Section heading: centered serif sienna + centered blue tick --- */
@@ -104,6 +105,7 @@ author_profile: false
   </div>
 </div>
 
+<p class="job-market"><strong>I will be on the job market 2026-2027.</strong></p>
 <p class="intro-extra">My research interests lie within Trade, Environmental Economics, and Finance. I draw on trade and macroeconomic theory to motivate and structure my empirical analysis. I study how global financial markets respond to climate change, and how climate-related risks are redistributed across countries, firms, and investors. My dissertation examines this through cross-border equity investment, M&amp;A, and bank lending. At CREST, I extend the agenda to critical raw material (CRM) risk, combining production networks, trade, climate transition, and AI-assisted measurement.</p>
 
 <h2 class="home-h2">Job Market Papers</h2>

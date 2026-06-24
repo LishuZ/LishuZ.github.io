@@ -38,7 +38,24 @@ author_profile: false
 @media (max-width: 600px) { .home .intro-text p.contact { white-space: normal; } }
 
 /* --- Research-agenda lead --- */
-.home .job-market { margin: 0 0 0.45em; color: #5E4034; font-size: 0.92rem; line-height: 1.5; }
+.home .job-market {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85em;
+  margin: 0.15em auto 0.7em;
+  color: #5E4034;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.home .job-market::before,
+.home .job-market::after {
+  content: "";
+  width: 56px;
+  height: 1px;
+  background: rgba(156, 199, 213, 0.72);
+}
 .home .intro-extra { margin: 0 0 0.4em; color: #3a352f; font-size: 0.9rem; line-height: 1.62; }
 
 /* --- Section heading: centered serif sienna + centered blue tick --- */

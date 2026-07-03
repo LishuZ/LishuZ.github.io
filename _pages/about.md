@@ -26,7 +26,7 @@ author_profile: false
 /* --- Photo left, bio + email vertically centered on the right --- */
 .home .intro-row { display: flex; gap: 1.9rem; align-items: center; margin-bottom: 1.4em; }
 .home .intro-photo {
-  flex: 0 0 176px; width: 176px; height: 220px; object-fit: cover;
+  flex: 0 0 176px; width: 176px; height: 198px; object-fit: cover;
   object-position: center center;
   border-radius: 8px; border: 1px solid #e6ddd2;
   box-shadow: 0 4px 16px rgba(94, 64, 52, 0.14);

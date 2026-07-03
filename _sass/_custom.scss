@@ -70,6 +70,10 @@ $accent-blue:   #A8C7CE;
 
 /* --- Author sidebar avatar: rounded rectangle (match the homepage photo) --- */
 .author__avatar img {
+  width: 100%;
+  aspect-ratio: 8 / 9;
+  object-fit: cover;
+  object-position: center center;
   border-radius: 8px !important;
   padding: 0 !important;
   border: 1px solid #e6ddd2 !important;

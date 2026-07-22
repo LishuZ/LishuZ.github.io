@@ -72,6 +72,9 @@ I develop a novel measure of carbon sensitivity in lending to assess reductions 
 with Harald Benink, Harry Huizinga, and Louis Raes. &ensp;<a href="https://cepr.org/publications/dp18856">[CEPR]</a> <a href="https://cepr.org/voxeu/columns/international-trade-brown-shares-and-economic-development">[VoxEU]</a>
 {: .paper-meta}
 
+Under review.
+{: .paper-meta}
+
 Using global share-ownership data for 2002--2021, we study how carbon-intensive firms come to be owned across countries at different levels of economic development and how this affects their environmental outcomes. Richer countries tilt away from carbon-intensive firms more than poorer countries do. Because shares must be held, market clearing leaves more of these firms in poorer-country hands. This poorer-country ownership predicts higher subsequent emissions and ESG incidents. We show that rich-country fossil-fuel divestment pushes firms toward such ownership, followed by worse environmental outcomes. Climate-motivated exit, by reallocating these firms toward less environmentally inclined owners, can work against the goal it serves.
 {: .abstract}
 

@@ -101,10 +101,15 @@ author_profile: false
 }
 
 @media (max-width: 600px) {
+  .home { padding-bottom: 0.5em; }
+  .home .home-head { margin-bottom: 1.15em; }
   .home .lead-name { font-size: 1.8rem; }
-  .home .intro-row { flex-direction: column; align-items: center; gap: 1.1rem; }
-  .home .intro-photo { flex: 0 0 auto; }
+  .home .lead-role { font-size: 0.92rem; line-height: 1.45; }
+  .home .intro-row { flex-direction: column; align-items: center; gap: 0.85rem; margin-bottom: 1.05em; }
+  .home .intro-photo { flex: 0 0 auto; width: 132px; }
   .home .intro-text { text-align: left; }
+  .home .intro-text p { font-size: 0.88rem; line-height: 1.55; }
+  .home .job-market { margin-top: 0; }
 }
 </style>
 

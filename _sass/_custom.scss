@@ -134,6 +134,15 @@ $bar-dark: #2F2523;
 .greedy-nav .hidden-links a { color: $bar-dark !important; }
 .greedy-nav .hidden-links a:hover { color: $bar-dark !important; background: #F3EEE9 !important; }
 
+/* On phones/tablets, the theme's author sidebar collapses into a small
+   "Follow" strip above the page body. The homepage already carries the
+   useful profile/contact information, so keep inner pages content-first. */
+@media screen and (max-width: 1023px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 /* --- Links inside content: dusty blue, restrained --- */
 $blue-link: #6E97A0; // darkened dusty blue for readable links
 .page__content a:not(.btn):not([class*="archive"]) {

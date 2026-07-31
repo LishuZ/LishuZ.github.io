@@ -134,8 +134,8 @@ author_profile: false
 <h2 class="home-h2">Job Market Papers</h2>
 
 <div class="paper">
-  <div class="ptitle">Critical Raw Material Dependency and Asset Pricing <span class="status">Coming soon</span></div>
-  <p class="abs">A firm-level measure of exposure to critical raw materials, built on a production-network framework, with asset-pricing implications.</p>
+  <div class="ptitle">Measuring Critical Raw Material Dependence <span class="status">Coming soon</span></div>
+  <p class="abs">A production-network measure of firms' structural dependence on critical raw materials, designed to study disruptions along the value chain and whether such dependence is reflected in equity prices.</p>
 </div>
 
 <div class="paper">

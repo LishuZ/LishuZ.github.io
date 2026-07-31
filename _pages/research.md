@@ -48,14 +48,14 @@ redirect_from:
 }
 </style>
 
-## Critical Raw Materials: Risk, Transition, and Pricing
+## Critical Raw Materials, Production Networks, and Pricing
 {: .theme .theme-crm}
 
-### Critical Raw Material Dependency and Asset Pricing
+### Measuring Critical Raw Material Dependence
 In preparation.
 {: .paper-meta}
 
-We construct the first firm-level measure of exposure to critical raw materials (CRMs), inputs marked by extreme supply concentration and limited substitutability. We develop a production-network framework that traces material-specific flows through global product-level supply chains, showing that the product of cost shares along each supply-chain path summarizes a firm’s CRM vulnerability. We use large language models to transform this theoretical object into empirical measures. Event studies around trade shocks validate the measure and show that markets price both the intensity and material composition of CRM exposure. We further document the asset-pricing implications of CRM exposure at the aggregate and firm levels.
+Firms can depend on critical raw materials they do not purchase directly because these materials are embodied in intermediate inputs several stages upstream. We develop a measure of firms' structural dependence on critical raw materials. Theoretically, we show that structural dependence can be represented by the sum across supply-chain paths of products of stage-level cost shares. The same statistic measures marginal-cost sensitivity to a material price shock and, under benchmark rationing, output sensitivity to a physical shortage. Empirically, we build material-specific production networks from engineering and trade evidence and calibrate the implied cost shares using physical input requirements, process yields, product prices, and sector markups. We map product exposure to firms using industry and segment information. The measure provides a framework for studying how material-specific disruptions affect firms along the value chain and whether structural dependence is reflected in equity prices.
 {: .abstract}
 
 
@@ -86,5 +86,5 @@ Using global share-ownership data for 2002--2021, we study how carbon-intensive 
 Draft available upon request.
 {: .paper-meta}
 
-We study whether and how ESG information affects the allocation of corporate control using mergers and acquisitions. Conditional on deal occurrence, firms with an ESG information advantage are more likely to acquire control, consistent with higher expected synergy. While existing M&A research primarily emphasizes governance gains, we show that environmental comparative advantage is a major determinant of the M&A direction. The impact of ESG information on control allocation is amplified in countries with stronger institutional quality and information environments. Additionally, ESG-informed firms are more likely to assume control when markets have rewarded ESG-informed firms that recently undertook M&As. Event-study results reveal asymmetric market perceptions of ESG information for acquirers and targets. The value added of ESG-informed control may also arise from reduced within-deal uncertainty, as stock financing is less likely and less intensive in such deals. Our result that ESG-informed firms are more likely to take control over traded assets implies that used asset trade can serve as a mechanism for reallocating control from less to more environmentally capable firms, facilitating the green transition.
+We study how ESG information affects the allocation of corporate control in mergers and acquisitions. Conditional on deal occurrence, firms with an ESG information advantage are more likely to acquire control, consistent with higher expected synergy. Environmental comparative advantage is a major determinant of M&A direction, beyond the governance gains emphasized in existing research. The effect is stronger in countries with higher institutional quality and richer information environments, and when markets have recently rewarded ESG-informed acquirers. Event-study results show asymmetric market perceptions of ESG information for acquirers and targets. ESG-informed control may also reduce within-deal uncertainty, as stock financing is less likely and less intensive in such deals. These findings suggest that used asset trade can reallocate control from less to more environmentally capable firms, facilitating the green transition.
 {: .abstract}

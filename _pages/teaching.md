@@ -27,8 +27,6 @@ redirect_from:
 
 <div class="teaching" markdown="1">
 
-I have engaged substantially in teaching activities at Tilburg University.
-
 ## Teaching Assistant
 
 Undergraduate and graduate courses at Tilburg University since 2020:

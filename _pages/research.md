@@ -55,7 +55,7 @@ redirect_from:
 In preparation.
 {: .paper-meta}
 
-Firms can depend on critical raw materials they do not purchase directly because these materials are embodied in intermediate inputs several stages upstream. We develop a measure of firms' structural dependence on critical raw materials. Theoretically, we show that structural dependence can be represented by the sum across supply-chain paths of products of stage-level cost shares. The same statistic measures marginal-cost sensitivity to a material price shock and, under benchmark rationing, output sensitivity to a physical shortage. Empirically, we build material-specific production networks from engineering and trade evidence and calibrate the implied cost shares using physical input requirements, process yields, product prices, and sector markups. We map product exposure to firms using industry and segment information. The measure provides a framework for studying how material-specific disruptions affect firms along the value chain and whether structural dependence is reflected in equity prices.
+Firms can depend on raw materials they do not purchase directly, resulting in material dependence that the market may not observe. We measure this dependence by reconstructing production paths from technical evidence with language-model assistance. In our model, cost-share-weighted paths yield local marginal-cost elasticities to material prices and, under proportional rationing, output elasticities to supply shortfalls. We map dependence on 46 critical raw materials to 22,964 firms in 111 countries. Our measure overlaps with analyst research and corporate disclosures but maps a much broader set of dependencies: 98 analyst reports cover only 1.4% of our mapped material uses, and firms' 10-K filings disclose 11.7% of measured firm dependencies. We examine how material dependence shapes firms' operating and valuation responses to trade restrictions across shock types and production stages, and whether selective market attention helps explain how markets recognize and value this exposure.
 {: .abstract}
 
 
@@ -68,23 +68,26 @@ Firms can depend on critical raw materials they do not purchase directly because
 I develop a novel measure of carbon sensitivity in lending to assess reductions in portfolio exposure to brown assets. Using syndicated loan data, I show that countries with greater resistance to brown lending, proxied by economic development, experience faster shifts in the sectoral composition of loan portfolios. The decarbonization is driven primarily by domestic credit reallocation. I find consistent evidence of risk transfers to less regulated lenders and foreign countries, indicating arbitrage and incomplete regulations. Furthermore, lenders’ climate risk-taking and transfer behaviors vary sharply by syndicate role, loan type, and specialization. The existence of international trade in brown loans has important implications for supervisory evaluation. Using the European Central Bank’s climate guide, I show that accounting for regulatory leakage reveals effects contrary to common wisdom.
 {: .abstract}
 
-### International ownership of brown shares and economic development &ensp;<a href="/files/ownership-main.pdf">[Draft]</a>
+### Who holds brown equity? Economic development, divestment, and environmental outcomes &ensp;<a href="/files/ownership-final.pdf">[Draft]</a>
 with Harald Benink, Harry Huizinga, and Louis Raes. &ensp;<a href="https://cepr.org/publications/dp18856">[CEPR]</a> <a href="https://cepr.org/voxeu/columns/international-trade-brown-shares-and-economic-development">[VoxEU]</a>
 {: .paper-meta}
 
 Under review.
 {: .paper-meta}
 
-Using global share-ownership data for 2002--2021, we study how carbon-intensive firms come to be owned across countries at different levels of economic development and how this affects their environmental outcomes. Richer countries tilt away from carbon-intensive firms more than poorer countries do. Because shares must be held, market clearing leaves more of these firms in poorer-country hands. This poorer-country ownership predicts higher subsequent emissions and ESG incidents. We show that rich-country fossil-fuel divestment pushes firms toward such ownership, followed by worse environmental outcomes. Climate-motivated exit, by reallocating these firms toward less environmentally inclined owners, can work against the goal it serves.
+An earlier version circulated as CEPR Discussion Paper No. 18856 and SSRN Working Paper No. 4703966 under the title "International trade in brown shares and economic development."
+{: .paper-meta}
+
+Using global equity-ownership data for 2002--2021 covering 3,559 firms and 111 investor countries, we show that investors in more developed countries hold less carbon-intensive portfolios. This income gradient appears within varying investor types and remains after accounting for return chasing and financial development, consistent with environmental concerns being more strongly reflected in richer-country portfolios. Greater ownership by poorer-country investors predicts higher subsequent emissions and ESG incidents. Exploiting waves of fossil-fuel divestment commitments, we construct a shift-share measure using firms' predetermined ownership. Rich-country divestment pressure shifts ownership toward poorer countries and worsens environmental performance, reduced-form effects consistent with an ownership channel.
 {: .abstract}
 
 
 ## ESG and Corporate Control
 {: .theme .theme-esg}
 
-### When ESG information drives control: evidence from M&A deals
+### ESG information and the market for corporate control
 Draft available upon request.
 {: .paper-meta}
 
-We study how ESG information affects the allocation of corporate control in mergers and acquisitions. Conditional on deal occurrence, firms with an ESG information advantage are more likely to acquire control, consistent with higher expected synergy. Environmental comparative advantage is a major determinant of M&A direction, beyond the governance gains emphasized in existing research. The effect is stronger in countries with higher institutional quality and richer information environments, and when markets have recently rewarded ESG-informed acquirers. Event-study results show asymmetric market perceptions of ESG information for acquirers and targets. ESG-informed control may also reduce within-deal uncertainty, as stock financing is less likely and less intensive in such deals. These findings suggest that used asset trade can reallocate control from less to more environmentally capable firms, facilitating the green transition.
+When two firms combine into one, the allocation of control determines who manages their assets. We study whether ESG information shapes control using 7,914 completed deals announced from 2003 to 2025. We estimate that ESG rating availability increases the rated firm's predicted probability of taking control by 35-37 percentage points in an otherwise balanced pair. Where both firms are rated, control tends to go to the higher-scoring firm, most strongly on the Environmental pillar across borders. The information advantage is larger under strong audit standards and smaller where corporate reporting is widespread. Deal-level announcement returns do not differ significantly across combinations of acquirer and target rating status, but after 2016 a rated target bought by an unrated firm earns less than an unrated target bought by a rated firm. Rated acquirers also use less stock, consistent with less uncertainty about the assets they will control.
 {: .abstract}

@@ -135,7 +135,7 @@ author_profile: false
 
 <div class="paper">
   <div class="ptitle">Measuring Critical Raw Material Dependence <span class="status">Coming soon</span></div>
-  <p class="abs">A production-network measure of firms' structural dependence on critical raw materials, designed to study disruptions along the value chain and whether such dependence is reflected in equity prices.</p>
+  <p class="abs">A language-model-assisted measure of firm dependence on critical raw materials, used to study operating and valuation responses to trade restrictions.</p>
 </div>
 
 <div class="paper">

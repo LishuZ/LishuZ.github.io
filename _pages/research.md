@@ -85,9 +85,9 @@ Using global equity-ownership data for 2002--2021 covering 3,559 firms and 111 i
 ## ESG and Corporate Control
 {: .theme .theme-esg}
 
-### ESG information and the market for corporate control
+### Does ESG information shape control? Evidence from takeovers
 Draft available upon request.
 {: .paper-meta}
 
-When two firms combine into one, the allocation of control determines who manages their assets. We study whether ESG information shapes control using 7,914 completed deals announced from 2003 to 2025. We estimate that ESG rating availability increases the rated firm's predicted probability of taking control by 35-37 percentage points in an otherwise balanced pair. Where both firms are rated, control tends to go to the higher-scoring firm, most strongly on the Environmental pillar across borders. The information advantage is larger under strong audit standards and smaller where corporate reporting is widespread. Deal-level announcement returns do not differ significantly across combinations of acquirer and target rating status, but after 2016 a rated target bought by an unrated firm earns less than an unrated target bought by a rated firm. Rated acquirers also use less stock, consistent with less uncertainty about the assets they will control.
+When two firms combine into one, the allocation of control determines who manages their assets. We study whether ESG information shapes control using 7,914 completed deals announced from 2003 to 2025. We estimate that ESG rating availability increases the rated firm's predicted probability of taking control by 35-37 percentage points between two otherwise equal firms. Where both firms are rated, control tends to go to the higher-scoring firm, most strongly on the Environmental pillar across borders. The information advantage is larger under strong audit standards and smaller where corporate reporting is widespread. Deal-level announcement returns do not differ significantly across combinations of acquirer and target rating status, but after 2016 a rated target bought by an unrated firm earns less than an unrated target bought by a rated firm.
 {: .abstract}

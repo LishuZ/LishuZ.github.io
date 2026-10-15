@@ -50,6 +50,6 @@ View / Download my **[CV](/files/cv.pdf)** here.
 ## Academic Appointments
 
 * <span class="org">CREST</span>, <span class="place">Paris, France</span>
-  * Nov 2025–present. Researcher, Finance group.
+  * Nov 2025–present. Postdoctoral Researcher, Finance group.
 
 </div>

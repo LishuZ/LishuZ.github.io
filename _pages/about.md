@@ -117,13 +117,13 @@ author_profile: false
 
 <div class="home-head">
   <h1 class="lead-name">Lishu Zhang <span class="cn">张郦姝</span></h1>
-  <p class="lead-role">Financial Economist · PhD candidate, Tilburg University · Researcher, CREST (Paris)</p>
+  <p class="lead-role">Financial Economist · PhD candidate, Tilburg University · Postdoctoral Researcher, CREST (Paris)</p>
 </div>
 
 <div class="intro-row">
   <img class="intro-photo" src="/images/homepage-portrait-original-2026.jpg" alt="Lishu Zhang">
   <div class="intro-text">
-    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. I am also a researcher in the Finance group at CREST in Paris, working with Peter Tankov and Olivier David Zerbib.</p>
+    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. I am also a postdoctoral researcher in the Finance group at CREST in Paris, working with Peter Tankov and Olivier David Zerbib.</p>
     <p class="contact"><a href="mailto:l.zhang_3@tilburguniversity.edu">l.zhang_3@tilburguniversity.edu</a>&nbsp;|&nbsp;<a href="mailto:lishu.zhang@ensae.fr">lishu.zhang@ensae.fr</a><br><a href="https://scholar.google.com/citations?hl=zh-CN&user=19jsgQMAAAAJ">Google Scholar</a>&nbsp;·&nbsp;<a href="https://orcid.org/0000-0003-0237-7664">ORCID</a>&nbsp;·&nbsp;<a href="/files/cv.pdf">CV</a></p>
   </div>
 </div>
@@ -135,7 +135,7 @@ author_profile: false
 
 <div class="paper">
   <div class="ptitle">Measuring Critical Raw Material Dependence <span class="status">Coming soon</span></div>
-  <p class="abs">A language-model-assisted measure of firm dependence on critical raw materials, used to study operating and valuation responses to trade restrictions.</p>
+  <p class="abs">A language-model-assisted measure of firm dependence on critical raw materials, used to study how public attention shapes market responses to material supply shocks.</p>
 </div>
 
 <div class="paper">

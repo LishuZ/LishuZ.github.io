@@ -75,7 +75,7 @@ redirect_from:
 > “We are all products of our environment; every person we meet, every new experience or adventure, every book we read, touches and changes us, making us the unique beings we are.”
 > <cite>— C.J. Heck</cite>
 
-I am a fifth-year PhD candidate in Economics at Tilburg University and, since November 2025, a researcher in Finance at CREST in Paris. Before Tilburg, I studied at the Stockholm School of Economics (Master's in Economics) and Renmin University of China (Bachelor's in Economics).
+I am a fifth-year PhD candidate in Economics at Tilburg University and, since November 2025, a postdoctoral researcher in Finance at CREST in Paris. Before Tilburg, I studied at the Stockholm School of Economics (Master's in Economics) and Renmin University of China (Bachelor's in Economics).
 
 I was born in Jiangyin (江阴), a city on the banks of the Yangtze River. Rich in history and culture, it was also among the first places in China to embrace a market economy, with private enterprise flourishing early. That blend of deep cultural roots and bold entrepreneurial spirit has shaped who I am.
 

@@ -10,7 +10,7 @@ redirect_from:
 
 <style>
 /* ---- Research page — Variant B (simple & elegant, warm) ---- */
-.page__content { font-size: 0.9em; max-width: 720px; }
+.page__content { font-size: 0.9em; max-width: 760px; }
 .page__content p:not([class]),
 .page__content p.abstract,
 .page__content li { line-height: 1.6; }
@@ -37,7 +37,7 @@ redirect_from:
 .page__content h3:not([class]) { color: #241f1b; font-size: 1.12em; font-weight: 600; margin: 1.25em 0 0.2em; }
 .page__content h3:not([class]) a { font-size: 0.8em; font-weight: 500; white-space: nowrap; color: #6E97A0; }
 .page__content p.paper-meta { margin: 0 0 0.2em; font-size: 0.9em; font-weight: 400; color: #74695f; }
-.page__content p.abstract { margin: 0.55em 0 0; max-width: 42em; color: #3a352f; }
+.page__content p.abstract { margin: 0.55em 0 0; max-width: 46em; color: #3a352f; }
 .page__content p.award {
   font-family: "Source Serif 4", Georgia, Times, serif;
   font-weight: 600;

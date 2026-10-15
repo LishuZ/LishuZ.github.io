@@ -91,3 +91,14 @@ Draft available upon request.
 
 When two firms combine into one, the allocation of control determines who manages their assets. We study whether ESG information shapes control using 7,914 completed deals announced from 2003 to 2025. We estimate that ESG rating availability increases the rated firm's predicted probability of taking control by 35-37 percentage points between two otherwise equal firms. Where both firms are rated, control tends to go to the higher-scoring firm, most strongly on the Environmental pillar across borders. The information advantage is larger under strong audit standards and smaller where corporate reporting is widespread. Deal-level announcement returns do not differ significantly across combinations of acquirer and target rating status, but after 2016 a rated target bought by an unrated firm earns less than an unrated target bought by a rated firm.
 {: .abstract}
+
+
+## Work in Progress
+{: .theme}
+
+### Localized Impacts of Transition Risks
+with Thibaud Barreau, Jakob Kellermann, Peter Tankov, and Olivier David Zerbib.
+{: .paper-meta}
+
+We develop a facility-level measure of transition risk that combines carbon-pricing gaps, emissions, and abatement options. The project will link these exposures to the local economic and environmental effects of transition shocks.
+{: .abstract}

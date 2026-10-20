@@ -131,17 +131,12 @@ author_profile: false
 <p class="job-market"><strong>I am on the job market 2026-2027.</strong></p>
 <p class="intro-extra">My research interests lie within Trade, Environmental Economics, and Finance. I draw on trade and macroeconomic theory to motivate and structure my empirical analysis. I study how global financial markets respond to climate change, and how climate-related risks are redistributed across countries, firms, and investors. My dissertation examines this through cross-border equity investment, M&amp;A, and bank lending. At CREST, I extend the agenda to critical raw material (CRM) risk, combining production networks, trade, climate transition, and AI-assisted measurement.</p>
 
-<h2 class="home-h2">Job Market Papers</h2>
+<h2 class="home-h2">Job Market Paper</h2>
 
 <div class="paper">
   <div class="ptitle">Measuring Critical Raw Material Dependence <span class="status">Coming soon</span></div>
   <p class="abs">A language-model-assisted measure of firm dependence on critical raw materials, used to study how public attention shapes market responses to material supply shocks.</p>
 </div>
 
-<div class="paper">
-  <div class="ptitle"><a href="https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0">Resistance and Arbitrage: International Trade in Brown Loans</a></div>
-  <div class="pmeta"><span class="award">Yihong Xia Best Paper Award, CICF 2025</span></div>
-  <p class="abs">A measure of carbon sensitivity in lending and the international transfer of climate risk through cross-border bank lending.</p>
-</div>
 
 </div>

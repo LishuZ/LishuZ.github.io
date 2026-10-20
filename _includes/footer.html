@@ -1,3 +1,9 @@
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
+  {% if site.author.googlescholar %}
+    <span aria-hidden="true"> · </span><a href="{{ site.author.googlescholar }}">Google Scholar</a>
+  {% endif %}
+  {% if site.author.orcid %}
+    <span aria-hidden="true"> · </span><a href="{{ site.author.orcid }}">ORCID</a>
+  {% endif %}
 </div>

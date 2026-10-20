@@ -46,10 +46,41 @@ redirect_from:
   font-size: 0.9em;
   margin: 0;
 }
+/* A quiet editorial seal reserved for the job market paper. */
+.page__content .jmp-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7em;
+  margin: 0.4em 0 0;
+  padding: 0.5em 0.95em;
+  border: 1px solid #cbbda7;
+  border-left: 3px solid #6e9297;
+  border-radius: 3px 14px 14px 3px;
+  background: linear-gradient(110deg, #f2eee5, #f3f7f6);
+  color: #594333;
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.page__content .jmp-label::before {
+  content: "";
+  width: 0.45em;
+  height: 0.45em;
+  border: 1px solid #6e9297;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+.page__content .jmp-label + h3 {
+  margin-top: 0.65em;
+}
 </style>
 
 ## Critical Raw Materials, Production Networks, and Pricing
 {: .theme .theme-crm}
+
+<p class="jmp-label">Job Market Paper</p>
 
 ### Measuring Critical Raw Material Dependence
 In preparation.

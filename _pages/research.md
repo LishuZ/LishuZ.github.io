@@ -62,7 +62,7 @@ Geopolitical tensions and economic transitions make critical raw material supply
 ## International Trade in Brown Assets
 {: .theme .theme-fin}
 
-### Resistance and Arbitrage: International Trade in Brown Loans &ensp;<a href="https://www.dropbox.com/scl/fi/hcqlp7ls6i2v8ughdodbc/JMP_2026.pdf?rlkey=z7iw0zsemz8hrkdfkr0eo2ima&st=xu14dxor&dl=0">[Draft]</a>
+### Resistance and Arbitrage: International Trade in Brown Loans &ensp;<a href="/files/brown-loans.pdf">[Draft]</a>
 <p class="award">Yihong Xia Best Paper Award, CICF 2025</p>
 
 I develop a novel measure of carbon sensitivity in lending to assess reductions in portfolio exposure to brown assets. Using syndicated loan data, I show that countries with greater resistance to brown lending, proxied by economic development, experience faster shifts in the sectoral composition of loan portfolios. The decarbonization is driven primarily by domestic credit reallocation. I find consistent evidence of risk transfers to less regulated lenders and foreign countries, indicating arbitrage and incomplete regulations. Furthermore, lenders’ climate risk-taking and transfer behaviors vary sharply by syndicate role, loan type, and specialization. The existence of international trade in brown loans has important implications for supervisory evaluation. Using the European Central Bank’s climate guide, I show that accounting for regulatory leakage reveals effects contrary to common wisdom.

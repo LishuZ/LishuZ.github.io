@@ -36,6 +36,19 @@ redirect_from:
 /* Paper titles */
 .page__content h3:not([class]) { color: #241f1b; font-size: 1.12em; font-weight: 600; margin: 1.25em 0 0.2em; }
 .page__content h3:not([class]) a { font-size: 0.8em; font-weight: 500; white-space: nowrap; color: #6E97A0; }
+.page__content h3:not([class]) a.paper-title-link {
+  font-size: inherit;
+  font-weight: inherit;
+  white-space: normal;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #A8C7CE;
+}
+.page__content h3:not([class]) a.paper-title-link:hover,
+.page__content h3:not([class]) a.paper-title-link:focus-visible {
+  color: #426b75;
+  border-bottom-color: currentColor;
+}
 .page__content p.paper-meta { margin: 0 0 0.2em; font-size: 0.9em; font-weight: 400; color: #74695f; }
 .page__content p.abstract { margin: 0.55em 0 0; max-width: 46em; color: #3a352f; }
 .page__content p.award {
@@ -93,14 +106,14 @@ Geopolitical tensions and economic transitions make critical raw material supply
 ## International Trade in Brown Assets
 {: .theme .theme-fin}
 
-### Resistance and Arbitrage: International Trade in Brown Loans &ensp;<a href="/files/brown-loans.pdf">[Draft]</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642498">[SSRN]</a>
+### <a class="paper-title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642498">Resistance and Arbitrage: International Trade in Brown Loans</a> &ensp;<a href="/files/brown-loans.pdf">[Draft]</a>
 <p class="award">Yihong Xia Best Paper Award, CICF 2025</p>
 
 I develop a novel measure of carbon sensitivity in lending to assess reductions in portfolio exposure to brown assets. Using syndicated loan data, I show that countries with greater resistance to brown lending, proxied by economic development, experience faster shifts in the sectoral composition of loan portfolios. The decarbonization is driven primarily by domestic credit reallocation. I find consistent evidence of risk transfers to less regulated lenders and foreign countries, indicating arbitrage and incomplete regulations. Furthermore, lenders’ climate risk-taking and transfer behaviors vary sharply by syndicate role, loan type, and specialization. The existence of international trade in brown loans has important implications for supervisory evaluation. Using the European Central Bank’s climate guide, I show that accounting for regulatory leakage reveals effects contrary to common wisdom.
 {: .abstract}
 
-### Who holds brown equity? Economic development, divestment, and environmental outcomes &ensp;<a href="/files/ownership-final.pdf">[Draft]</a>
-with Harald Benink, Harry Huizinga, and Louis Raes. &ensp;<a href="https://cepr.org/publications/dp18856">[CEPR]</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4703966">[SSRN]</a> <a href="https://cepr.org/voxeu/columns/international-trade-brown-shares-and-economic-development">[VoxEU]</a>
+### <a class="paper-title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4703966">Who holds brown equity? Economic development, divestment, and environmental outcomes</a> &ensp;<a href="/files/ownership-final.pdf">[Draft]</a>
+with Harald Benink, Harry Huizinga, and Louis Raes. &ensp;<a href="https://cepr.org/publications/dp18856">[CEPR]</a> <a href="https://cepr.org/voxeu/columns/international-trade-brown-shares-and-economic-development">[VoxEU]</a>
 {: .paper-meta}
 
 Under review.

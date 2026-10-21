@@ -100,7 +100,7 @@ I develop a novel measure of carbon sensitivity in lending to assess reductions 
 {: .abstract}
 
 ### Who holds brown equity? Economic development, divestment, and environmental outcomes &ensp;<a href="/files/ownership-final.pdf">[Draft]</a>
-with Harald Benink, Harry Huizinga, and Louis Raes. &ensp;<a href="https://cepr.org/publications/dp18856">[CEPR]</a> <a href="https://cepr.org/voxeu/columns/international-trade-brown-shares-and-economic-development">[VoxEU]</a>
+with Harald Benink, Harry Huizinga, and Louis Raes. &ensp;<a href="https://cepr.org/publications/dp18856">[CEPR]</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4703966">[SSRN]</a> <a href="https://cepr.org/voxeu/columns/international-trade-brown-shares-and-economic-development">[VoxEU]</a>
 {: .paper-meta}
 
 Under review.

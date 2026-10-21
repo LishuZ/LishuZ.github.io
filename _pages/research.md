@@ -59,43 +59,46 @@ redirect_from:
   font-size: 0.9em;
   margin: 0;
 }
-/* A quiet editorial seal reserved for the job market paper. */
+/* Inline signature: offset teal and gold rules echo the site's paper links. */
 .page__content .jmp-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.7em;
-  margin: 0.4em 0 0;
-  padding: 0.5em 0.95em;
-  border: 1px solid #cbbda7;
-  border-left: 3px solid #6e9297;
-  border-radius: 3px 14px 14px 3px;
-  background: linear-gradient(110deg, #f2eee5, #f3f7f6);
-  color: #594333;
-  font-size: 0.72em;
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  margin-left: 0.75em;
+  padding: 0.12em 0 0.45em;
+  color: #496f75;
+  font-size: 0.64em;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.045em;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.page__content .jmp-label::before,
+.page__content .jmp-label::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 66%;
 }
 .page__content .jmp-label::before {
-  content: "";
-  width: 0.45em;
-  height: 0.45em;
-  border: 1px solid #6e9297;
-  transform: rotate(45deg);
-  flex-shrink: 0;
+  bottom: 3px;
+  left: 0;
+  background: #a8c7ce;
 }
-.page__content .jmp-label + h3 {
-  margin-top: 0.65em;
+.page__content .jmp-label::after {
+  bottom: 0;
+  right: 0;
+  background: #cbbb8d;
+}
+@media (max-width: 600px) {
+  .page__content .jmp-label { margin-left: 0.45em; }
 }
 </style>
 
 ## Critical Raw Materials, Production Networks, and Pricing
 {: .theme .theme-crm}
 
-<p class="jmp-label">Job Market Paper</p>
-
-### Measuring Critical Raw Material Dependence
+### Measuring Critical Raw Material Dependence <span class="jmp-label">Job Market Paper</span>
 In preparation.
 {: .paper-meta}
 

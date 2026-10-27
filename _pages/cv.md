@@ -39,7 +39,7 @@ View / Download my **[CV](/files/cv.pdf)** here.
 ## Education
 
 * <span class="org">Tilburg University</span>, <span class="place">The Netherlands</span>
-  * 2021–2026 (expected). PhD in Economics.
+  * 2021–present. PhD in Economics. Defense expected: February 2027.
   * 2019–2021. Research Master in Economics, _with distinction_.
 * <span class="org">Stockholm School of Economics</span>, <span class="place">Sweden</span>
   * 2017–2019. Master of Science in Economics.

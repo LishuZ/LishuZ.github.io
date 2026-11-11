@@ -95,7 +95,7 @@ redirect_from:
 }
 </style>
 
-## Critical Raw Materials, Production Networks, and Pricing
+## Critical Raw Materials, Production Networks, and Finance
 {: .theme .theme-crm}
 
 ### Measuring Critical Raw Material Dependence <span class="jmp-label">Job Market Paper</span>

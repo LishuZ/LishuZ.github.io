@@ -123,7 +123,7 @@ author_profile: false
 <div class="intro-row">
   <img class="intro-photo" src="/images/homepage-portrait-original-2026.jpg" alt="Lishu Zhang">
   <div class="intro-text">
-    <p>I am a fifth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes. I am also a postdoctoral researcher in the Finance group at CREST in Paris, working with Peter Tankov and Olivier David Zerbib.</p>
+    <p>I am a sixth-year PhD candidate in Economics at Tilburg University, supervised by Harry Huizinga, Harald Benink, and Louis Raes (defense expected in Spring 2027). I am also a postdoctoral researcher in the Finance group at CREST in Paris, working with Peter Tankov and Olivier David Zerbib.</p>
     <p class="contact"><a href="mailto:l.zhang_3@tilburguniversity.edu">l.zhang_3@tilburguniversity.edu</a>&nbsp;|&nbsp;<a href="mailto:lishu.zhang@ensae.fr">lishu.zhang@ensae.fr</a><br><a href="/files/cv.pdf">CV</a></p>
   </div>
 </div>

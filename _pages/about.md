@@ -135,7 +135,7 @@ author_profile: false
 
 <div class="paper">
   <div class="ptitle">Measuring Critical Raw Material Dependence <span class="status">Coming soon</span></div>
-  <p class="abs">A language-model-assisted measure of firm dependence on critical raw materials, used to study how public attention shapes market responses to material supply shocks.</p>
+  <p class="abs">The supply of critical raw materials is increasingly exposed to geopolitical disruption, yet little is known about which firms ultimately bear these shocks or how they adjust. We measure structural material dependence by tracing material requirements through production paths and firms’ product portfolios and translating them into cost exposure. The measure covers 12,481 firms across 55 materials, revealing a new dimension of firm heterogeneity within narrow industries. Independent benchmarks support the production links, and firms’ cost responses to material-price changes support the measure’s scale. Greater material-price pressure is followed by lower operating cash flow and greater external financing. These responses are stronger for price shocks identified from supply-tightening events. Dependence also predicts return volatility and downside risk, especially for firms exposed to more volatile materials. Across firms, material supply shocks can generate substantial cash-flow and financing needs, and much of this exposure comes from uses that receive little market attention.</p>
 </div>
 
 

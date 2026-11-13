@@ -145,6 +145,18 @@
 #crm-two-panels .source-notes p {max-width:none;width:100%;}
 #crm-two-panels .component-notes {display:grid;grid-template-columns:52fr 25fr 23fr;gap:0;margin:-12px 0 15px;}
 #crm-two-panels .component-notes p {min-width:0;max-width:none;margin:0;padding:0 4px;text-align:center;color:var(--muted);font:11px/1.5 system-ui,sans-serif;}
+#crm-two-panels .risk-columns {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;margin:12px 0;}
+#crm-two-panels .risk-column h5 {font:500 17px/1.4 "Source Serif 4",Georgia,serif;color:#5E4034;margin:0 0 8px;}
+#crm-two-panels .risk-column h5 span {font:11px/1.4 system-ui,sans-serif;color:var(--muted);margin-left:5px;}
+#crm-two-panels .risk-headline {display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;}
+#crm-two-panels .risk-headline strong {font:400 29px/1.2 "Source Serif 4",Georgia,serif;}
+#crm-two-panels .risk-headline small,#crm-two-panels .risk-channel strong small {font:11px/1.4 system-ui,sans-serif;color:var(--muted);}
+#crm-two-panels .risk-headline > span {font:11px/1.45 system-ui,sans-serif;color:var(--muted);}
+#crm-two-panels .risk-comparison-label {font:11px/1.5 system-ui,sans-serif;color:var(--muted);margin:15px 0 5px;padding-top:10px;border-top:1px solid var(--rule);}
+#crm-two-panels .risk-channel {display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:5px 0;font:12px/1.45 system-ui,sans-serif;}
+#crm-two-panels .risk-channel > strong {font:400 19px/1.3 "Source Serif 4",Georgia,serif;white-space:nowrap;}
+#crm-two-panels .risk-channel > span small {display:block;font:11px/1.4 system-ui,sans-serif;color:var(--muted);}
+@media(max-width:599px){#crm-two-panels .risk-columns {grid-template-columns:1fr;gap:22px;}}
 </style>
 <section class="page" aria-label="Critical raw materials research">
 <h2>Measuring Critical Raw Material Dependence</h2>
@@ -1313,16 +1325,28 @@ L 349.2 127.98
 </section>
 <section class="result-block risk-strip-block">
 <div class="result-heading"><p class="part-number">C / EQUITY RISK</p><p class="note">Adjusted associations within narrow industries and years</p></div>
-<div class="risk-strip">
-<div><strong>+1.79 <small>pp</small></strong><p>Annualized return volatility</p><span>Median → 90th percentile dependence</span></div>
-<div><strong>+0.15 <small>pp</small></strong><p>Downside risk / expected shortfall</p><span>Median → 90th percentile dependence</span></div>
-<div><strong>+0.74 <small>pp</small></strong><p>Annualized return volatility</p><span>+1 SD material-price risk, holding dependence fixed</span></div>
+<div class="risk-columns">
+<section class="risk-column" aria-label="Annualized return volatility">
+<h5>Annualized return volatility</h5>
+<div class="risk-headline"><strong>+1.79 <small>pp</small></strong><span>Median → 90th percentile dependence</span></div>
+<p class="risk-comparison-label">At the same dependence, which materials matter?</p>
+<div class="risk-channel"><span>More volatile material prices</span><strong>+0.74 <small>pp</small></strong></div>
+<div class="risk-channel"><span>More China restrictions</span><strong>+0.61 <small>pp</small></strong></div>
+</section>
+<section class="risk-column" aria-label="Downside risk, expected shortfall">
+<h5>Downside risk <span>Expected shortfall</span></h5>
+<div class="risk-headline"><strong>+0.15 <small>pp</small></strong><span>Median → 90th percentile dependence</span></div>
+<p class="risk-comparison-label">At the same dependence, which materials matter?</p>
+<div class="risk-channel"><span>More volatile material prices</span><strong>+0.063 <small>pp</small></strong></div>
+<div class="risk-channel"><span>More China restrictions<small>Not statistically significant</small></span><strong>+0.014 <small>pp</small></strong></div>
+</section>
 </div>
+<p class="note">Material comparisons: +1 SD in each exposure-weighted basket, holding dependence and other controls fixed. Separate estimates, not an additive decomposition.</p>
 </section>
 <details class="source-notes"><summary>Sources, units, and interpretation</summary>
 <p><strong>A · How firms adjust.</strong> We trace cash flow and financing after material-price changes, comparing the component associated with identified supply-tightening events with the remaining price variation. For a predicted cost increase of 1% of identified revenue, the event-driven estimates at quarter 4 imply cumulative cash flow lower by 0.391% of initial assets and net external financing higher by 0.692%. This pattern is consistent with firms meeting liquidity needs through external finance. Shading and error bars show 95% confidence intervals; “Before” shows pre-event responses. The comparison series labeled “Predictable price changes” also includes pre-announcement price movements.</p>
 <p><strong>B · What past events imply for firms today.</strong> We apply historical event-driven price changes to firms’ 2024–2025 material exposures, using the estimated quarter-4 cash-flow and financing responses. Across all 28 replays, the implied amounts are $20.0 billion of cash flow at risk and $35.4 billion of external financing. These are scenarios, not recorded losses; totals include offsetting price declines. The brown segments show relationships where specialist reports miss uses accounting for more than half of a firm’s material dependence. Their size shows how relying on those reports alone can miss financially important exposure.</p>
-<p><strong>C · How dependence relates to equity risk.</strong> We compare firms within narrow industries and years, accounting for country conditions and standard firm characteristics. Moving from median to 90th-percentile dependence is associated with 1.79 percentage points higher annualized return volatility and 0.15 points higher expected shortfall—a measure of losses on the worst trading days. Holding dependence fixed, a one-standard-deviation increase in material-price risk is associated with 0.74 points higher return volatility. Both the extent of dependence and the volatility of the underlying materials help explain differences in equity risk. These are adjusted associations, not causal estimates.</p>
+<p><strong>C · How dependence relates to equity risk.</strong> We compare firms within narrow industries and years, accounting for country conditions and standard firm characteristics. Moving from median to 90th-percentile dependence is associated with 1.79 percentage points higher annualized return volatility and 0.15 points higher expected shortfall—a measure of losses on the worst trading days. The rows below ask whether the materials themselves matter among firms with the same dependence. A one-standard-deviation increase in the exposure-weighted price-risk basket is associated with 0.74 points higher volatility and 0.063 points higher expected shortfall. The same increase in the China-restriction basket is associated with 0.61 points higher volatility; its 0.014-point expected-shortfall estimate is not statistically significant. Price instability relates to both ordinary return fluctuations and downside losses, while the restriction evidence is clearest for volatility. The headline and basket results come from separate regressions and samples; they are not additive shares or causal effects.</p>
 </details>
 </section>
 <p class="message">Physical dependence connects material supply shocks to firms’ liquidity needs and equity risk. Event replays reveal the scale of financial exposure—including relationships absent from specialist reports.</p>

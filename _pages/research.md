@@ -98,7 +98,7 @@ redirect_from:
 ## Critical Raw Materials, Production Networks, and Finance
 {: .theme .theme-crm}
 
-### Measuring Critical Raw Material Dependence <span class="jmp-label">Job Market Paper</span>
+### <a class="paper-title-link" href="/files/CRM_dependence.pdf">Measuring Critical Raw Material Dependence</a> <span class="jmp-label">Job Market Paper</span> &ensp;<a href="/files/CRM_dependence.pdf">[Draft]</a>
 
 The supply of critical raw materials is increasingly exposed to geopolitical disruption, yet little is known about which firms ultimately bear these shocks or how they adjust. We measure structural material dependence by tracing material requirements through production paths and firms’ product portfolios and translating them into cost exposure. The measure covers 12,481 firms across 55 materials, revealing a new dimension of firm heterogeneity within narrow industries. Independent benchmarks support the production links, and firms’ cost responses to material-price changes closely match the magnitude predicted by the measure. Greater material-price pressure is followed by lower operating cash flow and greater external financing. These responses are stronger for price shocks identified from supply-tightening events. Dependence also predicts return volatility and downside risk, especially for firms exposed to more volatile materials. Across firms, material supply shocks can generate substantial cash-flow and financing needs, and much of this exposure comes from uses that receive little market attention.
 {: .abstract}

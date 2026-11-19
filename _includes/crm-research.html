@@ -99,7 +99,7 @@
 
 /* Homepage integration: retain the homepage's narrow biography and widen research. */
 .home {max-width:1000px;}
-.home > .home-head,.home > .intro-row,.home > .job-market,.home > .intro-extra {max-width:660px;margin-left:auto;margin-right:auto;}
+.home > .intro-row,.home > .job-market,.home > .intro-extra {max-width:660px;margin-left:auto;margin-right:auto;}
 #crm-two-panels {color-scheme:light;--paper:#faf6f3;--ink:#3a352f;--muted:#74695f;--rule:#e6ddd2;--blue:#6E97A0;--wash:#eaf1f3;--ochre:#9b8a75;font-family:"Source Serif 4",Georgia,serif;}
 #crm-two-panels .page {padding:0;background:transparent;float:none;width:auto;margin:0;}
 #crm-two-panels h2 {font-family:"Source Serif 4",Georgia,serif;font-size:25px;font-weight:600;color:#5E4034;max-width:none;margin:0 0 6px;padding:0;border:0;}
@@ -200,9 +200,10 @@
 #crm-two-panels .story-question {margin-bottom:10px;}
 #crm-two-panels .story-answer {font:16px/1.6 "Source Serif 4",Georgia,serif;text-align:center;max-width:720px;margin:0 auto 24px;color:var(--ink);}
 #crm-two-panels .gap-pair {display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin:0 0 20px;border:1px solid var(--rule);border-radius:8px;overflow:hidden;}
-#crm-two-panels .gap-pair > div {padding:13px 16px;min-width:0;}
+#crm-two-panels .gap-pair > div {padding:13px 14px;min-width:0;}
 #crm-two-panels .gap-pair > div + div {border-left:1px solid var(--rule);}
-#crm-two-panels .gap-pair p {font:14px/1.55 "Source Sans 3",Arial,sans-serif;margin:0;max-width:none;}
+#crm-two-panels .gap-pair p span {white-space:nowrap;}
+#crm-two-panels .gap-pair p {font:13.5px/1.55 "Source Sans 3",Arial,sans-serif;margin:0;max-width:none;}
 #crm-two-panels .gap-pair .gap-answer {background:var(--wash);}
 #crm-two-panels .gap-pair .gap-answer .finding-context {color:var(--blue);}
 @media(max-width:650px){#crm-two-panels .story-answer{text-align:left;}#crm-two-panels .gap-pair{grid-template-columns:1fr;}#crm-two-panels .gap-pair > div + div{border-left:0;border-top:1px solid var(--rule);}}
@@ -225,8 +226,17 @@
 #crm-two-panels .react span {display:inline-flex;align-items:center;gap:8px;}
 #crm-two-panels .react span svg {width:34px;height:24px;flex:none;}
 #crm-two-panels .react em {font-style:normal;color:var(--muted);font-size:12px;}
+#crm-two-panels .risk-rows {margin-top:12px;border-top:1px solid var(--rule);padding-top:6px;}
+#crm-two-panels .risk-rows .risk-channel > span {font:13px/1.45 "Source Sans 3",Arial,sans-serif;}
 #crm-two-panels .equity-finding > svg {display:block;width:150px;height:auto;margin:2px 0 8px;}
 @media(max-width:650px){#crm-two-panels .viz-row{grid-template-columns:1fr;gap:22px;justify-items:center;}#crm-two-panels .react{grid-template-columns:1fr 30px;}#crm-two-panels .react em{grid-column:1/-1;}}
+/* 19 Nov 2026: research question set below the paper title in size. */
+#crm-two-panels .story-question {font-size:20px;font-weight:500;margin:18px auto 8px;}
+@media(max-width:650px){#crm-two-panels .story-question{font-size:18px;}}
+
+/* 19 Nov 2026: single illustration centred; links separated from the last panel */
+#crm-two-panels .viz-row {grid-template-columns:minmax(0,262px);}
+#crm-two-panels .bottom {margin-top:22px;padding-top:14px;border-top:1px solid var(--rule);}
 </style>
 <section class="page" aria-label="Critical raw materials research">
 <h2>Measuring Critical Raw Material Dependence</h2>
@@ -237,9 +247,9 @@
 <section class="panel measurement-panel" id="measurement">
 <div class="panel-title"><span>01 / MEASUREMENT</span><h3>Follow the material to the firm.</h3></div>
 <div class="gap-pair" aria-label="Why existing data cannot measure this">
-<div><p class="finding-context">INDUSTRY INPUT–OUTPUT TABLES</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: many unrelated links pooled between two industries"><rect x="3" y="8" width="40" height="40" rx="4" fill="none" stroke="#c9bfb2"/><rect x="107" y="8" width="40" height="40" rx="4" fill="none" stroke="#c9bfb2"/><circle cx="15" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="15" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="31" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="31" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="119" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="119" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="135" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="135" cy="36" r="3.5" fill="#c9bfb2"/><line x1="43" y1="15" x2="107" y2="15" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="22" x2="107" y2="22" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="36" x2="107" y2="36" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="43" x2="107" y2="43" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="29" x2="107" y2="29" stroke="#6E97A0" stroke-width="2.4"/></svg><p>Unrelated links pooled<br>Firms indistinguishable</p></div>
-<div><p class="finding-context">SUPPLIER–CUSTOMER DATA</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: only the last link to the firm is observed"><line x1="18" y1="28" x2="44" y2="28" stroke="#c9bfb2" stroke-width="2" stroke-dasharray="3 4"/><line x1="56" y1="28" x2="82" y2="28" stroke="#c9bfb2" stroke-width="2" stroke-dasharray="3 4"/><line x1="94" y1="28" x2="120" y2="28" stroke="#6E97A0" stroke-width="2" /><circle cx="12" cy="28" r="7" fill="#faf6f3" stroke="#c9bfb2" stroke-width="1.5" stroke-dasharray="2 3"/><circle cx="50" cy="28" r="5.5" fill="#faf6f3" stroke="#c9bfb2" stroke-width="1.5" stroke-dasharray="2 3"/><circle cx="88" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><rect x="120" y="16" width="27" height="24" rx="3" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1.2"/></svg><p>Direct links only<br>Not material-specific</p></div>
-<div class="gap-answer"><p class="finding-context">THIS PAPER</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: the material is followed through every stage to the firm"><line x1="18" y1="28" x2="44" y2="28" stroke="#6E97A0" stroke-width="2" /><line x1="56" y1="28" x2="82" y2="28" stroke="#6E97A0" stroke-width="2" /><line x1="94" y1="28" x2="120" y2="28" stroke="#6E97A0" stroke-width="2" /><circle cx="12" cy="28" r="7" fill="#6E97A0" stroke="#6E97A0" stroke-width="1.5" /><circle cx="50" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><circle cx="88" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><rect x="120" y="16" width="27" height="24" rx="3" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1.2"/></svg><p>Material-specific networks<br>Mapped to firms’ products</p></div>
+<div><p class="finding-context">INDUSTRY INPUT–OUTPUT TABLES</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: many unrelated links pooled between two industries"><rect x="3" y="8" width="40" height="40" rx="4" fill="none" stroke="#c9bfb2"/><rect x="107" y="8" width="40" height="40" rx="4" fill="none" stroke="#c9bfb2"/><circle cx="15" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="15" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="31" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="31" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="119" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="119" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="135" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="135" cy="36" r="3.5" fill="#c9bfb2"/><line x1="43" y1="15" x2="107" y2="15" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="22" x2="107" y2="22" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="36" x2="107" y2="36" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="43" x2="107" y2="43" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="29" x2="107" y2="29" stroke="#6E97A0" stroke-width="2.4"/></svg><p><span>Links pooled</span> · <span>Industry peers indistinguishable</span></p></div>
+<div><p class="finding-context">SUPPLIER–CUSTOMER DATA</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: only the last link to the firm is observed"><line x1="18" y1="28" x2="44" y2="28" stroke="#c9bfb2" stroke-width="2" stroke-dasharray="3 4"/><line x1="56" y1="28" x2="82" y2="28" stroke="#c9bfb2" stroke-width="2" stroke-dasharray="3 4"/><line x1="94" y1="28" x2="120" y2="28" stroke="#6E97A0" stroke-width="2" /><circle cx="12" cy="28" r="7" fill="#faf6f3" stroke="#c9bfb2" stroke-width="1.5" stroke-dasharray="2 3"/><circle cx="50" cy="28" r="5.5" fill="#faf6f3" stroke="#c9bfb2" stroke-width="1.5" stroke-dasharray="2 3"/><circle cx="88" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><rect x="120" y="16" width="27" height="24" rx="3" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1.2"/></svg><p><span>Direct links only</span> · <span>Not material-specific</span></p></div>
+<div class="gap-answer"><p class="finding-context">THIS PAPER</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: the material is followed through every stage to the firm"><line x1="18" y1="28" x2="44" y2="28" stroke="#6E97A0" stroke-width="2" /><line x1="56" y1="28" x2="82" y2="28" stroke="#6E97A0" stroke-width="2" /><line x1="94" y1="28" x2="120" y2="28" stroke="#6E97A0" stroke-width="2" /><circle cx="12" cy="28" r="7" fill="#6E97A0" stroke="#6E97A0" stroke-width="1.5" /><circle cx="50" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><circle cx="88" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><rect x="120" y="16" width="27" height="24" rx="3" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1.2"/></svg><p>Host firms on material-specific production networks</p></div>
 </div>
 <div class="outputs" aria-label="Measurement outputs">
 <button class="output" data-output="network" aria-pressed="true"><em>I.</em>Material-specific<br>production network</button>
@@ -247,16 +257,9 @@
 <button class="output" data-output="firm" aria-pressed="false"><em>III.</em>Firm material<br>dependence</button>
 </div>
 <svg class="network" role="img" aria-label="Schematic material-specific tree, product cost elasticities, and mapping through product portfolios to three firms"></svg>
-<div class="component-notes" aria-label="How each measurement component is constructed">
-<p>Technical evidence<br>→ production links</p>
-<p>Input cost shares<br>→ cost elasticity</p>
-<p>Product revenues<br>→ firm dependence</p>
-</div>
-<p class="detail" aria-live="polite">Technical evidence identifies the production paths specific to each material.</p>
 <p class="note">Illustrative production paths and firms</p>
 <p class="measurement-message">55 materials · 12,481 firms</p>
 <div class="viz-row">
-<figure><svg viewBox="0 0 170 96" role="img" aria-label="Schematic: firms in one industry with very different dependence"><rect x="6" y="10" width="158" height="78" rx="6" fill="none" stroke="#c9bfb2" stroke-dasharray="4 4"/><rect x="18" y="22" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0" stroke="#c9bfb2" stroke-width="1.2"/><rect x="52" y="22" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0.9" stroke="#6E97A0" stroke-width="1.2"/><rect x="86" y="22" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0" stroke="#c9bfb2" stroke-width="1.2"/><rect x="120" y="22" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0.35" stroke="#6E97A0" stroke-width="1.2"/><rect x="18" y="52" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0.6" stroke="#6E97A0" stroke-width="1.2"/><rect x="52" y="52" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0" stroke="#c9bfb2" stroke-width="1.2"/><rect x="86" y="52" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0" stroke="#c9bfb2" stroke-width="1.2"/><rect x="120" y="52" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0.15" stroke="#6E97A0" stroke-width="1.2"/></svg><figcaption>Same industry, different dependence<span>Half the variation lies within narrow industries</span></figcaption></figure>
 <figure><svg viewBox="0 0 262 96" role="img" aria-label="Schematic: all routes from a material pass through one intermediate product"><circle cx="14" cy="48" r="8" fill="#6E97A0"/><path d="M22,48 C50,48 50,20 78,20" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><circle cx="82" cy="20" r="5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.3"/><path d="M87,20 C112,20 112,48 132,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><path d="M22,48 C50,48 50,48 78,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><circle cx="82" cy="48" r="5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.3"/><path d="M87,48 C112,48 112,48 132,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><path d="M22,48 C50,48 50,76 78,76" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><circle cx="82" cy="76" r="5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.3"/><path d="M87,76 C112,76 112,48 132,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><circle cx="140" cy="48" r="9" fill="#faf6f3" stroke="#5E4034" stroke-width="2.2"/><path d="M149,48 C190,48 190,8 228,8" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="2" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/><path d="M149,48 C190,48 190,28 228,28" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="22" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/><path d="M149,48 C190,48 190,48 228,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="42" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/><path d="M149,48 C190,48 190,68 228,68" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="62" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/><path d="M149,48 C190,48 190,88 228,88" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="82" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/></svg><figcaption>One product, every route<span>A single-product bottleneck for 25 of the 55 materials</span></figcaption></figure>
 </div>
 <div class="validation-bridge"><h4>Does this exposure show up<br>in firms’ accounts?</h4><p>Costs rise almost one for one with the measure.<br>Industry-level measures do not predict them.</p></div>
@@ -265,7 +268,7 @@
 <div class="panel-title"><span>02 / FINANCIAL CONSEQUENCES</span><h3>What does that exposure mean financially?</h3></div>
 <section class="result-block paired-result-panel" id="adjustment">
 <div class="result-heading"><p class="part-number">A / FIRM ADJUSTMENT</p><div class="legend"><span>Event-driven</span><span>Predictable price changes</span></div></div>
-<h4 class="block-question">Margins hold. Cash does not.</h4>
+<h4 class="block-question">A liquidity shock</h4>
 <div class="paired-plots">
 <div><h5>Operating cash flow</h5><svg role="img" aria-label="Operating cash flow responses" xmlns:xlink="http://www.w3.org/1999/xlink" width="360pt" height="223.2pt" viewBox="0 0 360 223.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
@@ -1419,11 +1422,14 @@ L 349.2 127.98
 <p class="finding-context">RISK AT THE FIRM</p>
 <h5>The material mix matters.</h5>
 <svg viewBox="0 0 150 34" role="img" aria-label="Schematic: calm versus volatile material prices"><path d="M4,22 C14,20 22,24 32,21 S50,22 60,20" fill="none" stroke="#c9bfb2" stroke-width="2"/><g transform="translate(82,0)"><path d="M4,22 L11,10 L18,26 L25,8 L32,24 L39,12 L46,27 L53,9 L60,20" fill="none" stroke="#6E97A0" stroke-width="2" stroke-linejoin="round"/></g></svg><p>More volatile materials, more volatile stocks and larger downside risk. Stronger at higher dependence.</p>
+<div class="risk-rows"><div class="risk-channel"><span>Return volatility<small>Median → 90th percentile dependence</small></span><strong>+1.73 <small>pp</small></strong></div><div class="risk-channel"><span>Downside risk<small>Expected shortfall, same move</small></span><strong>+0.15 <small>pp</small></strong></div><div class="risk-channel"><span>Return volatility<small>+1 SD material-price risk, same dependence</small></span><strong>+0.74 <small>pp</small></strong></div><div class="risk-channel"><span>Downside risk<small>+1 SD material-price risk, same dependence</small></span><strong>+0.063 <small>pp</small></strong></div></div>
 </section>
 <section class="equity-finding">
 <p class="finding-context">RISK ACROSS FIRMS</p>
 <h5>Material connections cross industry boundaries.</h5>
 <svg viewBox="0 0 150 46" role="img" aria-label="Schematic: two firms in different industries linked by one material"><rect x="4" y="3" width="52" height="24" rx="4" fill="none" stroke="#c9bfb2" stroke-dasharray="3 3"/><rect x="94" y="3" width="52" height="24" rx="4" fill="none" stroke="#c9bfb2" stroke-dasharray="3 3"/><rect x="20" y="8" width="20" height="14" rx="2" fill="#eaf1f3" stroke="#6E97A0"/><rect x="110" y="8" width="20" height="14" rx="2" fill="#eaf1f3" stroke="#6E97A0"/><path d="M30,22 C30,38 60,40 68,40 M120,22 C120,38 90,40 82,40" fill="none" stroke="#6E97A0" stroke-width="1.6"/><circle cx="75" cy="40" r="5.5" fill="#6E97A0"/></svg><p>Shared materials, correlated returns. Also across industries.</p>
+<div class="risk-rows"><div class="risk-channel"><span>Return correlation<small>+1 SD material connection</small></span><strong>+0.041 <small>points</small></strong></div><div class="risk-channel"><span>Across different industries<small>Pairs in different three-digit industries</small></span><strong>+0.049 <small>points</small></strong></div></div>
+<p class="viz-caption">One correlation point is 0.01 in raw correlation</p>
 </section>
 </div>
 <details class="equity-evidence"><summary>Evidence behind these findings</summary>
@@ -1455,7 +1461,6 @@ L 349.2 127.98
 <p><strong>Where the exposure sits and what is visible.</strong> About half of the variation in dependence ranks lies within six-digit industry–year groups. In 2019, 3,165 of 8,073 firms (39.2%) have positive measured dependence on at least one material. For 25 of the 55 materials, a single product blocks every mapped route to downstream products that together account for at least 90% of measured dependence. Documented relationships carry 38.3% of measured dependence in firms’ filings and 41.0% in specialist reports, each in its matched sample. Announcement returns are three-day returns around 27 supply events, 2017–2025; firms that mine or refine raw materials earn about 1.1 percentage points more than firms without measured dependence.</p>
 </details>
 </section>
-<p class="message">A technological source of financing needs and equity risk, recognized only where it is most salient.</p>
 <div class="bottom"><a href="/files/CRM_dependence.pdf" target="_blank" rel="noopener">Read the paper →</a><a href="/research/">Research page →</a></div>
 </section>
 <script>
@@ -1466,7 +1471,7 @@ for(const [a,b,kind] of [['m','a','network'],['m','b','network'],['a','p1','netw
 for(const [id,p] of Object.entries(pts)){if(id[0]==='e'){el('rect',{x:p[0]-19,y:p[1]-14,width:38,height:28,fill:'var(--paper)'});el('text',{x:p[0],y:p[1]+5,'text-anchor':'middle',class:'formula'},'βm'+id[1]);}else if(id[0]==='f'){el('rect',{x:p[0]-(small?23:32),y:p[1]-18,width:small?46:64,height:36,rx:3,class:'firm'});el('text',{x:p[0],y:p[1]+4,'text-anchor':'middle'},'Firm '+id[1]);}else{el('circle',{cx:p[0],cy:p[1],r:id==='m'?9:6,class:'node'});let label=id==='m'?['Material','m']:id[0]==='p'?['Product '+id[1]]:['Input '+id.toUpperCase()];label.forEach((t,i)=>el('text',{x:p[0],y:p[1]+24+i*14,'text-anchor':'middle'},t));}}
 }
 const descriptions={network:'Technical evidence identifies the production paths specific to each material.',elasticity:'Input cost shares along all relevant paths yield each product’s marginal-cost elasticity to the material price.',firm:'Product-revenue weights translate product elasticities into a firm-level proxy of material dependence.'};
-function render(){root.querySelectorAll('[data-output]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.output===active)));root.querySelector('.detail').textContent=descriptions[active];draw();}
+function render(){root.querySelectorAll('[data-output]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.output===active)));draw();}
 root.querySelectorAll('[data-output]').forEach(b=>b.addEventListener('click',()=>{active=b.dataset.output;render();}));
 new ResizeObserver(draw).observe(svg);render();
 })();

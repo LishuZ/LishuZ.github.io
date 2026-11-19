@@ -22,6 +22,7 @@ author_profile: false
 }
 .home .lead-name .cn { font-weight: 500; color: #8a7a6e; font-size: 0.66em; margin-left: 0.25em; }
 .home .lead-role { font-size: 1rem; color: #74695f; margin: 0; }
+@media (min-width: 760px) { .home .lead-role { white-space: nowrap; } }
 
 /* --- Photo left, bio + email vertically centered on the right --- */
 .home .intro-row { display: flex; gap: 1.9rem; align-items: center; margin-bottom: 1.4em; }

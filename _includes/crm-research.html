@@ -141,6 +141,8 @@
 #crm-two-panels .page > .authors {text-align:center;}
 
 @media(min-width:1100px){#crm-two-panels {position:relative;left:40px;}}
+/* The block is offset 40px on wide screens; keep its title lines on the page's centre line. */
+@media(min-width:1100px){#crm-two-panels .page > h2,#crm-two-panels .page > .authors,#crm-two-panels .story-question,#crm-two-panels .story-answer {position:relative;left:-40px;}}
 
 #crm-two-panels .source-notes p {max-width:none;width:100%;}
 #crm-two-panels .component-notes {display:grid;grid-template-columns:52fr 25fr 23fr;gap:0;margin:-12px 0 15px;}

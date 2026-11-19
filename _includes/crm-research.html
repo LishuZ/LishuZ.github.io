@@ -1,4 +1,4 @@
-<div id="crm-two-panels">
+<div id="crm-two-panels" class="crm-story">
 <style>
 #crm-two-panels {color-scheme:light dark; --paper:light-dark(#faf7f0,#242320); --ink:light-dark(#302b25,#eee7db); --muted:light-dark(#766f63,#bfb5a6); --rule:light-dark(#dcd5c8,#514a40); --blue:light-dark(#6E97A0,#9cc0c9); --wash:light-dark(#e5eeec,#304348); --ochre:light-dark(#9b8a75,#c7b193); font:15px/1.55 Georgia,serif; color:var(--ink); }
 #crm-two-panels * {box-sizing:border-box;}
@@ -157,16 +157,94 @@
 #crm-two-panels .risk-channel > strong {font:400 19px/1.3 "Source Serif 4",Georgia,serif;white-space:nowrap;}
 #crm-two-panels .risk-channel > span small {display:block;font:11px/1.4 system-ui,sans-serif;color:var(--muted);}
 @media(max-width:599px){#crm-two-panels .risk-columns {grid-template-columns:1fr;gap:22px;}}
+
+/* Preview: one research question, measurement, validation, then financial outcomes. */
+#crm-two-panels {scroll-margin-top:100px;}
+#crm-two-panels .story-question {font:500 28px/1.3 "Source Serif 4",Georgia,serif;text-align:center;color:#5E4034;max-width:800px;margin:26px auto 8px;}
+#crm-two-panels .story-route {font:12px/1.6 "Source Sans 3",Arial,sans-serif;text-align:center;color:var(--muted);margin:0 0 28px;}
+#crm-two-panels .story-route span {padding:0 10px;color:var(--blue);}
+#crm-two-panels .measurement-message {font:15px/1.6 "Source Serif 4",Georgia,serif;max-width:none;margin:13px 0 0;}
+#crm-two-panels .validation-bridge {display:grid;grid-template-columns:1fr 1.3fr;gap:24px;align-items:center;background:var(--wash);border-left:3px solid var(--blue);padding:17px 20px;margin:22px 0 0;}
+#crm-two-panels .validation-bridge h4 {font:500 19px/1.35 "Source Serif 4",Georgia,serif;color:#5E4034;margin:0;}
+#crm-two-panels .validation-bridge p {font:14px/1.6 "Source Sans 3",Arial,sans-serif;margin:0;}
+#crm-two-panels .application-panel {margin-top:30px;}
+#crm-two-panels .block-question {font:500 23px/1.3 "Source Serif 4",Georgia,serif;color:#5E4034;margin:5px 0 17px;}
+#crm-two-panels .block-takeaway {font:15px/1.6 "Source Serif 4",Georgia,serif;margin:14px 0 2px;padding-top:11px;border-top:1px solid var(--rule);max-width:none;}
+#crm-two-panels .equity-pair {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;}
+#crm-two-panels .equity-card {min-width:0;}
+#crm-two-panels .equity-card h5 {font:500 17px/1.4 "Source Serif 4",Georgia,serif;color:#5E4034;margin:0 0 5px;}
+#crm-two-panels .equity-deck {font:12px/1.55 "Source Sans 3",Arial,sans-serif;color:var(--muted);margin:0;min-height:38px;}
+#crm-two-panels .equity-chart {display:block;width:100%;height:auto;margin:10px 0 5px;}
+#crm-two-panels .equity-unit {font:11px/1.5 system-ui,sans-serif;color:var(--muted);margin:0;}
+#crm-two-panels .measurement-panel,#crm-two-panels #adjustment,#crm-two-panels #event-replay,#crm-two-panels #equity-risk {scroll-margin-top:95px;}
+#crm-two-panels .story-question:after,#crm-two-panels .block-question:after,#crm-two-panels .validation-bridge h4:after {display:none;}
+@media(max-width:650px){#crm-two-panels .story-question{font-size:24px;text-align:left;}#crm-two-panels .story-route{text-align:left;}#crm-two-panels .story-route span{padding:0 5px;}#crm-two-panels .validation-bridge{grid-template-columns:1fr;gap:8px;padding:15px;}#crm-two-panels .block-question{font-size:21px;}#crm-two-panels .equity-pair{grid-template-columns:1fr;gap:23px;}#crm-two-panels .equity-deck{min-height:0;}#crm-two-panels .equity-card+ .equity-card{padding-top:17px;border-top:1px solid var(--rule);}}
+
+/* Consolidated homepage briefing: retain the paper figures and explain equity implications. */
+#crm-two-panels .story-question {font-size:27px;margin:25px auto 24px;}
+#crm-two-panels .equity-findings {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px;}
+#crm-two-panels .equity-finding {min-width:0;}
+#crm-two-panels .equity-finding + .equity-finding {border-left:1px solid var(--rule);padding-left:28px;}
+#crm-two-panels .finding-context {font:10px/1.5 system-ui,sans-serif;color:var(--muted);letter-spacing:.06em;margin:0 0 6px;}
+#crm-two-panels .equity-finding h5 {font:500 19px/1.35 "Source Serif 4",Georgia,serif;color:#5E4034;margin:0 0 9px;}
+#crm-two-panels .equity-finding p:not(.finding-context) {font:14px/1.65 "Source Sans 3",Arial,sans-serif;max-width:none;margin:0;}
+#crm-two-panels .equity-finding p.finding-implication {font:500 16px/1.5 "Source Serif 4",Georgia,serif;color:#5E4034;margin-top:13px;padding-top:11px;border-top:1px solid var(--rule);}
+#crm-two-panels .equity-evidence {font:11px/1.6 system-ui,sans-serif;color:var(--muted);margin:18px 0 0;padding-top:10px;border-top:1px solid var(--rule);}
+#crm-two-panels .equity-evidence summary {cursor:pointer;}
+#crm-two-panels .evidence-columns {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px;}
+#crm-two-panels .equity-evidence p {font:12px/1.6 system-ui,sans-serif;margin:12px 0 0;max-width:none;}
+#crm-two-panels .bottom {justify-content:flex-end;gap:28px;}
+@media(max-width:650px){#crm-two-panels .story-question{font-size:24px;}#crm-two-panels .equity-findings,#crm-two-panels .evidence-columns{grid-template-columns:1fr;gap:22px;}#crm-two-panels .equity-finding + .equity-finding{border-left:0;border-top:1px solid var(--rule);padding:20px 0 0;}#crm-two-panels .bottom{justify-content:flex-start;}}
+
+/* 19 Nov 2026 preview: answer line and data-gap table strip. */
+#crm-two-panels .story-question {margin-bottom:10px;}
+#crm-two-panels .story-answer {font:16px/1.6 "Source Serif 4",Georgia,serif;text-align:center;max-width:720px;margin:0 auto 24px;color:var(--ink);}
+#crm-two-panels .gap-pair {display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin:0 0 20px;border:1px solid var(--rule);border-radius:8px;overflow:hidden;}
+#crm-two-panels .gap-pair > div {padding:13px 16px;min-width:0;}
+#crm-two-panels .gap-pair > div + div {border-left:1px solid var(--rule);}
+#crm-two-panels .gap-pair p {font:14px/1.55 "Source Sans 3",Arial,sans-serif;margin:0;max-width:none;}
+#crm-two-panels .gap-pair .gap-answer {background:var(--wash);}
+#crm-two-panels .gap-pair .gap-answer .finding-context {color:var(--blue);}
+@media(max-width:650px){#crm-two-panels .story-answer{text-align:left;}#crm-two-panels .gap-pair{grid-template-columns:1fr;}#crm-two-panels .gap-pair > div + div{border-left:0;border-top:1px solid var(--rule);}}
+
+#crm-two-panels .gap-pair svg {display:block;width:150px;max-width:100%;height:auto;margin:6px 0 8px;}
+#crm-two-panels .viz-row {display:grid;grid-template-columns:minmax(0,170px) minmax(0,262px);gap:56px;justify-content:center;align-items:end;margin:16px 0 4px;}
+#crm-two-panels .viz-row figure {margin:0;min-width:0;}
+#crm-two-panels .viz-row svg {display:block;width:100%;height:auto;}
+#crm-two-panels .viz-row figcaption {font:500 15px/1.35 "Source Serif 4",Georgia,serif;color:#5E4034;margin-top:8px;}
+#crm-two-panels .viz-row figcaption span,#crm-two-panels .viz-caption {display:block;font:11px/1.45 system-ui,sans-serif;color:var(--muted);margin-top:2px;}
+#crm-two-panels .glyph-row {display:flex;flex-wrap:wrap;align-items:center;gap:8px 26px;margin:14px 0 2px;padding-top:11px;border-top:1px solid var(--rule);font:14px/1.4 "Source Sans 3",Arial,sans-serif;}
+#crm-two-panels .glyph-row span {display:inline-flex;align-items:center;gap:8px;}
+#crm-two-panels .glyph-row svg,#crm-two-panels .react > svg {width:30px;height:20px;flex:none;}
+#crm-two-panels .glyph-row .glyph-note {font:11px/1.4 system-ui,sans-serif;color:var(--muted);}
+#crm-two-panels .share {display:grid;grid-template-columns:118px minmax(0,1fr) 40px;gap:10px;align-items:center;font:13px/1.4 "Source Sans 3",Arial,sans-serif;margin:8px 0;}
+#crm-two-panels .share svg {width:100%;height:14px;display:block;}
+#crm-two-panels .share strong {font:500 15px/1 "Source Serif 4",Georgia,serif;color:var(--ink);}
+#crm-two-panels p.viz-caption {margin:8px 0 0!important;font:11px/1.45 system-ui,sans-serif!important;color:var(--muted);}
+#crm-two-panels .react {display:grid;grid-template-columns:150px 30px minmax(0,1fr);gap:10px;align-items:center;font:13px/1.4 "Source Sans 3",Arial,sans-serif;margin:8px 0;}
+#crm-two-panels .react span {display:inline-flex;align-items:center;gap:8px;}
+#crm-two-panels .react span svg {width:34px;height:24px;flex:none;}
+#crm-two-panels .react em {font-style:normal;color:var(--muted);font-size:12px;}
+#crm-two-panels .equity-finding > svg {display:block;width:150px;height:auto;margin:2px 0 8px;}
+@media(max-width:650px){#crm-two-panels .viz-row{grid-template-columns:1fr;gap:22px;justify-items:center;}#crm-two-panels .react{grid-template-columns:1fr 30px;}#crm-two-panels .react em{grid-column:1/-1;}}
 </style>
 <section class="page" aria-label="Critical raw materials research">
 <h2>Measuring Critical Raw Material Dependence</h2>
 <p class="authors">with <em>Peter Tankov</em> and <em>Olivier David Zerbib</em></p>
-<section class="panel">
-<div class="panel-title"><span>01 / MEASUREMENT</span><h3>From a material to a firm</h3></div>
+<p class="story-question">Who ultimately bears a raw-material shock?</p>
+<p class="story-answer">Downstream users, not only miners · Hit in cash, not margins · Mostly undisclosed</p>
+
+<section class="panel measurement-panel" id="measurement">
+<div class="panel-title"><span>01 / MEASUREMENT</span><h3>Follow the material to the firm.</h3></div>
+<div class="gap-pair" aria-label="Why existing data cannot measure this">
+<div><p class="finding-context">INDUSTRY INPUT–OUTPUT TABLES</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: many unrelated links pooled between two industries"><rect x="3" y="8" width="40" height="40" rx="4" fill="none" stroke="#c9bfb2"/><rect x="107" y="8" width="40" height="40" rx="4" fill="none" stroke="#c9bfb2"/><circle cx="15" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="15" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="31" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="31" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="119" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="119" cy="36" r="3.5" fill="#c9bfb2"/><circle cx="135" cy="20" r="3.5" fill="#c9bfb2"/><circle cx="135" cy="36" r="3.5" fill="#c9bfb2"/><line x1="43" y1="15" x2="107" y2="15" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="22" x2="107" y2="22" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="36" x2="107" y2="36" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="43" x2="107" y2="43" stroke="#c9bfb2" stroke-width="2.4"/><line x1="43" y1="29" x2="107" y2="29" stroke="#6E97A0" stroke-width="2.4"/></svg><p>Unrelated links pooled<br>Firms indistinguishable</p></div>
+<div><p class="finding-context">SUPPLIER–CUSTOMER DATA</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: only the last link to the firm is observed"><line x1="18" y1="28" x2="44" y2="28" stroke="#c9bfb2" stroke-width="2" stroke-dasharray="3 4"/><line x1="56" y1="28" x2="82" y2="28" stroke="#c9bfb2" stroke-width="2" stroke-dasharray="3 4"/><line x1="94" y1="28" x2="120" y2="28" stroke="#6E97A0" stroke-width="2" /><circle cx="12" cy="28" r="7" fill="#faf6f3" stroke="#c9bfb2" stroke-width="1.5" stroke-dasharray="2 3"/><circle cx="50" cy="28" r="5.5" fill="#faf6f3" stroke="#c9bfb2" stroke-width="1.5" stroke-dasharray="2 3"/><circle cx="88" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><rect x="120" y="16" width="27" height="24" rx="3" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1.2"/></svg><p>Direct links only<br>Not material-specific</p></div>
+<div class="gap-answer"><p class="finding-context">THIS PAPER</p><svg viewBox="0 0 150 56" role="img" aria-label="Schematic: the material is followed through every stage to the firm"><line x1="18" y1="28" x2="44" y2="28" stroke="#6E97A0" stroke-width="2" /><line x1="56" y1="28" x2="82" y2="28" stroke="#6E97A0" stroke-width="2" /><line x1="94" y1="28" x2="120" y2="28" stroke="#6E97A0" stroke-width="2" /><circle cx="12" cy="28" r="7" fill="#6E97A0" stroke="#6E97A0" stroke-width="1.5" /><circle cx="50" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><circle cx="88" cy="28" r="5.5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.5" /><rect x="120" y="16" width="27" height="24" rx="3" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1.2"/></svg><p>Material-specific networks<br>Mapped to firms’ products</p></div>
+</div>
 <div class="outputs" aria-label="Measurement outputs">
 <button class="output" data-output="network" aria-pressed="true"><em>I.</em>Material-specific<br>production network</button>
 <button class="output" data-output="elasticity" aria-pressed="false"><em>II.</em>Product-level<br>cost elasticity</button>
-<button class="output" data-output="firm" aria-pressed="false"><em>III.</em>Firm-level proxy of<br>material dependence</button>
+<button class="output" data-output="firm" aria-pressed="false"><em>III.</em>Firm material<br>dependence</button>
 </div>
 <svg class="network" role="img" aria-label="Schematic material-specific tree, product cost elasticities, and mapping through product portfolios to three firms"></svg>
 <div class="component-notes" aria-label="How each measurement component is constructed">
@@ -175,12 +253,19 @@
 <p>Product revenues<br>→ firm dependence</p>
 </div>
 <p class="detail" aria-live="polite">Technical evidence identifies the production paths specific to each material.</p>
-<p class="note">Schematic network and firms · 55 materials · 12,481 firms</p>
+<p class="note">Illustrative production paths and firms</p>
+<p class="measurement-message">55 materials · 12,481 firms</p>
+<div class="viz-row">
+<figure><svg viewBox="0 0 170 96" role="img" aria-label="Schematic: firms in one industry with very different dependence"><rect x="6" y="10" width="158" height="78" rx="6" fill="none" stroke="#c9bfb2" stroke-dasharray="4 4"/><rect x="18" y="22" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0" stroke="#c9bfb2" stroke-width="1.2"/><rect x="52" y="22" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0.9" stroke="#6E97A0" stroke-width="1.2"/><rect x="86" y="22" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0" stroke="#c9bfb2" stroke-width="1.2"/><rect x="120" y="22" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0.35" stroke="#6E97A0" stroke-width="1.2"/><rect x="18" y="52" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0.6" stroke="#6E97A0" stroke-width="1.2"/><rect x="52" y="52" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0" stroke="#c9bfb2" stroke-width="1.2"/><rect x="86" y="52" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0" stroke="#c9bfb2" stroke-width="1.2"/><rect x="120" y="52" width="22" height="20" rx="3" fill="#6E97A0" fill-opacity="0.15" stroke="#6E97A0" stroke-width="1.2"/></svg><figcaption>Same industry, different dependence<span>Half the variation lies within narrow industries</span></figcaption></figure>
+<figure><svg viewBox="0 0 262 96" role="img" aria-label="Schematic: all routes from a material pass through one intermediate product"><circle cx="14" cy="48" r="8" fill="#6E97A0"/><path d="M22,48 C50,48 50,20 78,20" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><circle cx="82" cy="20" r="5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.3"/><path d="M87,20 C112,20 112,48 132,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><path d="M22,48 C50,48 50,48 78,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><circle cx="82" cy="48" r="5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.3"/><path d="M87,48 C112,48 112,48 132,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><path d="M22,48 C50,48 50,76 78,76" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><circle cx="82" cy="76" r="5" fill="#faf6f3" stroke="#6E97A0" stroke-width="1.3"/><path d="M87,76 C112,76 112,48 132,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><circle cx="140" cy="48" r="9" fill="#faf6f3" stroke="#5E4034" stroke-width="2.2"/><path d="M149,48 C190,48 190,8 228,8" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="2" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/><path d="M149,48 C190,48 190,28 228,28" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="22" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/><path d="M149,48 C190,48 190,48 228,48" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="42" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/><path d="M149,48 C190,48 190,68 228,68" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="62" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/><path d="M149,48 C190,48 190,88 228,88" fill="none" stroke="#6E97A0" stroke-width="1.5" opacity=".7"/><rect x="228" y="82" width="22" height="12" rx="2" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1"/></svg><figcaption>One product, every route<span>A single-product bottleneck for 25 of the 55 materials</span></figcaption></figure>
+</div>
+<div class="validation-bridge"><h4>Does this exposure show up<br>in firms’ accounts?</h4><p>Costs rise almost one for one with the measure.<br>Industry-level measures do not predict them.</p></div>
 </section>
 <section class="panel application-panel horizontal-results">
-<div class="panel-title"><span>02 / APPLICATION</span><h3>Adjustment, financial exposure, and risk</h3></div>
-<section class="result-block paired-result-panel">
-<div class="result-heading"><p class="part-number">A / MICRO ADJUSTMENT</p><div class="legend"><span>Event-driven</span><span>Predictable price changes</span></div></div>
+<div class="panel-title"><span>02 / FINANCIAL CONSEQUENCES</span><h3>What does that exposure mean financially?</h3></div>
+<section class="result-block paired-result-panel" id="adjustment">
+<div class="result-heading"><p class="part-number">A / FIRM ADJUSTMENT</p><div class="legend"><span>Event-driven</span><span>Predictable price changes</span></div></div>
+<h4 class="block-question">Margins hold. Cash does not.</h4>
 <div class="paired-plots">
 <div><h5>Operating cash flow</h5><svg role="img" aria-label="Operating cash flow responses" xmlns:xlink="http://www.w3.org/1999/xlink" width="360pt" height="223.2pt" viewBox="0 0 360 223.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
@@ -866,11 +951,13 @@ L 349.2 183.024
 </div>
 </div>
 <p class="note">% of initial assets per predicted cost increase of 1% of identified revenue · 95% intervals · “Before”: pre-window</p>
+<div class="glyph-row"><span><svg viewBox="0 0 30 20" aria-hidden="true"><path d="M3,10 L27,10" fill="none" stroke="#c9bfb2" stroke-width="2.2" stroke-linecap="round"/><path d="M22,6 L27,10 L22,14" fill="none" stroke="#c9bfb2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Operating income</span><span><svg viewBox="0 0 30 20" aria-hidden="true"><path d="M3,4 L27,16" fill="none" stroke="#5E4034" stroke-width="2.2" stroke-linecap="round"/><path d="M20,15.5 L27,16 L24,9.5" fill="none" stroke="#5E4034" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Operating cash flow</span><span><svg viewBox="0 0 30 20" aria-hidden="true"><path d="M3,16 L27,4" fill="none" stroke="#6E97A0" stroke-width="2.2" stroke-linecap="round"/><path d="M20,4.5 L27,4 L24,10.5" fill="none" stroke="#6E97A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>External finance</span><span class="glyph-note">strongest around supply events</span></div>
 </section>
-<section class="result-block paired-result-panel">
-<div class="result-heading"><p class="part-number">B / EVENT REPLAY</p><p class="note">Six selected events · implied amounts, not realized losses</p></div>
+<section class="result-block paired-result-panel" id="event-replay">
+<div class="result-heading"><p class="part-number">B / EVENT REPLAY</p><p class="note">Scenario · historical price changes applied to 2024–2025 exposures</p></div>
+<h4 class="block-question">How much financing could a disruption require?</h4>
 <div class="paired-plots">
-<div><h5>Cash flow at risk <span>$20.0bn across all 28 replays</span></h5><svg role="img" aria-label="Cash flow at risk by event, split by documentation" xmlns:xlink="http://www.w3.org/1999/xlink" width="360pt" height="162pt" viewBox="0 0 360 162" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<div><h5>Cash flow at risk <span>$20.0bn across all 27 priced-event replays</span></h5><svg role="img" aria-label="Cash flow at risk by event, split by documentation" xmlns:xlink="http://www.w3.org/1999/xlink" width="360pt" height="162pt" viewBox="0 0 360 162" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -1114,7 +1201,7 @@ L 349.2 127.98
  </defs>
 </svg>
 </div>
-<div><h5>External financing <span>$35.4bn across all 28 replays</span></h5><svg role="img" aria-label="Implied total external financing by event" xmlns:xlink="http://www.w3.org/1999/xlink" width="360pt" height="162pt" viewBox="0 0 360 162" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<div><h5>External financing <span>$35.4bn across all 27 priced-event replays</span></h5><svg role="img" aria-label="Implied total external financing by event" xmlns:xlink="http://www.w3.org/1999/xlink" width="360pt" height="162pt" viewBox="0 0 360 162" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -1322,35 +1409,54 @@ L 349.2 127.98
 </div>
 </div>
 <div class="replay-legend"><span>Documented uses</span><span>Undocumented uses</span><span class="total-fin">Total financing</span></div>
+<p class="block-takeaway">Mostly undocumented uses · 96% of cash flow at risk for the 2025 bismuth, indium and tungsten controls</p>
 </section>
-<section class="result-block risk-strip-block">
-<div class="result-heading"><p class="part-number">C / EQUITY RISK</p><p class="note">Adjusted associations within narrow industries and years</p></div>
-<div class="risk-columns">
-<section class="risk-column" aria-label="Annualized return volatility">
-<h5>Annualized return volatility</h5>
-<div class="risk-headline"><strong>+1.79 <small>pp</small></strong><span>Median → 90th percentile dependence</span></div>
-<p class="risk-comparison-label">At the same dependence, which materials matter?</p>
-<div class="risk-channel"><span>More volatile material prices</span><strong>+0.74 <small>pp</small></strong></div>
-<div class="risk-channel"><span>More China restrictions</span><strong>+0.61 <small>pp</small></strong></div>
+<section class="result-block paired-result-panel equity-summary" id="equity-risk">
+<div class="result-heading"><p class="part-number">C / EQUITY RISK</p></div>
+<h4 class="block-question">What firms use matters for equity risk.</h4>
+<div class="equity-findings">
+<section class="equity-finding">
+<p class="finding-context">RISK AT THE FIRM</p>
+<h5>The material mix matters.</h5>
+<svg viewBox="0 0 150 34" role="img" aria-label="Schematic: calm versus volatile material prices"><path d="M4,22 C14,20 22,24 32,21 S50,22 60,20" fill="none" stroke="#c9bfb2" stroke-width="2"/><g transform="translate(82,0)"><path d="M4,22 L11,10 L18,26 L25,8 L32,24 L39,12 L46,27 L53,9 L60,20" fill="none" stroke="#6E97A0" stroke-width="2" stroke-linejoin="round"/></g></svg><p>More volatile materials, more volatile stocks and larger downside risk. Stronger at higher dependence.</p>
 </section>
-<section class="risk-column" aria-label="Downside risk, expected shortfall">
-<h5>Downside risk <span>Expected shortfall</span></h5>
-<div class="risk-headline"><strong>+0.15 <small>pp</small></strong><span>Median → 90th percentile dependence</span></div>
-<p class="risk-comparison-label">At the same dependence, which materials matter?</p>
-<div class="risk-channel"><span>More volatile material prices</span><strong>+0.063 <small>pp</small></strong></div>
-<div class="risk-channel"><span>More China restrictions<small>Not statistically significant</small></span><strong>+0.014 <small>pp</small></strong></div>
+<section class="equity-finding">
+<p class="finding-context">RISK ACROSS FIRMS</p>
+<h5>Material connections cross industry boundaries.</h5>
+<svg viewBox="0 0 150 46" role="img" aria-label="Schematic: two firms in different industries linked by one material"><rect x="4" y="3" width="52" height="24" rx="4" fill="none" stroke="#c9bfb2" stroke-dasharray="3 3"/><rect x="94" y="3" width="52" height="24" rx="4" fill="none" stroke="#c9bfb2" stroke-dasharray="3 3"/><rect x="20" y="8" width="20" height="14" rx="2" fill="#eaf1f3" stroke="#6E97A0"/><rect x="110" y="8" width="20" height="14" rx="2" fill="#eaf1f3" stroke="#6E97A0"/><path d="M30,22 C30,38 60,40 68,40 M120,22 C120,38 90,40 82,40" fill="none" stroke="#6E97A0" stroke-width="1.6"/><circle cx="75" cy="40" r="5.5" fill="#6E97A0"/></svg><p>Shared materials, correlated returns. Also across industries.</p>
 </section>
 </div>
-<p class="note">Material comparisons: +1 SD in each exposure-weighted basket, holding dependence and other controls fixed. Separate estimates, not an additive decomposition.</p>
-</section>
-<details class="source-notes"><summary>Sources, units, and interpretation</summary>
-<p><strong>A · How firms adjust.</strong> We trace cash flow and financing after material-price changes, comparing the component associated with identified supply-tightening events with the remaining price variation. For a predicted cost increase of 1% of identified revenue, the event-driven estimates at quarter 4 imply cumulative cash flow lower by 0.391% of initial assets and net external financing higher by 0.692%. This pattern is consistent with firms meeting liquidity needs through external finance. Shading and error bars show 95% confidence intervals; “Before” shows pre-event responses. The comparison series labeled “Predictable price changes” also includes pre-announcement price movements.</p>
-<p><strong>B · What past events imply for firms today.</strong> We apply historical event-driven price changes to firms’ 2024–2025 material exposures, using the estimated quarter-4 cash-flow and financing responses. Across all 28 replays, the implied amounts are $20.0 billion of cash flow at risk and $35.4 billion of external financing. These are scenarios, not recorded losses; totals include offsetting price declines. The brown segments show relationships where specialist reports miss uses accounting for more than half of a firm’s material dependence. Their size shows how relying on those reports alone can miss financially important exposure.</p>
-<p><strong>C · How dependence relates to equity risk.</strong> We compare firms within narrow industries and years, accounting for country conditions and standard firm characteristics. Moving from median to 90th-percentile dependence is associated with 1.79 percentage points higher annualized return volatility and 0.15 points higher expected shortfall—a measure of losses on the worst trading days. The rows below ask whether the materials themselves matter among firms with the same dependence. A one-standard-deviation increase in the exposure-weighted price-risk basket is associated with 0.74 points higher volatility and 0.063 points higher expected shortfall. The same increase in the China-restriction basket is associated with 0.61 points higher volatility; its 0.014-point expected-shortfall estimate is not statistically significant. Price instability relates to both ordinary return fluctuations and downside losses, while the restriction evidence is clearest for volatility. The headline and basket results come from separate regressions and samples; they are not additive shares or causal effects.</p>
+<details class="equity-evidence"><summary>Evidence behind these findings</summary>
+<div class="evidence-columns">
+<p><strong>Material mix.</strong> At a given dependence rank, a one-standard-deviation higher material-price-risk basket is associated with 0.74 percentage points higher annualized stock volatility and 0.063 points higher expected shortfall. The price-risk association with stock volatility strengthens by 2.19 points from the bottom to the top of the dependence ranking. The paper uses exposure-robust uncertainty for these estimates.</p>
+<p><strong>Material connections.</strong> A one-standard-deviation higher material-connection rank is associated with 0.041 correlation points more weekly market-adjusted return comovement, and 0.049 among pairs in different three-digit industries. One correlation point is 0.01 in raw correlation. These are incremental associations; they do not establish a return premium or the share of portfolio risk caused by materials.</p>
+</div>
 </details>
 </section>
-<p class="message">Physical dependence connects material supply shocks to firms’ liquidity needs and equity risk. Event replays reveal the scale of financial exposure—including relationships absent from specialist reports.</p>
-<div class="bottom"><p class="note">A production-based view of corporate financial vulnerability.</p><a href="/files/CRM_dependence.pdf" target="_blank" rel="noopener">Read the research →</a></div>
+<section class="result-block paired-result-panel equity-summary" id="visibility">
+<div class="result-heading"><p class="part-number">D / VISIBILITY</p></div>
+<h4 class="block-question">Markets see the mine, not the user.</h4>
+<div class="equity-findings">
+<section class="equity-finding">
+<h5>Documented share of dependence</h5>
+<div class="share"><span>Corporate filings</span><svg viewBox="0 0 204 14" role="img" aria-label="Corporate filings: 38.3% of measured dependence documented"><title>Corporate filings: 38.3% documented, 61.7% undocumented</title><rect x="1" y="2" width="202" height="10" rx="4" fill="#faf6f3" stroke="#c9bfb2"/><rect x="2" y="3" width="76.6" height="8" rx="3" fill="#6E97A0"/></svg><strong>38%</strong></div><div class="share"><span>Specialist reports</span><svg viewBox="0 0 204 14" role="img" aria-label="Specialist reports: 41.0% of measured dependence documented"><title>Specialist reports: 41.0% documented, 59.0% undocumented</title><rect x="1" y="2" width="202" height="10" rx="4" fill="#faf6f3" stroke="#c9bfb2"/><rect x="2" y="3" width="82.0" height="8" rx="3" fill="#6E97A0"/></svg><strong>41%</strong></div><p class="viz-caption">More for materials that are larger, harder to replace, or recently restricted</p>
+</section>
+<section class="equity-finding">
+<h5>Stock prices at supply events</h5>
+<div class="react"><span><svg viewBox="0 0 34 24" aria-hidden="true"><path d="M2,22 L12,6 L18,14 L23,9 L32,22 Z" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1.4" stroke-linejoin="round"/></svg>Miners and refiners</span><svg viewBox="0 0 30 20" aria-hidden="true"><path d="M3,16 L27,4" fill="none" stroke="#6E97A0" stroke-width="2.2" stroke-linecap="round"/><path d="M20,4.5 L27,4 L24,10.5" fill="none" stroke="#6E97A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><em>gain, more with dependence</em></div><div class="react"><span><svg viewBox="0 0 34 24" aria-hidden="true"><path d="M3,22 V11 L11,15 V11 L19,15 V5 H24 V22 Z M24,22 H31 V13 H24" fill="#eaf1f3" stroke="#6E97A0" stroke-width="1.4" stroke-linejoin="round"/></svg>Users</span><svg viewBox="0 0 30 20" aria-hidden="true"><path d="M3,10 L27,10" fill="none" stroke="#c9bfb2" stroke-width="2.2" stroke-linecap="round"/><path d="M22,6 L27,10 L22,14" fill="none" stroke="#c9bfb2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><em>no response to their cash-flow losses</em></div>
+</section>
+</div>
+</section>
+<details class="source-notes"><summary>Sources, units, and interpretation</summary>
+<p><strong>Measurement · From physical requirements to cost exposure.</strong> Technical evidence establishes material-specific production links; input cost shares turn those links into product cost elasticities; product revenues aggregate them to firm dependence. The network drawing is schematic. In the cost-validation regressions, predicted cost pressure is measured relative to identified revenue, while realized changes in cost of goods sold are scaled by initial sales. Their estimated magnitudes closely match; the comparison does not equate these two denominators. Source: <em>Dollar Responses per Percentage Point of Predicted Cost Pressure</em>.</p>
+<p><strong>A · How firms adjust.</strong> We trace cash flow and financing after material-price changes, comparing the component associated with identified supply-tightening events with the remaining price variation. For a predicted cost increase of 1% of identified revenue, the event-driven estimates at quarter 4 imply cumulative cash flow lower by 0.391% of initial assets and net external financing higher by 0.692%. This pattern is consistent with firms meeting liquidity needs through external finance. Shading and error bars show 95% confidence intervals; “Before” shows pre-event responses. The comparison series labeled “Predictable price changes” also includes pre-announcement price movements.</p>
+<p><strong>B · What past events imply for firms today.</strong> We apply historical event-driven price changes to firms’ 2024–2025 material exposures, using the estimated quarter-4 cash-flow and financing responses. Across all 27 priced-event replays, the implied amounts are $20.0 billion of cash flow at risk and $35.4 billion of external financing. These are scenarios, not recorded losses; totals include offsetting price declines. The brown segments show relationships where specialist reports miss uses accounting for more than half of a firm’s material dependence. Their size shows how relying on those reports alone can miss financially important exposure.</p>
+<p><strong>C · Individual and shared equity risk.</strong> The material-mix results compare users with positive dependence on priced materials, controlling for dependence, firm characteristics, country-by-year and six-digit industry-by-year effects. Material-price risk is the dependence-weighted volatility of the firm’s materials; downside risk is expected shortfall. The basket and interaction estimates use exposure-robust standard errors. The return-comovement test uses quarterly Fama–MacBeth regressions over 2019–2025, controlling for industry, products, country, firm characteristics and past return correlation, with Newey–West standard errors. Material connection weights the covariance of material prices measured before the quarter by the two firms’ dependence. Both the full-sample and different-industry coefficients are significant at the 5% level. Sources: <em>Material Price Risk and Market Outcomes</em>, Panels A–B, and <em>Material Connection and Return Comovement</em>, columns 3–4. The results identify associations; they do not isolate material prices as the cause of observed return comovement.</p>
+<p><strong>Where the exposure sits and what is visible.</strong> About half of the variation in dependence ranks lies within six-digit industry–year groups. In 2019, 3,165 of 8,073 firms (39.2%) have positive measured dependence on at least one material. For 25 of the 55 materials, a single product blocks every mapped route to downstream products that together account for at least 90% of measured dependence. Documented relationships carry 38.3% of measured dependence in firms’ filings and 41.0% in specialist reports, each in its matched sample. Announcement returns are three-day returns around 27 supply events, 2017–2025; firms that mine or refine raw materials earn about 1.1 percentage points more than firms without measured dependence.</p>
+</details>
+</section>
+<p class="message">A technological source of financing needs and equity risk, recognized only where it is most salient.</p>
+<div class="bottom"><a href="/files/CRM_dependence.pdf" target="_blank" rel="noopener">Read the paper →</a><a href="/research/">Research page →</a></div>
 </section>
 <script>
 (()=>{const root=document.getElementById('crm-two-panels'),svg=root.querySelector('.network');let active='network';
